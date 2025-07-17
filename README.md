@@ -7,14 +7,20 @@
 <h3 align="center">Desenvolvedor Full Stack • Web | Mobile | Automação</h3>
 
 <p align="center">
-  <a href="https://linkedin.com/in/ramonbrandao" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <a href="https://github.com/Ramon-24">
+    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
-  <a href="https://github.com/Ramon-24" target="_blank">
-    <img src="https://img.shields.io/badge/-GitHub-000?style=for-the-badge&logo=github&logoColor=white" />
+  <a href="https://www.linkedin.com/in/ramon-brandao-082a89275/">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="mailto:ramon@email.com">
-    <img src="https://img.shields.io/badge/-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  <a href="mailto:ramonbrandao.dev24@gmail.com" target="_black">
+      <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white&style=for-the-badge" alt="Email" />
+  </a>
+  <a href="https://ramon_brandao.vercel.app/">
+    <img alt="Portfólio" src="https://img.shields.io/badge/Portfólio-333?style=for-the-badge&logo=vercel&logoColor=white"/>
+  </a>
+  <a href="https://github.com/Ramon-24/Ramon-24/raw/main/Currículo Ramon Brandão — Desenvolvedor Full Stack_20250602_184344_0000.pdf" download>
+    <img alt="Currículo" src="https://img.shields.io/badge/Currículo-CC2A41?style=for-the-badge&logo=readthedocs&logoColor=white"/>
   </a>
 </p>
 
@@ -46,7 +52,7 @@ Fundei recentemente a **WebCode Tech**, uma equipe jovem que cria soluções dig
 ## 🌐 Veja em produção
 
 > 📌 Link do portfólio hospedado:  
-**[https://ramonbrandao.vercel.app](https://ramonbrandao.vercel.app)**
+**[https://ramonbrandao.vercel.app](https://ramon_brandao.vercel.app)**
 
 ---
 
@@ -60,7 +66,7 @@ Fundei recentemente a **WebCode Tech**, uma equipe jovem que cria soluções dig
 
 ## 📫 Contato
 
-- 💬 **Email**: ramon@email.com  
+- 💬 **Email**: ramonbrandao.dev24@gmail.com  
 - 🧭 **LinkedIn**: [linkedin.com/in/ramonbrandao](https://linkedin.com/in/ramonbrandao)  
 - 🐱 **GitHub**: [github.com/Ramon-24](https://github.com/Ramon-24)
 
