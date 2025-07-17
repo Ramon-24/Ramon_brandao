@@ -1,9 +1,8 @@
 <!-- Banner animado ou imagem de destaque -->
 <p align="center">
-  <img src="https://github.com/Ramon-24/RamonBrandao/assets/banner.jpg" alt="Banner do Portfólio Ramon Brandão" width="100%" />
+  <img src="Banner.jpeg" alt="Banner do Portfólio Ramon Brandão" width="100%" />
 </p>
 
-<h1 align="center">✨ Ramon Brandão</h1>
 <h3 align="center">Desenvolvedor Full Stack • Web | Mobile | Automação</h3>
 
 <p align="center">
