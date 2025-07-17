@@ -15,7 +15,7 @@
   <a href="mailto:ramonbrandao.dev24@gmail.com" target="_black">
       <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white&style=for-the-badge" alt="Email" />
   </a>
-  <a href="https://ramon_brandao.vercel.app/">
+  <a href="https://ramon-brandao.vercel.app/">
     <img alt="Portfólio" src="https://img.shields.io/badge/Portfólio-333?style=for-the-badge&logo=vercel&logoColor=white"/>
   </a>
   <a href="https://github.com/Ramon-24/Ramon-24/raw/main/Currículo Ramon Brandão — Desenvolvedor Full Stack_20250602_184344_0000.pdf" download>
@@ -51,7 +51,7 @@ Fundei recentemente a **WebCode Tech**, uma equipe jovem que cria soluções dig
 ## 🌐 Veja em produção
 
 > 📌 Link do portfólio hospedado:  
-**[https://ramonbrandao.vercel.app](https://ramon_brandao.vercel.app)**
+**[https://ramonbrandao.vercel.app](https://ramon-brandao.vercel.app)**
 
 ---
 
@@ -66,8 +66,9 @@ Fundei recentemente a **WebCode Tech**, uma equipe jovem que cria soluções dig
 ## 📫 Contato
 
 - 💬 **Email**: ramonbrandao.dev24@gmail.com  
-- 🧭 **LinkedIn**: [linkedin.com/in/ramonbrandao](https://linkedin.com/in/ramonbrandao)  
+- 🧭 **LinkedIn**: [linkedin.com/in/ramonbrandao](https://linkedin.com/in/ramonbrandao24)  
 - 🐱 **GitHub**: [github.com/Ramon-24](https://github.com/Ramon-24)
+- **Portifólio**: [ramon-brandao](https://ramon-brandao.vercel.app).
 
 ---
 
