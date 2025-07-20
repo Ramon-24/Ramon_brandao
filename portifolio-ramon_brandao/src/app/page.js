@@ -1,10 +1,9 @@
-import Image from "next/image";
+import { Config } from "./Components/Config.js";
 
 export default function Home() {
   return (
     < >
-      <h1>Ramon Brandão</h1>
-      <h2>Desenvolvedor Full Stack </h2>
+      <Config />
     </>
   );
 }

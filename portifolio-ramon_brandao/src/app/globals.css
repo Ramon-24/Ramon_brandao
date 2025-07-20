@@ -1,1 +1,339 @@
+body.paleta-vermelho-light {
+            --primary-vermelho-light1: #802742;
+            --primary-vermelho-light2: #A6263E;
+            --primary-vermelho-light3: #D1345B;
+            --primary-vermelho-light4: #FF6B8B;
+
+            --secondary-vermelho-light1: #2E728C;
+            --secondary-vermelho-light2: #326A8C;
+            --secondary-vermelho-light3: #4A9DBF;
+            --secondary-vermelho-light4: #BDE3F2;
+
+            --text-vermelho-light1: #333333;
+            --text-vermelho-light2: #5a5a5a;
+            --text-vermelho-light3: #777777;
+
+            --fundo-vermelho-light-color: #F8F5F6;
+            --fundo-card-vermelho-light-color: #FFFFFF;
+
+            --destaque-vermelho-light-color: #D1345B;
+            --destaque-vermelho-light: #FFE6EB;
+
+            --border-vermelho-light-color: #E8DEE1;
+
+            --efeito-vermelho-light-sm: 0 1px 3px rgba(166, 38, 62, 0.12);
+            --efeito-vermelho-light-md: 0 4px 6px rgba(166, 38, 62, 0.16);
+            --efeito-vermelho-light-lg: 0 10px 15px rgba(166, 38, 62, 0.2);
+            --efeito-vermelho-light-glow: 0 0 15px rgba(209, 52, 91, 0.3);
+        }
+
+        body.paleta-vermelho-dark {
+            --primary-vermelho-dark1: #5C1D2F;
+            --primary-vermelho-dark2: #802742;
+            --primary-vermelho-dark3: #A6263E;
+            --primary-vermelho-dark4: #D1345B;
+
+            --secondary-vermelho-dark1: #1D4E63;
+            --secondary-vermelho-dark2: #2E728C;
+            --secondary-vermelho-dark3: #4A9DBF;
+            --secondary-vermelho-dark4: #BDE3F2;
+
+            --text-vermelho-dark1: #F0E6E9;
+            --text-vermelho-dark2: #C9B6BC;
+            --text-vermelho-dark3: #A38E95;
+
+            --fundo-vermelho-dark-color: #1A1215;
+            --fundo-card-vermelho-dark-color: #261A1F;
+
+            --destaque-vermelho-dark-color: #FF6B8B;
+            --destaque-vermelho-dark: #4A1D2A;
+
+            --border-vermelho-dark-color: #3A2A30;
+
+            --efeito-vermelho-dark-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+            --efeito-vermelho-dark-md: 0 4px 6px rgba(0, 0, 0, 0.25);
+            --efeito-vermelho-dark-lg: 0 10px 15px rgba(0, 0, 0, 0.2);
+            --efeito-vermelho-dark-glow: 0 0 15px rgba(255, 107, 139, 0.3);
+        }
+
+
+
+        body.paleta-marrom-light {
+            --primary-marrom-light1: #5C4A3D;
+            --primary-marrom-light2: #8C7E6C;
+            --primary-marrom-light3: #BFB2A3;
+            --primary-marrom-light4: #E0D9CF;
+
+            --text-marrom-light1: #333333;
+            --text-marrom-light2: #5a5a5a;
+            --text-marrom-light3: #777777;
+
+            --fundo-marrom-light-color: #F8F7F5;
+            --fundo-card-marrom-light: #FFFFFF;
+
+            --destaque-marrom-light-color: #8C7E6C;
+            --destaque-marrom-light: #F0EDE8;
+
+            --border-marrom-light-color: #E5E2DD;
+
+            --efeito-marrom-light-sm: 0 1px 3px rgba(140, 126, 108, 0.12);
+            --efeito-marrom-light-md: 0 4px 6px rgba(140, 126, 108, 0.16);
+            --efeito-marrom-light-lg: 0 10px 15px rgba(140, 126, 108, 0.2);
+            --efeito-marrom-light-glow: 0 0 15px rgba(191, 178, 163, 0.3);
+        }
+
+        body.paleta-marrom-dark {
+            --primary-marrom-dark1: #3A3229;
+            --primary-marrom-dark2: #5C4A3D;
+            --primary-marrom-dark3: #8C7E6C;
+            --primary-marrom-dark4: #BFB2A3;
+
+            --text-marrom-dark1: #F0EDE8;
+            --text-marrom-dark2: #C9C2B8;
+            --text-marrom-dark3: #A39B8E;
+
+            --fundo-marrom-dark-color: #1A1713;
+            --fundo-card-marrom-dark: #26221D;
+
+            --destaque-marrom-dark-color: #BFB2A3;
+            --destaque-marrom-dark: #3A3229;
+
+            --border-marrom-dark-color: #3A352D;
+
+            --efeito-marrom-dark-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+            --efeito-marrom-dark-md: 0 4px 6px rgba(0, 0, 0, 0.25);
+            --efeito-marrom-dark-lg: 0 10px 15px rgba(0, 0, 0, 0.2);
+            --efeito-marrom-dark-glow: 0 0 15px rgba(191, 178, 163, 0.3);
+        }
+
+
+
+       
+        body.paleta-azul-neutro-light {
+            --primary-azul-neutro-light1: #4D5673;
+            --primary-azul-neutro-light2: #44A1F2;
+            --primary-azul-neutro-light3: #6BB7FF;
+            --primary-azul-neutro-light4: #B0D6FF;
+
+            --secondary-azul-neutro-light1: #0D0D0D;
+            --secondary-azul-neutro-light2: #5A5A5A;
+            --secondary-azul-neutro-light3: #D9D9D9;
+            --secondary-azul-neutro-light4: #F2F2F2;
+
+            --text-azul-neutro-light1: #333333;
+            --text-azul-neutro-light2: #5a5a5a;
+            --text-azul-neutro-light3: #777777;
+
+            --fundo-azul-neutro-light-color: #F5F7FA;
+            --fundo-card-azul-neutro-light: #FFFFFF;
+
+            --destaque-azul-neutro-light-color: #44A1F2;
+            --destaque-azul-neutro-light: #E1F0FF;
+
+            --border-azul-neutro-light-color: #E0E5EB;
+
+            --efeito-azul-neutro-light-sm: 0 1px 3px rgba(68, 161, 242, 0.12);
+            --efeito-azul-neutro-light-md: 0 4px 6px rgba(68, 161, 242, 0.16);
+            --efeito-azul-neutro-light-lg: 0 10px 15px rgba(68, 161, 242, 0.2);
+            --efeito-azul-neutro-light-glow: 0 0 15px rgba(68, 161, 242, 0.3);
+        }
+
+        body.paleta-azul-neutro-dark {
+            --primary-azul-neutro-dark1: #2E364D;
+            --primary-azul-neutro-dark2: #2E7CC7;
+            --primary-azul-neutro-dark3: #44A1F2;
+            --primary-azul-neutro-dark4: #6BB7FF;
+
+            --secondary-azul-neutro-dark1: #1A1A1A;
+            --secondary-azul-neutro-dark2: #3D3D3D;
+            --secondary-azul-neutro-dark3: #808080;
+            --secondary-azul-neutro-dark4: #D9D9D9;
+
+            --text-azul-neutro-dark1: #F0F2F5;
+            --text-azul-neutro-dark2: #B8C0CC;
+            --text-azul-neutro-dark3: #8A94A8;
+
+            --fundo-azul-neutro-dark-color: #12161D;
+            --fundo-card-azul-neutro-dark: #1A202C;
+
+            --destaque-azul-neutro-dark-color: #6BB7FF;
+            --destaque-azul-neutro-dark: #1A3A5A;
+
+            --border-azul-neutro-dark-color: #2D3748;
+
+            --efeito-azul-neutro-dark-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+            --efeito-azul-neutro-dark-md: 0 4px 6px rgba(0, 0, 0, 0.25);
+            --efeito-azul-neutro-dark-lg: 0 10px 15px rgba(0, 0, 0, 0.2);
+            --efeito-azul-neutro-dark-glow: 0 0 15px rgba(107, 183, 255, 0.3);
+        }
+
+      
+
+        body.paleta-azul-turquesa-light {
+            --primary-azul-turquesa-light1: #002147;
+            --primary-azul-turquesa-light2: #0A3161;
+            --primary-azul-turquesa-light3: #182958;
+            --primary-azul-turquesa-light4: #003366;
+
+            --secondary-azul-turquesa-light1: #022840;
+            --secondary-azul-turquesa-light2: #025373;
+            --secondary-azul-turquesa-light3: #037F8C;
+            --secondary-azul-turquesa-light4: #BDE3F2;
+
+            --text-azul-turquesa-light1: #333333;
+            --text-azul-turquesa-light2: #5a5a5a;
+            --text-azul-turquesa-light3: #777777;
+
+            --fundo-azul-turquesa-light-color: #F5F9FC;
+            --fundo-card-azul-turquesa-light: #FFFFFF;
+
+            --destaque-azul-turquesa-light-color: #037F8C;
+            --destaque-azul-turquesa-light: #E0F2F5;
+
+            --border-azul-turquesa-light-color: #DEE7ED;
+
+            /* Efeitos */
+            --efeito-azul-turquesa-light-sm: 0 1px 3px rgba(2, 83, 115, 0.12);
+            --efeito-azul-turquesa-light-md: 0 4px 6px rgba(2, 83, 115, 0.16);
+            --efeito-azul-turquesa-light-lg: 0 10px 15px rgba(2, 83, 115, 0.2);
+            --efeito-azul-turquesa-light-glow: 0 0 15px rgba(3, 127, 140, 0.3);
+        }
+
+        body.paleta-azul-turquesa-dark {
+            --primary-azul-turquesa-dark1: #00132D;
+            --primary-azul-turquesa-dark2: #002147;
+            --primary-azul-turquesa-dark3: #0A3161;
+            --primary-azul-turquesa-dark4: #182958;
+
+            --secondary-azul-turquesa-dark1: #011A2B;
+            --secondary-azul-turquesa-dark2: #022840;
+            --secondary-azul-turquesa-dark3: #025373;
+            --secondary-azul-turquesa-dark4: #037F8C;
+
+            --text-azul-turquesa-dark1: #E6F0F7;
+            --text-azul-turquesa-dark2: #B0C4D6;
+            --text-azul-turquesa-dark3: #7D96B0;
+
+            --fundo-azul-turquesa-dark-color: #0A121F;
+            --fundo-card-azul-turquesa-dark: #111D2F;
+
+            --destaque-azul-turquesa-dark-color: #4DB8C5;
+            --destaque-azul-turquesa-dark: #023A42;
+
+            --border-azul-turquesa-dark-color: #1E3247;
+
+            --efeito-azul-turquesa-dark-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+            --efeito-azul-turquesa-dark-md: 0 4px 6px rgba(0, 0, 0, 0.25);
+            --efeito-azul-turquesa-dark-lg: 0 10px 15px rgba(0, 0, 0, 0.2);
+            --efeito-azul-turquesa-dark-glow: 0 0 15px rgba(77, 184, 197, 0.3);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* src/styles/global.css */
+
+/* AZUL NEUTRO */
+.paleta-azul-neutro-light {
+  --primary-azul-neutro-light1: #e0f0ff;
+  --primary-azul-neutro-light2: #a8d4ff;
+  --primary-azul-neutro-light3: #5ab4ff;
+  --primary-azul-neutro-light4: #007acc;
+  --destaque-azul-neutro-light-color: #007acc;
+  --efeito-azul-neutro-light-md: 0 0 8px #007acc99;
+}
+.paleta-azul-neutro-dark {
+  --primary-azul-neutro-dark1: #1a2a33;
+  --primary-azul-neutro-dark2: #284863;
+  --primary-azul-neutro-dark3: #3d7ea6;
+  --primary-azul-neutro-dark4: #68aee8;
+  --destaque-azul-neutro-dark-color: #68aee8;
+  --efeito-azul-neutro-dark-md: 0 0 8px #68aee899;
+}
+
+/* VERMELHO VIBRANTE */
+.paleta-vermelho-vibrante-light {
+  --primary-vermelho-vibrante-light1: #ffe5e5;
+  --primary-vermelho-vibrante-light2: #ff9999;
+  --primary-vermelho-vibrante-light3: #ff4d4d;
+  --primary-vermelho-vibrante-light4: #cc0000;
+  --destaque-vermelho-vibrante-light-color: #cc0000;
+  --efeito-vermelho-vibrante-light-md: 0 0 8px #cc000099;
+}
+.paleta-vermelho-vibrante-dark {
+  --primary-vermelho-vibrante-dark1: #330000;
+  --primary-vermelho-vibrante-dark2: #660000;
+  --primary-vermelho-vibrante-dark3: #990000;
+  --primary-vermelho-vibrante-dark4: #ff3333;
+  --destaque-vermelho-vibrante-dark-color: #ff3333;
+  --efeito-vermelho-vibrante-dark-md: 0 0 8px #ff333399;
+}
+
+/* VERDE MUSGO */
+.paleta-verde-musgo-light {
+  --primary-verde-musgo-light1: #e6f2e6;
+  --primary-verde-musgo-light2: #b3d9b3;
+  --primary-verde-musgo-light3: #80c080;
+  --primary-verde-musgo-light4: #4da64d;
+  --destaque-verde-musgo-light-color: #4da64d;
+  --efeito-verde-musgo-light-md: 0 0 8px #4da64d99;
+}
+.paleta-verde-musgo-dark {
+  --primary-verde-musgo-dark1: #1a2b1a;
+  --primary-verde-musgo-dark2: #2e4d2e;
+  --primary-verde-musgo-dark3: #407040;
+  --primary-verde-musgo-dark4: #66bb66;
+  --destaque-verde-musgo-dark-color: #66bb66;
+  --efeito-verde-musgo-dark-md: 0 0 8px #66bb6699;
+}
+
+/* AMARELO QUENTE */
+.paleta-amarelo-quente-light {
+  --primary-amarelo-quente-light1: #fff8e1;
+  --primary-amarelo-quente-light2: #ffe082;
+  --primary-amarelo-quente-light3: #ffca28;
+  --primary-amarelo-quente-light4: #ffb300;
+  --destaque-amarelo-quente-light-color: #ffb300;
+  --efeito-amarelo-quente-light-md: 0 0 8px #ffb30099;
+}
+.paleta-amarelo-quente-dark {
+  --primary-amarelo-quente-dark1: #332b00;
+  --primary-amarelo-quente-dark2: #665500;
+  --primary-amarelo-quente-dark3: #997f00;
+  --primary-amarelo-quente-dark4: #ffc107;
+  --destaque-amarelo-quente-dark-color: #ffc107;
+  --efeito-amarelo-quente-dark-md: 0 0 8px #ffc10799;
+}
+
+/* ROXO ENERGÉTICO */
+.paleta-roxo-energetico-light {
+  --primary-roxo-energetico-light1: #f3e5f5;
+  --primary-roxo-energetico-light2: #ce93d8;
+  --primary-roxo-energetico-light3: #ba68c8;
+  --primary-roxo-energetico-light4: #9c27b0;
+  --destaque-roxo-energetico-light-color: #9c27b0;
+  --efeito-roxo-energetico-light-md: 0 0 8px #9c27b099;
+}
+.paleta-roxo-energetico-dark {
+  --primary-roxo-energetico-dark1: #2a0033;
+  --primary-roxo-energetico-dark2: #4b0066;
+  --primary-roxo-energetico-dark3: #6a0099;
+  --primary-roxo-energetico-dark4: #d05ce3;
+  --destaque-roxo-energetico-dark-color: #d05ce3;
+  --efeito-roxo-energetico-dark-md: 0 0 8px #d05ce399;
+}
 

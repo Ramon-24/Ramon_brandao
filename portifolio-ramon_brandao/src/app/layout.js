@@ -1,13 +1,13 @@
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-
+import './globals.css'
+import { Config } from "./Components/Config.js";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
       <body>
-        {children}
+          {children}
       </body>
     </html>
-  );
+  )
 }
+
