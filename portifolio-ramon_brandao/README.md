@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- Banner animado ou imagem de destaque -->
+<p align="center">
+  <img src="Banner.jpeg" alt="Banner do Portfólio Ramon Brandão" width="100%" />
+</p>
 
-## Getting Started
+<h3 align="center">Desenvolvedor Full Stack • Web | Mobile | Automação</h3>
 
-First, run the development server:
+<p align="center">
+  <a href="https://github.com/Ramon-24">
+    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://www.linkedin.com/in/ramon-brandao-082a89275/">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:ramonbrandao.dev24@gmail.com" target="_black">
+      <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white&style=for-the-badge" alt="Email" />
+  </a>
+  <a href="https://ramon-brandao.vercel.app/">
+    <img alt="Portfólio" src="https://img.shields.io/badge/Portfólio-333?style=for-the-badge&logo=vercel&logoColor=white"/>
+  </a>
+  <a href="https://github.com/Ramon-24/Ramon-24/raw/main/Currículo Ramon Brandão — Desenvolvedor Full Stack_20250602_184344_0000.pdf" download>
+    <img alt="Currículo" src="https://img.shields.io/badge/Currículo-CC2A41?style=for-the-badge&logo=readthedocs&logoColor=white"/>
+  </a>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 👋 Sobre mim
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Olá! Eu sou **Ramon Brandão**, um jovem **Desenvolvedor Full Stack** de 17 anos, apaixonado por tecnologia, design de interfaces e soluções criativas.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Atualmente estou no último ano do curso técnico de **Desenvolvimento de Sistemas**, com foco em construir aplicações completas — do back-end ao front-end, incluindo mobile e automações.
 
-## Learn More
+Fundei recentemente a **WebCode Tech**, uma equipe jovem que cria soluções digitais acessíveis para pequenos negócios.
 
-To learn more about Next.js, take a look at the following resources:
+> 💡 Meu objetivo é transformar ideias em produtos incríveis com código limpo, estratégia e criatividade.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Tecnologias que uso
 
-## Deploy on Vercel
+![React](https://img.shields.io/badge/-React-20232A?style=for-the-badge&logo=react)
+![Next.js](https://img.shields.io/badge/-Next.js-black?style=for-the-badge&logo=next.js)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![MySQL](https://img.shields.io/badge/-MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
+![FlutterFlow](https://img.shields.io/badge/-FlutterFlow-7D3AFB?style=for-the-badge&logo=flutter)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌐 Veja em produção
+
+> 📌 Link do portfólio hospedado:  
+**[https://ramonbrandao.vercel.app](https://ramon-brandao.vercel.app)**
+
+---
+
+## 📷 Captura do Projeto (exemplo)
+
+<p align="center">
+  <img src="https://via.placeholder.com/900x500.png?text=Seu+Portf%C3%B3lio+Aqui" alt="Preview do Portfólio" width="90%" />
+</p>
+
+---
+
+## 📫 Contato
+
+- 💬 **Email**: ramonbrandao.dev24@gmail.com  
+- 🧭 **LinkedIn**: [linkedin.com/in/ramonbrandao](https://linkedin.com/in/ramonbrandao24)  
+- 🐱 **GitHub**: [github.com/Ramon-24](https://github.com/Ramon-24)
+- **Portifólio**: [ramon-brandao](https://ramon-brandao.vercel.app).
+
+---
+
+<p align="center">
+  Feito com 💙 por Ramon Brandão
+</p>
+
