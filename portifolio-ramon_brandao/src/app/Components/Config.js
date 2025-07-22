@@ -1,15 +1,11 @@
 "use client";
 import { useState, useEffect } from "react";
+import { useConfig } from "./ConfigText";
 import "./Config.css";
 import "../../app/globals.css";
 
 export function Config() {
-    // Estados
-    const [config, setConfig] = useState({
-        tema: 'light',
-        paleta: 'azul-neutro',
-        idioma: 'pt'
-    });
+    const { config, atualizarConfig } = useConfig();
     const [mostrarConfig, setMostrarConfig] = useState(false);
 
     // Paletas de cores para ambos os temas
@@ -73,37 +69,40 @@ export function Config() {
                 paleta: 'azul-neutro',
                 idioma: 'pt'
             };
-            setConfig(configSalva);
+            atualizarConfig(configSalva);
             aplicarTema(configSalva.paleta, configSalva.tema);
         };
+
         carregarConfiguracoes();
     }, []);
 
+    // Handler para mudar idioma
+    const mudarIdioma = (novoIdioma) => {
+        const novaConfig = { ...config, idioma: novoIdioma };
+        atualizarConfig(novaConfig);
+    };
     // Aplicar tema ao body e salvar no localStorage
     const aplicarTema = (paleta, tema) => {
         const classeNova = `paleta-${paleta}-${tema}`;
 
-        // Remove classes antigas
         document.body.classList.forEach(classe => {
             if (classe.startsWith('paleta-')) {
                 document.body.classList.remove(classe);
             }
         });
 
-        // Aplica nova classe
         document.body.classList.add(classeNova);
 
-        // Atualiza CSS variables
         const cores = paletas[tema][paleta];
         document.documentElement.style.setProperty('--cor-primaria', cores[1]);
         document.documentElement.style.setProperty('--cor-secundaria', cores[2]);
         document.documentElement.style.setProperty('--cor-destaque', cores[3]);
 
-        // Salva no localStorage
-        const novaConfig = { ...config, paleta, tema };
-        setConfig(novaConfig);
-        localStorage.setItem('configuracoes', JSON.stringify(novaConfig));
+        // 👉 Agora mantendo o idioma atual corretamente
+        const novaConfig = { ...config, paleta, tema, idioma: config.idioma };
+        atualizarConfig(novaConfig);
     };
+    // Efeito para aplicar tema ao carregar
 
     // Handler para mudar tema
     const mudarTema = (novoTema) => {
@@ -115,12 +114,7 @@ export function Config() {
         aplicarTema(novaPaleta, config.tema);
     };
 
-    // Handler para mudar idioma
-    const mudarIdioma = (novoIdioma) => {
-        const novaConfig = { ...config, idioma: novoIdioma };
-        setConfig(novaConfig);
-        localStorage.setItem('configuracoes', JSON.stringify(novaConfig));
-    };
+
 
     return (
         <>

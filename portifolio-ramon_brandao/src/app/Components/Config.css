@@ -202,3 +202,126 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.titulo-secao {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.titulo-secao h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.texto-normal {
+    color: #2e2e2e;
+}
+
+.texto-destaque {
+    color: var(--cor-secundaria, #00aaff);
+}
+
+.linha-embaixo {
+    width: 60px;
+    height: 4px;
+    margin: 0 auto;
+    background-color: var(--cor-secundaria, #00aaff);
+    border-radius: 2px;
+}
+
+
