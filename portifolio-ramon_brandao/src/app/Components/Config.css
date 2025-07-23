@@ -298,30 +298,262 @@ body {
 
 
 .titulo-secao {
-    text-align: center;
-    margin-bottom: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .titulo-secao h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
 }
 
 .texto-normal {
-    color: #2e2e2e;
+  color: #2e2e2e;
 }
 
 .texto-destaque {
-    color: var(--cor-secundaria, #00aaff);
+  color: var(--cor-secundaria, #00aaff);
 }
 
 .linha-embaixo {
-    width: 60px;
-    height: 4px;
-    margin: 0 auto;
-    background-color: var(--cor-secundaria, #00aaff);
-    border-radius: 2px;
+  width: 60px;
+  height: 4px;
+  margin: 0 auto;
+  background-color: var(--cor-secundaria, #00aaff);
+  border-radius: 2px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icone-circulo {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--cor-destaque);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+/* Exemplo com temas ou paletas */
+.paleta-vermelha .icone-circulo {
+  background-color: #e63946;
+}
+
+.paleta-azul .icone-circulo {
+  background-color: #1d3557;
+}
+
+.tema-claro .icone-circulo {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.tema-escuro .icone-circulo {
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .grupo-card {
+  background: var(--card-bg, #fff);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  margin-bottom: 2rem;
+}
+
+.grupo-header {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.grupo-icon {
+  font-size: 1.8rem;
+}
+
+.grupo-itens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.item-card {
+  background: var(--mini-card-bg, #f9f9f9);
+  padding: 1rem;
+  border-radius: 0.8rem;
+  flex: 1 1 280px;
+  max-width: 300px;
+  transition: transform 0.2s;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.item-card:hover {
+  transform: translateY(-4px);
+}
+
+.item-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.item-icon {
+  font-size: 1.5rem;
+}
+
+.item-nome {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.item-descricao {
+  font-size: 0.95rem;
+  color: #555;
+} */
 

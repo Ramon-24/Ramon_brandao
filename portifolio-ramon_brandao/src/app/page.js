@@ -2,7 +2,8 @@ import { Config } from "./Components/Config.js";
 import { Textos } from "../app/Components/Textos.js";
 import { useConfig } from "../app/Components/ConfigText.js";
 import { Hero } from "../app/Components/Hero.js";
-import { Sobre } from "../app/Components/Sobre.js"
+import { Sobre } from "../app/Components/Sobre.js";
+import { Linguagens } from "../app/Components/Linguagens.js";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Config />
       <Hero />
       <Sobre/>
+      <Linguagens/>
     </>
   );
 }
