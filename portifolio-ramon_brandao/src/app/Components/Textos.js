@@ -44,35 +44,65 @@ export const Textos = {
                     itens: [
                         {
                             nome: "HTML5",
-                            descricao: "Estrutura páginas da web com títulos, parágrafos, imagens e links."
+                            descricao: "Estrutura páginas da web com títulos, parágrafos, imagens e links.",
+                            icone:
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-filetype-html" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M14 4.5V11h-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zm-9.736 7.35v3.999h-.791v-1.714H1.79v1.714H1V11.85h.791v1.626h1.682V11.85h.79Zm2.251.662v3.337h-.794v-3.337H4.588v-.662h3.064v.662zm2.176 3.337v-2.66h.038l.952 2.159h.516l.946-2.16h.038v2.661h.715V11.85h-.8l-1.14 2.596H9.93L8.79 11.85h-.805v3.999zm4.71-.674h1.696v.674H12.61V11.85h.79v3.325Z" />
+                                </svg>
                         },
                         {
                             nome: "CSS3",
-                            descricao: "Controla o visual das páginas: cores, tamanhos, espaçamentos e animações."
+                            descricao: "Controla o visual das páginas: cores, tamanhos, espaçamentos e animações.",
+                            icone:
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-filetype-css" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zM3.397 14.841a1.13 1.13 0 0 0 .401.823q.195.162.478.252.284.091.665.091.507 0 .859-.158.354-.158.539-.44.187-.284.187-.656 0-.336-.134-.56a1 1 0 0 0-.375-.357 2 2 0 0 0-.566-.21l-.621-.144a1 1 0 0 1-.404-.176.37.37 0 0 1-.144-.299q0-.234.185-.384.188-.152.512-.152.214 0 .37.068a.6.6 0 0 1 .246.181.56.56 0 0 1 .12.258h.75a1.1 1.1 0 0 0-.2-.566 1.2 1.2 0 0 0-.5-.41 1.8 1.8 0 0 0-.78-.152q-.439 0-.776.15-.337.149-.527.421-.19.273-.19.639 0 .302.122.524.124.223.352.367.228.143.539.213l.618.144q.31.073.463.193a.39.39 0 0 1 .152.326.5.5 0 0 1-.085.29.56.56 0 0 1-.255.193q-.167.07-.413.07-.175 0-.32-.04a.8.8 0 0 1-.248-.115.58.58 0 0 1-.255-.384zM.806 13.693q0-.373.102-.633a.87.87 0 0 1 .302-.399.8.8 0 0 1 .475-.137q.225 0 .398.097a.7.7 0 0 1 .272.26.85.85 0 0 1 .12.381h.765v-.072a1.33 1.33 0 0 0-.466-.964 1.4 1.4 0 0 0-.489-.272 1.8 1.8 0 0 0-.606-.097q-.534 0-.911.223-.375.222-.572.632-.195.41-.196.979v.498q0 .568.193.976.197.407.572.626.375.217.914.217.439 0 .785-.164t.55-.454a1.27 1.27 0 0 0 .226-.674v-.076h-.764a.8.8 0 0 1-.118.363.7.7 0 0 1-.272.25.9.9 0 0 1-.401.087.85.85 0 0 1-.478-.132.83.83 0 0 1-.299-.392 1.7 1.7 0 0 1-.102-.627zM6.78 15.29a1.2 1.2 0 0 1-.111-.449h.764a.58.58 0 0 0 .255.384q.106.073.25.114.142.041.319.041.245 0 .413-.07a.56.56 0 0 0 .255-.193.5.5 0 0 0 .085-.29.39.39 0 0 0-.153-.326q-.152-.12-.463-.193l-.618-.143a1.7 1.7 0 0 1-.539-.214 1 1 0 0 1-.351-.367 1.1 1.1 0 0 1-.123-.524q0-.366.19-.639.19-.272.527-.422t.777-.149q.456 0 .779.152.326.153.5.41.18.255.2.566h-.75a.56.56 0 0 0-.12-.258.6.6 0 0 0-.246-.181.9.9 0 0 0-.37-.068q-.324 0-.512.152a.47.47 0 0 0-.184.384q0 .18.143.3a1 1 0 0 0 .404.175l.621.143q.326.075.566.211t.375.358.135.56q0 .37-.188.656a1.2 1.2 0 0 1-.539.439q-.351.158-.858.158-.381 0-.665-.09a1.4 1.4 0 0 1-.478-.252 1.1 1.1 0 0 1-.29-.375" />
+                                </svg>
                         },
                         {
                             nome: "JavaScript",
-                            descricao: "Torna sites interativos com cliques, formulários, sliders, animações e mais."
+                            descricao: "Torna sites interativos com cliques, formulários, sliders, animações e mais.",
+                            icone:
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-javascript" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M14 0a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zM9.053 7.596v3.127l-.007 1.752q0 .498-.186.752t-.556.263q-.342 0-.528-.234-.185-.234-.185-.684v-.175H6.37v.185q0 .665.253 1.113.255.45.703.674.44.225 1.016.225.88 0 1.406-.498.527-.498.527-1.485l.007-1.752V7.596zm3.808-.108q-.585 0-1.006.244a1.67 1.67 0 0 0-.634.674 2.1 2.1 0 0 0-.225.996q0 .753.293 1.182.303.42.967.732l.469.215q.438.186.625.43.185.244.185.635 0 .478-.166.703-.156.224-.527.224-.361.001-.547-.244-.186-.243-.205-.752h-1.162q.02.996.498 1.524.479.527 1.386.527.909 0 1.417-.518.507-.517.507-1.484 0-.81-.332-1.289t-1.045-.79l-.449-.196q-.39-.166-.556-.381-.166-.214-.166-.576 0-.4.165-.596.177-.195.508-.195.361 0 .508.234.156.234.176.703h1.123q-.03-.976-.498-1.484-.47-.518-1.309-.518" />
+                                </svg>
                         },
                         {
                             nome: "React",
-                            descricao: "Biblioteca para criar interfaces modernas e reativas com componentes reutilizáveis."
+                            descricao: "Biblioteca para criar interfaces modernas e reativas com componentes reutilizáveis.",
+                            icone:
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-filetype-jsx" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zM3.075 14.841a1.13 1.13 0 0 0 .401.823q.194.162.478.252.284.091.665.091.507 0 .858-.158.355-.158.54-.44a1.17 1.17 0 0 0 .187-.656q0-.336-.135-.56a1 1 0 0 0-.375-.357 2 2 0 0 0-.565-.21l-.621-.144a1 1 0 0 1-.405-.176.37.37 0 0 1-.143-.299q0-.234.184-.384.188-.152.513-.152.214 0 .37.068a.6.6 0 0 1 .245.181.56.56 0 0 1 .12.258h.75a1.1 1.1 0 0 0-.199-.566 1.2 1.2 0 0 0-.5-.41 1.8 1.8 0 0 0-.78-.152q-.44 0-.776.15-.337.149-.528.421-.19.273-.19.639 0 .302.123.524t.351.367q.229.143.54.213l.618.144q.31.073.462.193a.39.39 0 0 1 .153.326.5.5 0 0 1-.085.29.56.56 0 0 1-.255.193q-.167.07-.413.07-.176 0-.32-.04a.8.8 0 0 1-.248-.115.58.58 0 0 1-.255-.384zM0 14.791q0 .247.082.466.083.22.243.39.165.17.407.267.246.093.569.093.63 0 .984-.346.357-.345.358-1.004v-2.725h-.791v2.745q0 .302-.138.466t-.422.164a.5.5 0 0 1-.454-.246.6.6 0 0 1-.073-.27zm8.907-2.859H9.8l-1.274 2.007L9.78 15.93h-.908l-.85-1.415h-.035l-.853 1.415h-.861l1.24-2.016-1.228-1.983h.931l.832 1.438h.036l.823-1.438Z" />
+                                </svg>
                         },
                         {
                             nome: "Next.js",
-                            descricao: "Framework React para sites rápidos com rotas, SSR, SEO e estrutura escalável."
+                            descricao: "Framework React para sites rápidos com rotas, SSR, SEO e estrutura escalável.",
+                            icone:
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-filetype-jsx" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zM3.075 14.841a1.13 1.13 0 0 0 .401.823q.194.162.478.252.284.091.665.091.507 0 .858-.158.355-.158.54-.44a1.17 1.17 0 0 0 .187-.656q0-.336-.135-.56a1 1 0 0 0-.375-.357 2 2 0 0 0-.565-.21l-.621-.144a1 1 0 0 1-.405-.176.37.37 0 0 1-.143-.299q0-.234.184-.384.188-.152.513-.152.214 0 .37.068a.6.6 0 0 1 .245.181.56.56 0 0 1 .12.258h.75a1.1 1.1 0 0 0-.199-.566 1.2 1.2 0 0 0-.5-.41 1.8 1.8 0 0 0-.78-.152q-.44 0-.776.15-.337.149-.528.421-.19.273-.19.639 0 .302.123.524t.351.367q.229.143.54.213l.618.144q.31.073.462.193a.39.39 0 0 1 .153.326.5.5 0 0 1-.085.29.56.56 0 0 1-.255.193q-.167.07-.413.07-.176 0-.32-.04a.8.8 0 0 1-.248-.115.58.58 0 0 1-.255-.384zM0 14.791q0 .247.082.466.083.22.243.39.165.17.407.267.246.093.569.093.63 0 .984-.346.357-.345.358-1.004v-2.725h-.791v2.745q0 .302-.138.466t-.422.164a.5.5 0 0 1-.454-.246.6.6 0 0 1-.073-.27zm8.907-2.859H9.8l-1.274 2.007L9.78 15.93h-.908l-.85-1.415h-.035l-.853 1.415h-.861l1.24-2.016-1.228-1.983h.931l.832 1.438h.036l.823-1.438Z" />
+                                </svg>
                         },
-                        {
-                            nome: "Tailwind CSS",
-                            descricao: "Framework utilitário para estilizar rapidamente com classes semânticas e responsivas."
-                        },
+                        // {
+                        //     nome: "Tailwind CSS",
+                        //     descricao: "Framework utilitário para estilizar rapidamente com classes semânticas e responsivas."
+                        // },
                         {
                             nome: "Bootstrap",
-                            descricao: "Conjunto de componentes prontos para acelerar a criação de interfaces responsivas."
+                            descricao: "Conjunto de componentes prontos para acelerar a criação de interfaces responsivas.",
+                            icone:
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-bootstrap-fill" viewBox="0 0 16 16">
+                                    <path d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375z" />
+                                    <path d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396z" />
+                                </svg>
                         },
                         {
                             nome: "Vite",
-                            descricao: "Empacotador moderno e ultrarrápido para desenvolvimento frontend com JS e React."
+                            descricao: "Empacotador moderno e ultrarrápido para desenvolvimento frontend com JS e React.",
+                            icone:
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-bootstrap-fill" viewBox="0 0 16 16">
+                                    <path d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375z" />
+                                    <path d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396z" />
+                                </svg>
                         }
                     ]
                 },
@@ -81,28 +111,40 @@ export const Textos = {
                     itens: [
                         {
                             nome: "Node.js",
-                            descricao: "Permite usar JavaScript no back-end para APIs, lógica e servidores."
+                            descricao: "Permite usar JavaScript no back-end para APIs, lógica e servidores.",
+                            icone:
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                </svg>
                         },
                         {
                             nome: "Express.js",
-                            descricao: "Framework leve para criar APIs REST e lidar com rotas e middlewares."
+                            descricao: "Framework leve para criar APIs REST e lidar com rotas e middlewares.",
+                            icone:
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                </svg>
                         },
                         {
                             nome: "Python",
-                            descricao: "Linguagem poderosa usada em automações, scripts, APIs, bots e análise de dados."
+                            descricao: "Linguagem poderosa usada em automações, scripts, APIs, bots e análise de dados.",
+                            icone:
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                </svg>
                         },
-                        {
-                            nome: "Flask",
-                            descricao: "Microframework Python para criação rápida de back-ends e APIs."
-                        },
-                        {
-                            nome: "JWT",
-                            descricao: "Autenticação segura com tokens no front-end e back-end."
-                        },
-                        {
-                            nome: "REST",
-                            descricao: "Padrão para criação de APIs com rotas e métodos HTTP bem definidos."
-                        }
+                        // {
+                        //     nome: "Flask",
+                        //     descricao: "Microframework Python para criação rápida de back-ends e APIs."
+                        // },
+                        // {
+                        //     nome: "JWT",
+                        //     descricao: "Autenticação segura com tokens no front-end e back-end."
+                        // },
+                        // {
+                        //     nome: "REST",
+                        //     descricao: "Padrão para criação de APIs com rotas e métodos HTTP bem definidos."
+                        // }
                     ]
                 },
                 bancoDeDados: {
@@ -110,24 +152,32 @@ export const Textos = {
                     itens: [
                         {
                             nome: "MySQL",
-                            descricao: "Banco de dados relacional ideal para sistemas web com dados estruturados."
+                            descricao: "Banco de dados relacional ideal para sistemas web com dados estruturados.",
+                            icone:
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                </svg>
                         },
+                        // {
+                        //     nome: "PostgreSQL",
+                        //     descricao: "Banco relacional avançado com alta performance e integridade de dados."
+                        // },
+                        // {
+                        //     nome: "MongoDB",
+                        //     descricao: "Banco não-relacional com documentos flexíveis, ideal para dados dinâmicos."
+                        // },
                         {
-                            nome: "PostgreSQL",
-                            descricao: "Banco relacional avançado com alta performance e integridade de dados."
+                            nome: "Supabase",
+                            descricao: "Solução completa com banco em tempo real, autenticação e hospedagem.",
+                            icone:
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                </svg>
                         },
-                        {
-                            nome: "MongoDB",
-                            descricao: "Banco não-relacional com documentos flexíveis, ideal para dados dinâmicos."
-                        },
-                        {
-                            nome: "Firebase",
-                            descricao: "Solução completa com banco em tempo real, autenticação e hospedagem."
-                        },
-                        {
-                            nome: "SQLite",
-                            descricao: "Banco leve e local, usado para testes ou aplicações pequenas e offline."
-                        }
+                        // {
+                        //     nome: "SQLite",
+                        //     descricao: "Banco leve e local, usado para testes ou aplicações pequenas e offline."
+                        // }
                     ]
                 },
                 devopsTestes: {
@@ -135,24 +185,28 @@ export const Textos = {
                     itens: [
                         {
                             nome: "Git & GitHub",
-                            descricao: "Versionamento de código com colaboração, histórico e deploys integrados."
+                            descricao: "Versionamento de código com colaboração, histórico e deploys integrados.",
+                            icone:
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                </svg>
                         },
+                        // {
+                        //     nome: "Docker",
+                        //     descricao: "Ambiente padronizado para rodar apps em qualquer sistema sem conflitos."
+                        // },
                         {
-                            nome: "Docker",
-                            descricao: "Ambiente padronizado para rodar apps em qualquer sistema sem conflitos."
-                        },
-                        {
-                            nome: "Postman / Thunder Client",
+                            nome: "Thunder Client",
                             descricao: "Ferramentas para testar APIs REST de forma visual e prática."
                         },
-                        {
-                            nome: "Jest",
-                            descricao: "Biblioteca de testes para verificar se funções JavaScript estão corretas."
-                        },
-                        {
-                            nome: "CI/CD",
-                            descricao: "Automatiza testes, builds e deploys a cada push no repositório (Ex: GitHub Actions)."
-                        }
+                        // {
+                        //     nome: "Jest",
+                        //     descricao: "Biblioteca de testes para verificar se funções JavaScript estão corretas."
+                        // },
+                        // {
+                        //     nome: "CI/CD",
+                        //     descricao: "Automatiza testes, builds e deploys a cada push no repositório (Ex: GitHub Actions)."
+                        // }
                     ]
                 },
                 designUXUI: {
@@ -162,10 +216,10 @@ export const Textos = {
                             nome: "Figma",
                             descricao: "Ferramenta colaborativa para criar protótipos e layouts responsivos."
                         },
-                        {
-                            nome: "Canva",
-                            descricao: "Criação de artes rápidas para redes, apresentações e identidade visual."
-                        },
+                        // {
+                        //     nome: "Canva",
+                        //     descricao: "Criação de artes rápidas para redes, apresentações e identidade visual."
+                        // },
                         {
                             nome: "Acessibilidade Web",
                             descricao: "Boas práticas para que pessoas com deficiência consigam usar seu site."
@@ -187,14 +241,14 @@ export const Textos = {
                             nome: "Python (Pandas/Numpy)",
                             descricao: "Tratamento de dados, gráficos e manipulações com códigos simples e poderosos."
                         },
-                        {
-                            nome: "SQL",
-                            descricao: "Consultas em bancos de dados relacionais para extração e análise de informações."
-                        },
-                        {
-                            nome: "Google Data Studio",
-                            descricao: "Plataforma do Google para criar dashboards com dados conectados e gráficos interativos."
-                        }
+                        // {
+                        //     nome: "SQL",
+                        //     descricao: "Consultas em bancos de dados relacionais para extração e análise de informações."
+                        // },
+                        // {
+                        //     nome: "Google Data Studio",
+                        //     descricao: "Plataforma do Google para criar dashboards com dados conectados e gráficos interativos."
+                        // }
                     ]
                 },
                 automacoes: {
@@ -204,14 +258,14 @@ export const Textos = {
                             nome: "Python",
                             descricao: "Criação de scripts para automatizar tarefas, baixar dados, enviar e-mails etc."
                         },
-                        {
-                            nome: "Selenium",
-                            descricao: "Automatiza ações em navegadores, ideal para testes e extrações."
-                        },
-                        {
-                            nome: "Bots de WhatsApp / Telegram",
-                            descricao: "Integrações com APIs de mensagens para responder automaticamente e executar comandos."
-                        }
+                        // {
+                        //     nome: "Selenium",
+                        //     descricao: "Automatiza ações em navegadores, ideal para testes e extrações."
+                        // },
+                        // {
+                        //     nome: "Bots de WhatsApp / Telegram",
+                        //     descricao: "Integrações com APIs de mensagens para responder automaticamente e executar comandos."
+                        // }
                     ]
                 },
                 outros: {
@@ -232,6 +286,10 @@ export const Textos = {
                         {
                             nome: "Hospedagem (Vercel / Netlify)",
                             descricao: "Publicação rápida e gratuita de sites, com integração com Git."
+                        },
+                        {
+                            nome: "Manutenção de PC's",
+                            descricao: "Concerto a parte física, o hardware e faço manutenções no software"
                         }
                     ]
                 }
@@ -339,10 +397,10 @@ export const Textos = {
                             nome: "Next.js",
                             descricao: "React framework for fast sites with routes, SSR, SEO and scalable structure."
                         },
-                        {
-                            nome: "Tailwind CSS",
-                            descricao: "Utility-first framework for styling quickly with semantic and responsive classes."
-                        },
+                        // {
+                        //     nome: "Tailwind CSS",
+                        //     descricao: "Utility-first framework for styling quickly with semantic and responsive classes."
+                        // },
                         {
                             nome: "Bootstrap",
                             descricao: "Set of ready components to speed up the creation of responsive interfaces."
@@ -368,18 +426,18 @@ export const Textos = {
                             nome: "Python",
                             descricao: "Powerful language used in automations, scripts, APIs, bots and data analysis."
                         },
-                        {
-                            nome: "Flask",
-                            descricao: "Microframework Python for rapid back-end and API creation."
-                        },
-                        {
-                            nome: "JWT",
-                            descricao: "Secure authentication with tokens on front-end and back-end."
-                        },
-                        {
-                            nome: "REST",
-                            descricao: "Standard for creating APIs with well-defined routes and HTTP methods."
-                        }
+                        // {
+                        //     nome: "Flask",
+                        //     descricao: "Microframework Python for rapid back-end and API creation."
+                        // },
+                        // {
+                        //     nome: "JWT",
+                        //     descricao: "Secure authentication with tokens on front-end and back-end."
+                        // },
+                        // {
+                        //     nome: "REST",
+                        //     descricao: "Standard for creating APIs with well-defined routes and HTTP methods."
+                        // }
                     ]
                 },
                 bancoDeDados: {
@@ -389,22 +447,22 @@ export const Textos = {
                             nome: "MySQL",
                             descricao: "Relational database ideal for web systems with structured data."
                         },
+                        // {
+                        //     nome: "PostgreSQL",
+                        //     descricao: "Advanced relational database with high performance and data integrity."
+                        // },
+                        // {
+                        //     nome: "MongoDB",
+                        //     descricao: "Non-relational database with flexible documents, ideal for dynamic data."
+                        // },
                         {
-                            nome: "PostgreSQL",
-                            descricao: "Advanced relational database with high performance and data integrity."
-                        },
-                        {
-                            nome: "MongoDB",
-                            descricao: "Non-relational database with flexible documents, ideal for dynamic data."
-                        },
-                        {
-                            nome: "Firebase",
+                            nome: "Supabase",
                             descricao: "Complete solution with real-time database, authentication and hosting."
                         },
-                        {
-                            nome: "SQLite",
-                            descricao: "Lightweight and local database, used for testing or small offline applications."
-                        }
+                        // {
+                        //     nome: "SQLite",
+                        //     descricao: "Lightweight and local database, used for testing or small offline applications."
+                        // }
                     ]
                 },
                 devopsTestes: {
@@ -414,22 +472,22 @@ export const Textos = {
                             nome: "Git & GitHub",
                             descricao: "Code versioning with collaboration, history and integrated deployments."
                         },
-                        {
-                            nome: "Docker",
-                            descricao: "Standardized environment to run apps on any system without conflicts."
-                        },
+                        // {
+                        //     nome: "Docker",
+                        //     descricao: "Standardized environment to run apps on any system without conflicts."
+                        // },
                         {
                             nome: "Postman / Thunder Client",
                             descricao: "Tools to test REST APIs visually and practically."
                         },
-                        {
-                            nome: "Jest",
-                            descricao: "Testing library to verify if JavaScript functions are correct."
-                        },
-                        {
-                            nome: "CI/CD",
-                            descricao: "Automates tests, builds and deployments on every push to the repository (e.g. GitHub Actions)."
-                        }
+                        // {
+                        //     nome: "Jest",
+                        //     descricao: "Testing library to verify if JavaScript functions are correct."
+                        // },
+                        // {
+                        //     nome: "CI/CD",
+                        //     descricao: "Automates tests, builds and deployments on every push to the repository (e.g. GitHub Actions)."
+                        // }
                     ]
                 },
                 designUXUI: {
@@ -439,10 +497,10 @@ export const Textos = {
                             nome: "Figma",
                             descricao: "Collaborative tool to create prototypes and responsive layouts."
                         },
-                        {
-                            nome: "Canva",
-                            descricao: "Quickly create graphics for social media, presentations and branding."
-                        },
+                        // {
+                        //     nome: "Canva",
+                        //     descricao: "Quickly create graphics for social media, presentations and branding."
+                        // },
                         {
                             nome: "Web Accessibility",
                             descricao: "Best practices to ensure people with disabilities can use your site."
@@ -464,14 +522,14 @@ export const Textos = {
                             nome: "Python (Pandas/Numpy)",
                             descricao: "Data manipulation, graphs and processing with simple yet powerful code."
                         },
-                        {
-                            nome: "SQL",
-                            descricao: "Queries in relational databases for extracting and analyzing information."
-                        },
-                        {
-                            nome: "Google Data Studio",
-                            descricao: "Google platform to create dashboards with connected data and interactive charts."
-                        }
+                        // {
+                        //     nome: "SQL",
+                        //     descricao: "Queries in relational databases for extracting and analyzing information."
+                        // },
+                        // {
+                        //     nome: "Google Data Studio",
+                        //     descricao: "Google platform to create dashboards with connected data and interactive charts."
+                        // }
                     ]
                 },
                 automacoes: {
@@ -616,10 +674,10 @@ export const Textos = {
                             nome: "Next.js",
                             descricao: "Framework React para sitios rápidos con rutas, SSR, SEO y estructura escalable."
                         },
-                        {
-                            nome: "Tailwind CSS",
-                            descricao: "Framework utilitario para estilizar rápidamente con clases semánticas y responsivas."
-                        },
+                        // {
+                        //     nome: "Tailwind CSS",
+                        //     descricao: "Framework utilitario para estilizar rápidamente con clases semánticas y responsivas."
+                        // },
                         {
                             nome: "Bootstrap",
                             descricao: "Conjunto de componentes listos para acelerar la creación de interfaces responsivas."
@@ -645,18 +703,18 @@ export const Textos = {
                             nome: "Python",
                             descricao: "Lenguaje poderoso usado en automatizaciones, scripts, APIs, bots y análisis de datos."
                         },
-                        {
-                            nome: "Flask",
-                            descricao: "Microframework Python para creación rápida de back-ends y APIs."
-                        },
-                        {
-                            nome: "JWT",
-                            descricao: "Autenticación segura con tokens en front-end y back-end."
-                        },
-                        {
-                            nome: "REST",
-                            descricao: "Estándar para crear APIs con rutas bien definidas y métodos HTTP."
-                        }
+                        // {
+                        //     nome: "Flask",
+                        //     descricao: "Microframework Python para creación rápida de back-ends y APIs."
+                        // },
+                        // {
+                        //     nome: "JWT",
+                        //     descricao: "Autenticación segura con tokens en front-end y back-end."
+                        // },
+                        // {
+                        //     nome: "REST",
+                        //     descricao: "Estándar para crear APIs con rutas bien definidas y métodos HTTP."
+                        // }
                     ]
                 },
                 bancoDeDados: {

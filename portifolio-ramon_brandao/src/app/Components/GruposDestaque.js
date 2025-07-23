@@ -7,7 +7,7 @@ export function GruposDestaque({ icone, titulo, itens }) {
     <div className="grupo-card">
       <div className="grupo-header">
         <div className="grupo-icon">{icone}</div>
-        <h3>{titulo}</h3>
+        <h3 className="grupo-titulo">{titulo}</h3>
       </div>
       <div className="grupo-itens">
         {itens.map((item, idx) => (
