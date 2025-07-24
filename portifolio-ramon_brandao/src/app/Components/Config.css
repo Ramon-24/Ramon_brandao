@@ -576,6 +576,7 @@ body {
 .item-card:hover {
   background-color: var(--cor-destaque);
   transform: scale(1.03);
+  color: white;
 }
 
 .item-header {
