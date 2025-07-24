@@ -10,8 +10,8 @@ export default function Home() {
     < >
       <Config />
       <Hero />
-      <Sobre/>
-      <Linguagens/>
+      <Sobre />
+      <Linguagens />
     </>
   );
 }
