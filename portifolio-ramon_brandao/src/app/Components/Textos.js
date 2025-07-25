@@ -345,7 +345,46 @@ export const Textos = {
         },
         projetos: {
             titulo: "Meus Projetos",
-            filtros: ["Todos", "Web", "Mobile", "Outros"]
+            filtros: ["Todos", "Web", "Mobile", "Outros"],
+            lista: [
+                {
+                    nome: "DevConnect",
+                    descricao: "Rede social para devs interagirem com código e conteúdo.",
+                    status: "Individual",
+                    categoria: "Web",
+                    tecnologias: ["Next.js", "MongoDB", "Tailwind CSS"],
+                },
+                {
+                    nome: "FitTrack",
+                    descricao: "Aplicativo mobile para acompanhar treinos, calorias e metas de condicionamento físico.",
+                    tecnologias: ["Flutter", "Firebase", "Dart"],
+                    categoria: "Mobile",
+                },
+                {
+                    nome: "AutoZap Bot",
+                    descricao: "Bot automatizado para envio de mensagens em massa via WhatsApp com painel de controle.",
+                    tecnologias: ["Node.js", "Puppeteer", "Express"],
+                    categoria: "Outros",
+                },
+                {
+                    nome: "SchoolManager",
+                    descricao: "Sistema de gerenciamento de alunos, notas e turmas para escolas de ensino médio técnico.",
+                    tecnologias: ["React", "MySQL", "Node.js", "Express"],
+                    categoria: "Web",
+                },
+                {
+                    nome: "CineSort",
+                    descricao: "Sorteador de filmes com base em categorias para assistir com amigos.",
+                    tecnologias: ["React Native", "Expo", "Firebase"],
+                    categoria: "Mobile",
+                },
+                {
+                    nome: "DashPro",
+                    descricao: "Dashboard analítico com gráficos, filtros e tabelas dinâmicas para visualização de dados.",
+                    tecnologias: ["Python", "Plotly", "Pandas"],
+                    categoria: "Outros",
+                }
+            ]
         },
         contato: {
             titulo: "Vamos Conversar?",
