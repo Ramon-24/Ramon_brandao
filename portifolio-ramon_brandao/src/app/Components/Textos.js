@@ -142,7 +142,7 @@ export const Textos = {
                             nome: "Supabase",
                             descricao: "Solução completa com banco em tempo real, autenticação e hospedagem.",
                             icone:
-                                <i className="devicon-supabase-plain colored"/>
+                                <i className="devicon-supabase-plain colored" />
 
                             // <i className="devicon-supabase-plain" />
                         },
@@ -286,11 +286,62 @@ export const Textos = {
             }
         },
         habilidades: {
-            titulo: "Front-end",
-            frontend: "Front-end",
-            backend: "Back-end",
-            ferramentas: "Ferramentas",
-            outros: "Outros"
+            titulo: "Minhas Habilidades",
+            frontend: {
+                titulo: "Front-end",
+                descricao: "Crio interfaces modernas, responsivas e intuitivas com atenção à experiência do usuário. Tenho domínio em linguagens de marcação, estilos e frameworks que agilizam o desenvolvimento visual.",
+                itens: [
+                    "HTML5",
+                    "CSS3",
+                    "JavaScript",
+                    "React",
+                    "Bootstrap",
+                    "Responsive Design",
+                    "Tailwind CSS",
+                    "SASS/SCSS"
+                ]
+            },
+            backend: {
+                titulo: "Back-end",
+                descricao: "Desenvolvo lógicas e integrações robustas, conectando front-end a bancos de dados e serviços. Já trabalhei com APIs, autenticações e automações que tornam os projetos funcionais e escaláveis.",
+                itens: [
+                    "Node.js",
+                    "Express",
+                    "Python",
+                    "MySQL",
+                    "RESTful APIs",
+                    "MongoDB",
+                    "PostgreSQL",
+                    "Firebase"
+                ]
+            },
+            ferramentas: {
+                titulo: "Ferramentas",
+                descricao: "Utilizo ferramentas que aumentam minha produtividade, organização de código e comunicação com equipe. Conheço extensões e plataformas que ajudam na prototipagem, deploy e testes.",
+                itens: [
+                    "Git & GitHub",
+                    "VS Code",
+                    "Figma",
+                    "NPM/Yarn",
+                    "Thunder Client",
+                    "Postman",
+                    "Docker",
+                    "Jest"
+                ]
+            },
+            outros: {
+                titulo: "Outros",
+                descricao: "Tenho conhecimentos adicionais que reforçam meu perfil versátil como desenvolvedor full stack. Compreendo design, análise de dados, automações, manutenção de hardware e mais.",
+                itens: [
+                    "UI/UX Design",
+                    "Automação",
+                    "Excel",
+                    "Análise de Dados",
+                    "Markdown",
+                    "Hospedagem (Vercel / Netlify)",
+                    "Manutenção de PCs"
+                ]
+            }
         },
         projetos: {
             titulo: "Meus Projetos",

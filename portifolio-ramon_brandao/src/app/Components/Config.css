@@ -336,6 +336,7 @@ body {
 
 
 .titulo-secao {
+  padding-top: 100px;
   text-align: center;
   margin-bottom: 2rem;
 }
@@ -755,3 +756,4 @@ body {
 .links:hover {
   color: var(--cor-primaria-1);
 }
+
