@@ -4,6 +4,7 @@ import { Textos } from "./Textos";
 import { useEffect, useState } from "react";
 import { Barras } from "./Barras"
 import { TituloSecao } from "./TituloSecao";
+import Image from 'next/image';
 
 export function Sobre() {
     const { config } = useConfig();
@@ -32,20 +33,29 @@ export function Sobre() {
     return (
         <section className="sobre">
             <TituloSecao texto={t.titulo} />
-            <div className="textSobre">
-                <div className="text">
-                    <p>{t.paragrafo1}</p>
-                    <p>{t.paragrafo2}</p>
-                    <p>{t.paragrafo3}</p>
-                    <p>{t.paragrafo4}</p>
-                    <p>{t.paragrafo5}</p>
+            <div className="areaSobre">
+                <div className="textSobre">
+                    <div className="text">
+                        <p>{t.paragrafo1}</p>
+                        <p>{t.paragrafo2}</p>
+                        <p>{t.paragrafo3}</p>
+                        <p>{t.paragrafo4}</p>
+                        <p>{t.paragrafo5}</p>
+                    </div>
+                    <div>
+                        <h3>{t.habilidadesTitulo}</h3>
+                        <Barras texto={t.habilidades} />
+                    </div>
                 </div>
-                <div>
-                    <h3>{t.habilidadesTitulo}</h3>
-                    <Barras texto={t.habilidades} />
+                <div className="areaFoto">
+                    <Image
+                        src="/Eu.jpg"
+                        className="Foto"
+                        alt="Foto"
+                        width={400}
+                        height={400}
+                    />
                 </div>
-            </div>
-            <div className="areaFoto">
 
             </div>
         </section>

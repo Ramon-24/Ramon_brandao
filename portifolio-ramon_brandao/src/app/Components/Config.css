@@ -9,6 +9,9 @@
 body {
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;
+  background-color: var(--fundo);
+  height: 100vh;
+  width: 100vw;
 }
 
 
@@ -33,6 +36,7 @@ body {
 
   --cor-destaque: #44A1F2;
   --fundo-destaque: #E1F0FF;
+  --fundo-destaques: #32333339;
 
   --cor-borda: #E0E5EB;
 
@@ -47,9 +51,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: end;
-  padding: 30px 40px 0px 0px;
-  bottom: 20px;
-  right: 20px;
+  padding: 0px 50px 0px 16px;
+  /* bottom: 20px; */
+  /* right: 20px; */
   z-index: 10;
 }
 
@@ -57,13 +61,14 @@ body {
   height: 45px;
   width: 45px;
   border-radius: 50px;
-  background-color: white;
-  box-shadow: #9c9b9b 0px 1px 6px;
+  background-color: var(--fundo-card);
+  box-shadow: var(--efeito-lg);
   display: flex;
   align-items: center;
   justify-content: center;
   /* cursor: pointer; */
   border: none;
+  color: var(--texto-primario);
 }
 
 .botao-flutuante:hover {
@@ -82,11 +87,12 @@ body {
   width: 100vw;
   height: 100vh;
   opacity: 1;
+  background-color: var(--fundo-destaques);
   z-index: 999;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.07);
+  /* background-color: rgba(0, 0, 0, 0.07); */
 }
 
 /* :root {
@@ -101,13 +107,13 @@ body {
 
 
 .config-card {
-  background-color: var(--cor-fundo);
+  background-color: var(--fundo);
   border-radius: 12px;
   width: 400px;
   max-width: 90%;
   padding: 25px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  color: var(--cor-texto);
+  color: var(--texto-primario);
 }
 
 .config-header {
@@ -129,7 +135,7 @@ body {
   border: none;
   font-size: 24px;
   cursor: pointer;
-  color: var(--cor-texto);
+  color: var(--texto-primario);
   transition: color 0.2s;
 }
 
@@ -291,7 +297,10 @@ body {
 
 
 
-
+.areaSobre{
+  display: flex;
+  flex-direction: row;
+}
 
 
 
@@ -707,18 +716,25 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 2rem;
-  background: white;
+  background: var(--fundo-card);
+  box-shadow: var(--efeito-glow);
 }
 
-.nav-esquerda .logo {
-  font-weight: 700;
-  font-size: 1.5rem;
-  color: #1f2937; /* preto/azulado */
+.nav-esquerda{
+  display: flex;
+  flex-direction: row;
+  padding-left: 50px;
+  gap: 8px;
+  font-size: 20px;
+  font-weight: bolder;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-.nav-esquerda .logo span {
-  color: #3b82f6; /* azul claro */
-  font-weight: bold;
+.logo1{
+  color: var(--cor-secundaria);
+}
+.logo2{
+  color: var(--cor-destaque);
 }
 
 .nav-direita {
@@ -728,12 +744,14 @@ body {
 }
 
 .links {
-  font-weight: 600;
-  color: #1f2937;
+  font-weight: 700;
+  color: var(--texto-primario);
+  font-size: 16px;
+  padding-left: 10px;
   text-decoration: none;
   transition: 0.2s;
 }
 
 .links:hover {
-  color: #3b82f6;
+  color: var(--cor-primaria-1);
 }

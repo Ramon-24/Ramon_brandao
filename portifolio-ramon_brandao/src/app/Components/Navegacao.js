@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Config } from "./Config";
 import "./Config.css";
+// import "/LogoGuia"
 
 export function Navegacao() {
     const { config } = useConfig();
@@ -14,7 +15,7 @@ export function Navegacao() {
         if (config?.idioma) {
             setT(Textos[config.idioma]?.nav);
         }
-    }, [config?.idioma]); // Reage a mudanças no idioma
+    }, [config?.idioma]);
 
     useEffect(() => {
         const handleStorage = () => {
@@ -33,7 +34,8 @@ export function Navegacao() {
     return (
         <section className="nav">
             <div className="nav-esquerda">
-                <Link href="/" className="logo">{t.logo}</Link>
+                <h1 className="logo1">{t.logo1}</h1>
+                <h1 className="logo2">{t.logo2}</h1>
             </div>
             <div className="nav-direita">
                 <Link href="/" className="links">{t.links.inicio}</Link>

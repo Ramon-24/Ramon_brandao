@@ -3,7 +3,8 @@
 export const Textos = {
     pt: {
         nav: {
-            logo: "< Ramon Brandão />",
+            logo1: "< Ramon",
+            logo2: "Brandão />",
             links: {
                 inicio: "Início",
                 sobre: "Sobre",
