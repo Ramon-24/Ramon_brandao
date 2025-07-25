@@ -45,27 +45,27 @@ export const Textos = {
                         {
                             nome: "HTML5",
                             descricao: "Estrutura páginas da web com títulos, parágrafos, imagens e links.",
-                            icone: <i className="devicon-html5-plain"/>
+                            icone: <i className="devicon-html5-plain" />
                         },
                         {
                             nome: "CSS3",
                             descricao: "Controla o visual das páginas: cores, tamanhos, espaçamentos e animações.",
-                            icone: <i className="devicon-css3-plain"/>
+                            icone: <i className="devicon-css3-plain" />
                         },
                         {
                             nome: "JavaScript",
                             descricao: "Torna sites interativos com cliques, formulários, sliders, animações e mais.",
-                            icone: <i className="devicon-javascript-plain"/>
+                            icone: <i className="devicon-javascript-plain" />
                         },
                         {
                             nome: "React",
                             descricao: "Biblioteca para criar interfaces modernas e reativas com componentes reutilizáveis.",
-                            icone: <i className="devicon-react-original"/>
+                            icone: <i className="devicon-react-original" />
                         },
                         {
                             nome: "Next.js",
                             descricao: "Framework React para sites rápidos com rotas, SSR, SEO e estrutura escalável.",
-                            icone: <i className="devicon-nextjs-line" style={{ fontSize: "35px", display: "flex", alignItems: "center", justifyContent: "center" }}/>
+                            icone: <i className="devicon-nextjs-line" style={{ fontSize: "36px", display: "flex", alignItems: "center", justifyContent: "center" }} />
                         },
                         // {
                         //     nome: "Tailwind CSS",
@@ -83,7 +83,7 @@ export const Textos = {
                         {
                             nome: "Vite",
                             descricao: "Empacotador moderno e ultrarrápido para desenvolvimento frontend com JS e React.",
-                            icone: <i className="devicon-vitejs-plain" style={{ fontSize: "25px" }}/>
+                            icone: <i className="devicon-vitejs-plain" />
                         }
                     ]
                 },
@@ -93,17 +93,19 @@ export const Textos = {
                         {
                             nome: "Node.js",
                             descricao: "Permite usar JavaScript no back-end para APIs, lógica e servidores.",
-                            icone: <i className="devicon-nodejs-line" style={{ fontSize: "25px" }}/>
+                            icone:
+                                <i className="devicon-nodejs-plain" style={{ fontSize: "26px" }} />
+                            // <i className="devicon-nodejs-line" style={{ fontSize: "25px" }} />
                         },
                         {
                             nome: "Express.js",
                             descricao: "Framework leve para criar APIs REST e lidar com rotas e middlewares.",
-                            icone: <i className="devicon-express-original"/>
+                            icone: <i className="devicon-express-original" />
                         },
                         {
                             nome: "Python",
                             descricao: "Linguagem poderosa usada em automações, scripts, APIs, bots e análise de dados.",
-                            icone: <i className="devicon-python-plain"/>
+                            icone: <i className="devicon-python-plain" />
                         },
                         // {
                         //     nome: "Flask",
@@ -125,7 +127,7 @@ export const Textos = {
                         {
                             nome: "MySQL",
                             descricao: "Banco de dados relacional ideal para sistemas web com dados estruturados.",
-                            icone: <i className="devicon-mysql-original"/>
+                            icone: <i className="devicon-mysql-plain-wordmark" style={{ fontSize: "30px" }} />
                         },
                         // {
                         //     nome: "PostgreSQL",
@@ -138,7 +140,10 @@ export const Textos = {
                         {
                             nome: "Supabase",
                             descricao: "Solução completa com banco em tempo real, autenticação e hospedagem.",
-                            icone: <i className="devicon-supabase-plain"/>
+                            icone:
+                                <i className="devicon-supabase-plain colored"/>
+
+                            // <i className="devicon-supabase-plain" />
                         },
                         // {
                         //     nome: "SQLite",
@@ -153,7 +158,7 @@ export const Textos = {
                             nome: "Git & GitHub",
                             descricao: "Versionamento de código com colaboração, histórico e deploys integrados.",
                             icone:
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
                                     <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
                                 </svg>
                         },
@@ -163,7 +168,11 @@ export const Textos = {
                         // },
                         {
                             nome: "Thunder Client",
-                            descricao: "Ferramentas para testar APIs REST de forma visual e prática."
+                            descricao: "Ferramentas para testar APIs REST de forma visual e prática.",
+                            icone:
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-lightning-charge-fill" viewBox="0 0 16 16">
+                                    <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z" />
+                                </svg>
                         },
                         // {
                         //     nome: "Jest",
@@ -181,19 +190,23 @@ export const Textos = {
                         {
                             nome: "Figma",
                             descricao: "Ferramenta colaborativa para criar protótipos e layouts responsivos.",
-                            icone: <i className="devicon-figma-plain"/>
+                            icone: <i className="devicon-figma-plain" />
                         },
                         // {
                         //     nome: "Canva",
                         //     descricao: "Criação de artes rápidas para redes, apresentações e identidade visual."
                         // },
-                        {
-                            nome: "Acessibilidade Web",
-                            descricao: "Boas práticas para que pessoas com deficiência consigam usar seu site."
-                        },
+                        // {
+                        //     nome: "Acessibilidade Web",
+                        //     descricao: "Boas práticas para que pessoas com deficiência consigam usar seu site."
+                        // },
                         {
                             nome: "Animações CSS",
-                            descricao: "Movimentação de elementos para tornar interfaces mais dinâmicas e atrativas."
+                            descricao: "Movimentação de elementos para tornar interfaces mais dinâmicas e atrativas.",
+                            icone:
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-film" viewBox="0 0 16 16">
+                                    <path d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm4 0v6h8V1zm8 8H4v6h8zM1 1v2h2V1zm2 3H1v2h2zM1 7v2h2V7zm2 3H1v2h2zm-2 3v2h2v-2zM15 1h-2v2h2zm-2 3v2h2V4zm2 3h-2v2h2zm-2 3v2h2v-2zm2 3h-2v2h2z" />
+                                </svg>
                         }
                     ]
                 },
@@ -207,7 +220,7 @@ export const Textos = {
                         {
                             nome: "Python (Pandas/Numpy)",
                             descricao: "Tratamento de dados, gráficos e manipulações com códigos simples e poderosos.",
-                            icone: <i className="devicon-python-plain"/>
+                            icone: <i className="devicon-python-plain" />
                         },
                         // {
                         //     nome: "SQL",
@@ -225,7 +238,7 @@ export const Textos = {
                         {
                             nome: "Python",
                             descricao: "Criação de scripts para automatizar tarefas, baixar dados, enviar e-mails etc.",
-                            icone: <i className="devicon-python-plain"/>
+                            icone: <i className="devicon-python-plain" />
                         },
                         // {
                         //     nome: "Selenium",
@@ -243,7 +256,7 @@ export const Textos = {
                         {
                             nome: "VS Code",
                             descricao: "Editor leve, rápido e personalizável com suporte a múltiplas linguagens.",
-                            icone: <i className="devicon-vscode-plain"/>
+                            icone: <i className="devicon-vscode-plain" />
                         },
                         {
                             nome: "Extensões úteis",
@@ -252,16 +265,20 @@ export const Textos = {
                         {
                             nome: "Markdown",
                             descricao: "Sintaxe leve para formatar textos em READMEs, blogs e documentações.",
-                            icone: <i className="devicon-markdown-original"/>
+                            icone: <i className="devicon-markdown-original" />
                         },
                         {
                             nome: "Hospedagem (Vercel / Netlify)",
                             descricao: "Publicação rápida e gratuita de sites, com integração com Git.",
-                            icone: <i className="devicon-vercel-original"/>
+                            icone: <i className="devicon-vercel-original-wordmark" />
                         },
                         {
                             nome: "Manutenção de PC's",
-                            descricao: "Concerto a parte física, o hardware e faço manutenções no software"
+                            descricao: "Concerto a parte física, o hardware e faço manutenções no software",
+                            icone:
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-laptop" viewBox="0 0 16 16">
+                                    <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5" />
+                                </svg>
                         }
                     ]
                 }
@@ -351,23 +368,28 @@ export const Textos = {
                     itens: [
                         {
                             nome: "HTML5",
-                            descricao: "Structures web pages with titles, paragraphs, images and links."
+                            descricao: "Structures web pages with titles, paragraphs, images and links.",
+                            icone: <i className="devicon-html5-plain" />
                         },
                         {
                             nome: "CSS3",
-                            descricao: "Controls the visual of pages: colors, sizes, spacing and animations."
+                            descricao: "Controls the visual of pages: colors, sizes, spacing and animations.",
+                            icone: <i className="devicon-css3-plain" />
                         },
                         {
                             nome: "JavaScript",
-                            descricao: "Makes sites interactive with clicks, forms, sliders, animations and more."
+                            descricao: "Makes sites interactive with clicks, forms, sliders, animations and more.",
+                            icone: <i className="devicon-javascript-plain" />
                         },
                         {
                             nome: "React",
-                            descricao: "Library for creating modern and reactive interfaces with reusable components."
+                            descricao: "Library for creating modern and reactive interfaces with reusable components.",
+                            icone: <i className="devicon-react-original" />
                         },
                         {
                             nome: "Next.js",
-                            descricao: "React framework for fast sites with routes, SSR, SEO and scalable structure."
+                            descricao: "React framework for fast sites with routes, SSR, SEO and scalable structure.",
+                            icone: <i className="devicon-nextjs-line" style={{ fontSize: "35px", display: "flex", alignItems: "center", justifyContent: "center" }} />
                         },
                         // {
                         //     nome: "Tailwind CSS",
@@ -375,11 +397,17 @@ export const Textos = {
                         // },
                         {
                             nome: "Bootstrap",
-                            descricao: "Set of ready components to speed up the creation of responsive interfaces."
+                            descricao: "Set of ready components to speed up the creation of responsive interfaces.",
+                            icone:
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-bootstrap-fill" viewBox="0 0 16 16">
+                                    <path d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375z" />
+                                    <path d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396z" />
+                                </svg>
                         },
                         {
                             nome: "Vite",
-                            descricao: "Modern and ultra-fast bundler for frontend development with JS and React."
+                            descricao: "Modern and ultra-fast bundler for frontend development with JS and React.",
+                            icone: <i className="devicon-vitejs-plain" style={{ fontSize: "25px" }} />
                         }
                     ]
                 },
@@ -388,7 +416,8 @@ export const Textos = {
                     itens: [
                         {
                             nome: "Node.js",
-                            descricao: "Allows using JavaScript on the back-end for APIs, logic and servers."
+                            descricao: "Allows using JavaScript on the back-end for APIs, logic and servers.",
+                            icone: <i className="devicon-nodejs-line" style={{ fontSize: "25px" }} />
                         },
                         {
                             nome: "Express.js",
@@ -397,8 +426,7 @@ export const Textos = {
                         {
                             nome: "Python",
                             descricao: "Powerful language used in automations, scripts, APIs, bots and data analysis.",
-                            // icone:
-                            //     <i className="devicon-python-plain"></i>
+                            icone: <i className="devicon-python-plain"></i>
                         },
                         // {
                         //     nome: "Flask",
@@ -514,17 +542,16 @@ export const Textos = {
                         {
                             nome: "Python",
                             descricao: "Create scripts to automate tasks, download data, send emails etc.",
-                            // icone:
-                            //     <i className="devicon-python-plain"></i>
+                            icone: <i className="devicon-python-plain"></i>
                         },
-                        {
-                            nome: "Selenium",
-                            descricao: "Automates actions in browsers, ideal for testing and scraping."
-                        },
-                        {
-                            nome: "WhatsApp / Telegram Bots",
-                            descricao: "Integrations with messaging APIs to respond automatically and execute commands."
-                        }
+                        // {
+                        //     nome: "Selenium",
+                        //     descricao: "Automates actions in browsers, ideal for testing and scraping."
+                        // },
+                        // {
+                        //     nome: "WhatsApp / Telegram Bots",
+                        //     descricao: "Integrations with messaging APIs to respond automatically and execute commands."
+                        // }
                     ]
                 },
                 outros: {
@@ -545,6 +572,14 @@ export const Textos = {
                         {
                             nome: "Hosting (Vercel / Netlify)",
                             descricao: "Quick and free publishing of sites with Git integration."
+                        },
+                        {
+                            nome: "Manutenção de PC's",
+                            descricao: "Concerto a parte física, o hardware e faço manutenções no software",
+                            icone:
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-laptop" viewBox="0 0 16 16">
+                                    <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5" />
+                                </svg>
                         }
                     ]
                 }
@@ -634,23 +669,28 @@ export const Textos = {
                     itens: [
                         {
                             nome: "HTML5",
-                            descricao: "Estructura páginas web con títulos, párrafos, imágenes y enlaces."
+                            descricao: "Estructura páginas web con títulos, párrafos, imágenes y enlaces.",
+                            icone: <i className="devicon-html5-plain" />
                         },
                         {
                             nome: "CSS3",
-                            descricao: "Controla el aspecto visual de las páginas: colores, tamaños, espacios y animaciones."
+                            descricao: "Controla el aspecto visual de las páginas: colores, tamaños, espacios y animaciones.",
+                            icone: <i className="devicon-css3-plain" />
                         },
                         {
                             nome: "JavaScript",
-                            descricao: "Hace que los sitios sean interactivos con clics, formularios, sliders, animaciones y más."
+                            descricao: "Hace que los sitios sean interactivos con clics, formularios, sliders, animaciones y más.",
+                            icone: <i className="devicon-javascript-plain" />
                         },
                         {
                             nome: "React",
-                            descricao: "Biblioteca para crear interfaces modernas y reactivas con componentes reutilizables."
+                            descricao: "Biblioteca para crear interfaces modernas y reactivas con componentes reutilizables.",
+                            icone: <i className="devicon-react-original" />
                         },
                         {
                             nome: "Next.js",
-                            descricao: "Framework React para sitios rápidos con rutas, SSR, SEO y estructura escalable."
+                            descricao: "Framework React para sitios rápidos con rutas, SSR, SEO y estructura escalable.",
+                            icone: <i className="devicon-nextjs-line" style={{ fontSize: "35px", display: "flex", alignItems: "center", justifyContent: "center" }} />
                         },
                         // {
                         //     nome: "Tailwind CSS",
@@ -658,11 +698,17 @@ export const Textos = {
                         // },
                         {
                             nome: "Bootstrap",
-                            descricao: "Conjunto de componentes listos para acelerar la creación de interfaces responsivas."
+                            descricao: "Conjunto de componentes listos para acelerar la creación de interfaces responsivas.",
+                            icone:
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-bootstrap-fill" viewBox="0 0 16 16">
+                                    <path d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375z" />
+                                    <path d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396z" />
+                                </svg>
                         },
                         {
                             nome: "Vite",
-                            descricao: "Empaquetador moderno y ultrarrápido para desarrollo frontend con JS y React."
+                            descricao: "Empaquetador moderno y ultrarrápido para desarrollo frontend con JS y React.",
+                            icone: <i className="devicon-vitejs-plain" style={{ fontSize: "25px" }} />
                         }
                     ]
                 },
@@ -671,7 +717,8 @@ export const Textos = {
                     itens: [
                         {
                             nome: "Node.js",
-                            descricao: "Permite usar JavaScript en el back-end para APIs, lógica y servidores."
+                            descricao: "Permite usar JavaScript en el back-end para APIs, lógica y servidores.",
+                            icone: <i className="devicon-nodejs-line" style={{ fontSize: "25px" }} />
                         },
                         {
                             nome: "Express.js",
@@ -680,8 +727,7 @@ export const Textos = {
                         {
                             nome: "Python",
                             descricao: "Lenguaje poderoso usado en automatizaciones, scripts, APIs, bots y análisis de datos.",
-                            // icone:
-                            //     <i className="devicon-python-plain"></i>
+                            icone: <i className="devicon-python-plain"></i>
                         },
                         // {
                         //     nome: "Flask",
@@ -704,22 +750,22 @@ export const Textos = {
                             nome: "MySQL",
                             descricao: "Base de datos relacional ideal para sistemas web con datos estructurados."
                         },
+                        // {
+                        //     nome: "PostgreSQL",
+                        //     descricao: "Base de datos relacional avanzada con alto rendimiento e integridad de datos."
+                        // },
+                        // {
+                        //     nome: "MongoDB",
+                        //     descricao: "Base de datos no relacional con documentos flexibles, ideal para datos dinámicos."
+                        // },
                         {
-                            nome: "PostgreSQL",
-                            descricao: "Base de datos relacional avanzada con alto rendimiento e integridad de datos."
-                        },
-                        {
-                            nome: "MongoDB",
-                            descricao: "Base de datos no relacional con documentos flexibles, ideal para datos dinámicos."
-                        },
-                        {
-                            nome: "Firebase",
+                            nome: "Supabase",
                             descricao: "Solución completa con base de datos en tiempo real, autenticación y hospedaje."
                         },
-                        {
-                            nome: "SQLite",
-                            descricao: "Base de datos ligera y local, usada para pruebas o aplicaciones pequeñas y offline."
-                        }
+                        // {
+                        //     nome: "SQLite",
+                        //     descricao: "Base de datos ligera y local, usada para pruebas o aplicaciones pequeñas y offline."
+                        // }
                     ]
                 },
                 devopsTestes: {
@@ -729,22 +775,22 @@ export const Textos = {
                             nome: "Git & GitHub",
                             descricao: "Versionado de código con colaboración, historial e implementaciones integradas."
                         },
-                        {
-                            nome: "Docker",
-                            descricao: "Entorno estandarizado para ejecutar aplicaciones en cualquier sistema sin conflictos."
-                        },
-                        {
-                            nome: "Postman / Thunder Client",
-                            descricao: "Herramientas para probar APIs REST de forma visual y práctica."
-                        },
-                        {
-                            nome: "Jest",
-                            descricao: "Biblioteca de pruebas para verificar si las funciones JavaScript son correctas."
-                        },
-                        {
-                            nome: "CI/CD",
-                            descricao: "Automatiza pruebas, compilaciones e implementaciones en cada push al repositorio (ej. GitHub Actions)."
-                        }
+                        // {
+                        //     nome: "Docker",
+                        //     descricao: "Entorno estandarizado para ejecutar aplicaciones en cualquier sistema sin conflictos."
+                        // },
+                        // {
+                        //     nome: "Postman / Thunder Client",
+                        //     descricao: "Herramientas para probar APIs REST de forma visual y práctica."
+                        // },
+                        // {
+                        //     nome: "Jest",
+                        //     descricao: "Biblioteca de pruebas para verificar si las funciones JavaScript son correctas."
+                        // },
+                        // {
+                        //     nome: "CI/CD",
+                        //     descricao: "Automatiza pruebas, compilaciones e implementaciones en cada push al repositorio (ej. GitHub Actions)."
+                        // }
                     ]
                 },
                 designUXUI: {
@@ -754,10 +800,10 @@ export const Textos = {
                             nome: "Figma",
                             descricao: "Herramienta colaborativa para crear prototipos y diseños responsivos."
                         },
-                        {
-                            nome: "Canva",
-                            descricao: "Creación rápida de gráficos para redes sociales, presentaciones e identidad visual."
-                        },
+                        // {
+                        //     nome: "Canva",
+                        //     descricao: "Creación rápida de gráficos para redes sociales, presentaciones e identidad visual."
+                        // },
                         {
                             nome: "Accesibilidad Web",
                             descricao: "Buenas prácticas para que personas con discapacidad puedan usar tu sitio."
@@ -778,17 +824,16 @@ export const Textos = {
                         {
                             nome: "Python (Pandas/Numpy)",
                             descricao: "Manipulación de datos, gráficos y procesamiento con código simple pero poderoso.",
-                            // icone:
-                            //     <i className="devicon-python-plain"></i>
+                            icone: <i className="devicon-python-plain"></i>
                         },
-                        {
-                            nome: "SQL",
-                            descricao: "Consultas en bases de datos relacionales para extraer y analizar información."
-                        },
-                        {
-                            nome: "Google Data Studio",
-                            descricao: "Plataforma de Google para crear paneles con datos conectados y gráficos interactivos."
-                        }
+                        // {
+                        //     nome: "SQL",
+                        //     descricao: "Consultas en bases de datos relacionales para extraer y analizar información."
+                        // },
+                        // {
+                        //     nome: "Google Data Studio",
+                        //     descricao: "Plataforma de Google para crear paneles con datos conectados y gráficos interactivos."
+                        // }
                     ]
                 },
                 automacoes: {
@@ -797,17 +842,16 @@ export const Textos = {
                         {
                             nome: "Python",
                             descricao: "Creación de scripts para automatizar tareas, descargar datos, enviar correos etc.",
-                            // icone:
-                            //     <i className="devicon-python-plain"></i>
+                            icone: <i className="devicon-python-plain"></i>
                         },
-                        {
-                            nome: "Selenium",
-                            descricao: "Automatiza acciones en navegadores, ideal para pruebas y scraping."
-                        },
-                        {
-                            nome: "Bots de WhatsApp / Telegram",
-                            descricao: "Integraciones con APIs de mensajería para responder automáticamente y ejecutar comandos."
-                        }
+                        // {
+                        //     nome: "Selenium",
+                        //     descricao: "Automatiza acciones en navegadores, ideal para pruebas y scraping."
+                        // },
+                        // {
+                        //     nome: "Bots de WhatsApp / Telegram",
+                        //     descricao: "Integraciones con APIs de mensajería para responder automáticamente y ejecutar comandos."
+                        // }
                     ]
                 },
                 outros: {
@@ -828,6 +872,14 @@ export const Textos = {
                         {
                             nome: "Hospedaje (Vercel / Netlify)",
                             descricao: "Publicación rápida y gratuita de sitios con integración con Git."
+                        },
+                        {
+                            nome: "Manutenção de PC's",
+                            descricao: "Concerto a parte física, o hardware e faço manutenções no software",
+                            icone:
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-laptop" viewBox="0 0 16 16">
+                                    <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5" />
+                                </svg>
                         }
                     ]
                 }
