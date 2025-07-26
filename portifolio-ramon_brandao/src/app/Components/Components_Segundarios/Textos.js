@@ -1,5 +1,3 @@
-// import { Textos } from "i18next";
-
 export const Textos = {
     pt: {
         nav: {

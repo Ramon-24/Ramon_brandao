@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import "./Config.css";
+import "../Components.css/TituloSecao.css";
 
 export function TituloSecao({ texto }) {
     const palavras = texto.split(" ");

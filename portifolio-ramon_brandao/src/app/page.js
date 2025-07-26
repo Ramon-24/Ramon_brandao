@@ -1,6 +1,6 @@
-import { Config } from "./Components/Config.js";
-import { Textos } from "../app/Components/Textos.js";
-import { useConfig } from "../app/Components/ConfigText.js";
+import { Config } from "../app/Components/Components_Segundarios/Config";
+import { Textos } from "./Components/Components_Segundarios/Textos.js";
+import { useConfig } from "./Components/Components_Segundarios/ConfigText.js";
 import { Hero } from "../app/Components/Hero.js";
 import { Sobre } from "../app/Components/Sobre.js";
 import { Linguagens } from "../app/Components/Linguagens.js";

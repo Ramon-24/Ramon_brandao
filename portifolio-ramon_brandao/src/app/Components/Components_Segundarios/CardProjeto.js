@@ -1,6 +1,6 @@
 // src/app/Components/CardProjeto.jsx
 import Image from "next/image";
-import "./Config.css";
+import "../Components.css/Projetos.css";
 
 export function CardProjeto({
   nome,

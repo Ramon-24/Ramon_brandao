@@ -1,0 +1,173 @@
+.filtro-btn {
+  padding: 0.6rem 1.5rem;
+  background-color: var(--cor-borda);
+  color: var(--texto-primario);
+  transition: all 0.3s ease;
+}
+
+.filtro-btn:hover {
+  background-color: var(--cor-primaria-2);
+  box-shadow: 0 1px 20px var(--cor-destaque);
+  transform: translateY(-3px);
+  color: white;
+}
+
+.filtro-btn.ativo {
+  background-color: var(--cor-secundaria, #00aaff);
+  color: white;
+  font-weight: bold;
+  box-shadow: var(--efeito-glow);
+  transform: scale(1.05);
+}
+
+.filtro-btn.ativo:hover {
+  background-color: var(--cor-primaria-2);
+  box-shadow: 0 1px 20px var(--cor-destaque);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Container principal do card */
+.cards {
+  background-color: var(--bg-card, #ffffff);
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  width: 320px;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  transition: transform 0.3s;
+}
+
+.cards:hover {
+  transform: translateY(-5px);
+}
+
+/* Imagem + status */
+.imagemContainer {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.cardProjet-imagem {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  object-fit: cover;
+}
+
+.spanCard {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background-color: var(--cor-destaque, #0070f3);
+  color: white;
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+/* Conteúdo do card */
+.card-conteudo {
+  padding: 1rem;
+  background: var(--bg-conteudo, #f8f8f8);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card-nome {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--texto-principal, #222);
+}
+
+.card-descricao {
+  font-size: 0.9rem;
+  color: var(--texto-secundario, #555);
+  margin-bottom: 0.5rem;
+}
+
+/* Tags de tecnologias */
+.card-tecnologias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag-card {
+  background-color: var(--tag-bg, #e6e6e6);
+  color: var(--tag-texto, #333);
+  padding: 0.3rem 0.7rem;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.Cardlinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  justify-content: flex-start;
+}
+
+.linkItem {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  background-color: var(--link-bg, #f2f2f2);
+  color: var(--cor-primaria, #0070f3);
+  padding: 6px 10px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  text-decoration: none;
+  font-weight: 500;
+  /* transition: background 0.2s ease-in-out; */
+  max-height: 32px;
+}
+
+.linkItem:hover {
+  background-color: var(--cor-primaria, #0070f3);
+  color: white;
+}
+
+.Cardsvg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1rem;
+  width: 1rem;
+}
+
+.nomeRede {
+  display: inline-block;
+  max-width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

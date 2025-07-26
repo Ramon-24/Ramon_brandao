@@ -1,5 +1,5 @@
 "use client";
-import "./Config.css";
+import "../Components.css/Linguagens.css";
 import { ItensDescricao } from "./ItensDescricao";
 
 export function GruposDestaque({ icone, titulo, itens }) {

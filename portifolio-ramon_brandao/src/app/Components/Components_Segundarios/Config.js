@@ -1,8 +1,8 @@
 "use client";
 import { useState, useEffect } from "react";
 import { useConfig } from "./ConfigText";
-import "./Config.css";
-import "../../app/globals.css";
+import "../Components.css/Config.css";
+// import "../../global.css";
 
 export function Config() {
     const { config, atualizarConfig } = useConfig();

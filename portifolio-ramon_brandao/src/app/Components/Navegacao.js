@@ -1,11 +1,10 @@
 "use client";
-import { useConfig } from "./ConfigText";
-import { Textos } from "./Textos";
+import { useConfig } from "./Components_Segundarios/ConfigText";
+import { Textos } from "./Components_Segundarios/Textos";
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { Config } from "./Config";
-import "./Config.css";
-// import "/LogoGuia"
+import { Config } from "./Components_Segundarios/Config";
+import "./Components.css/Navegacao.css";
 
 export function Navegacao() {
     const { config } = useConfig();

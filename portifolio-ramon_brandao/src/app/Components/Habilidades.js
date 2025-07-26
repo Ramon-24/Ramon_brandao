@@ -1,10 +1,10 @@
 "use client";
-import { useConfig } from "./ConfigText";
-import { Textos } from "./Textos";
+import { useConfig } from "./Components_Segundarios/ConfigText";
+import { Textos } from "./Components_Segundarios/Textos";
 import { useEffect, useState } from "react";
-import { Barras } from "./Barras"
-import { TituloSecao } from "./TituloSecao";
-import { GruposDestaque } from "./GruposDestaque";
+import { Barras } from "./Components_Segundarios/Barras"
+import { TituloSecao } from "./Components_Segundarios/TituloSecao";
+import { GruposDestaque } from "../Components/Components_Segundarios/GruposDestaque";
 import Image from 'next/image';
 
 

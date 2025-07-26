@@ -1,8 +1,8 @@
 "use client";
-import { useConfig } from "./ConfigText";
-import { Textos } from "./Textos";
+import { useConfig } from "./Components_Segundarios/ConfigText";
+import { Textos } from "./Components_Segundarios/Textos";
 import { useEffect, useState } from "react";
-import { Icons } from "./Icons";
+import { Icons } from "./Components_Segundarios/Icons";
 import Image from 'next/image';
 
 export function Hero() {

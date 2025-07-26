@@ -2,12 +2,12 @@
 "use client";
 
 import { useState } from "react";
-import { useConfig } from "./ConfigText";
-import { Textos } from "./Textos";
-import { TituloSecao } from "./TituloSecao";
-import { Barras } from "./Barras"
-import { CardProjeto } from "./CardProjeto";
-import "./Config.css";
+import { useConfig } from "./Components_Segundarios/ConfigText";
+import { Textos } from "./Components_Segundarios/Textos";
+import { TituloSecao } from "./Components_Segundarios/TituloSecao";
+import { Barras } from "./Components_Segundarios/Barras"
+import { CardProjeto } from "./Components_Segundarios/CardProjeto";
+import "../Components/Components.css/Projetos.css";
 
 export function Projetos() {
     const { config } = useConfig();
@@ -31,7 +31,7 @@ export function Projetos() {
                     alignItems: "center",
                     justifyContent: "center",
                     gap: "10px",
-                    padding: "0px 0px 70px 0px"
+                    padding: "0px 0px 30px 0px"
                 }}>
                 {t.filtros.map((cat) => (
                     <button

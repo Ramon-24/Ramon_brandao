@@ -1,10 +1,10 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { useConfig } from "./ConfigText";
-import { Textos } from "./Textos";
-import { TituloSecao } from "./TituloSecao";
-import { GruposDestaque } from "./GruposDestaque";
-import "./Config.css";
+import { useConfig } from "./Components_Segundarios/ConfigText";
+import { Textos } from "./Components_Segundarios/Textos";
+import { TituloSecao } from "./Components_Segundarios/TituloSecao";
+import { GruposDestaque } from "./Components_Segundarios/GruposDestaque";
+import "./Components.css/Config.css";
 
 export function Linguagens() {
   const { config } = useConfig();

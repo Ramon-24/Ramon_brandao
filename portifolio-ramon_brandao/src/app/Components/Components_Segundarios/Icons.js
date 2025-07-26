@@ -1,8 +1,8 @@
-
 "use client";
 import { useConfig } from "./ConfigText";
 import { Textos } from "./Textos";
 import { useEffect, useState } from "react";
+import "../Components.css/Icons.css"
 
 export function Icons() {
 

@@ -1,5 +1,5 @@
 "use client";
-import "./Config.css";
+import "../Components.css/Linguagens.css";
 
 export function ItensDescricao({ icone, nome, descricao }) {
   return (

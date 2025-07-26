@@ -1,6 +1,6 @@
 import './globals.css'
-import { Config } from "./Components/Config.js";
-import { ConfigProvider } from "../app/Components/ConfigText"
+import { Config } from "../app/Components/Components_Segundarios/Config";
+import { ConfigProvider } from "./Components/Components_Segundarios/ConfigText"
 
 export const metadata = {
   title: "Ramon Brandão",

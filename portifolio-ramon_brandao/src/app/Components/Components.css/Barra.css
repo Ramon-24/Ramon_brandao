@@ -1,0 +1,17 @@
+.barra-container {
+  display: inline-block;
+  background-color: var(--cor-primaria-2, #6BB7FF);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  font-size: 0.875rem;
+  margin-right: 0.75rem;
+  margin-bottom: 0.75rem;
+  transition: all 0.3s ease;
+  box-shadow: var(--efeito-sm);
+}
+
+.barra-container:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0px 6px var(--cor-destaque);
+}
