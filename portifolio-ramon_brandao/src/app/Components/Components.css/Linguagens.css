@@ -2,9 +2,7 @@
   position: relative;
   overflow: hidden;
   padding: 0 80px;
-  /* as "bordas invisíveis" */
   background-color: var(--cor-fundo);
-  /* mesma cor do site */
 }
 
 .linguagens-scroll {

@@ -6,6 +6,7 @@ import { Barras } from "./Components_Segundarios/Barras"
 import { TituloSecao } from "./Components_Segundarios/TituloSecao";
 import { GruposDestaque } from "../Components/Components_Segundarios/GruposDestaque";
 import Image from 'next/image';
+import "./Components.css/Habilidades.css"
 
 
 export function Habilidades() {
@@ -31,11 +32,13 @@ export function Habilidades() {
 
     if (!t) return null;
     return (
-        <section className="linguagens">
+        <section className="habilidades">
             <TituloSecao texto={t.titulo} />
-            <div className="linguagens-scroll0">
-                <div className="linguagens-scroll">
-                    <div className="item-card">
+            <div className="habilidades-scroll-cards">
+                <div className="habilidades-scroll">
+
+
+                    <div className="habilidade-card">
                         <div className="item-header">
                             <div className="item-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-brush-fill" viewBox="0 0 16 16">
@@ -44,15 +47,16 @@ export function Habilidades() {
                             </div>
                             <h3 className="item-nome">{t.frontend.titulo}</h3>
                         </div>
-                        <div>
-                            <h4>{t.frontend.descricao}</h4>
+                        <div className="descricao-Habilidades">
+                            <p>{t.frontend.descricao}</p>
                         </div>
                         <div>
                             <Barras texto={t.frontend.itens} />
                         </div>
                     </div>
 
-                    <div className="item-card">
+
+                    <div className="habilidade-card">
                         <div className="item-header">
                             <div className="item-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-hdd-stack" viewBox="0 0 16 16">
@@ -63,14 +67,16 @@ export function Habilidades() {
                             </div>
                             <h3 className="item-nome">{t.backend.titulo}</h3>
                         </div>
-                        <div>
-                            <h4>{t.backend.descricao}</h4>
+                        <div className="descricao-Habilidades">
+                            <p>{t.backend.descricao}</p>
                         </div>
                         <div>
                             <Barras texto={t.backend.itens} />
                         </div>
                     </div>
-                    <div className="item-card">
+
+
+                    <div className="habilidade-card">
                         <div className="item-header">
                             <div className="item-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-tools" viewBox="0 0 16 16">
@@ -79,14 +85,16 @@ export function Habilidades() {
                             </div>
                             <h3 className="item-nome">{t.ferramentas.titulo}</h3>
                         </div>
-                        <div>
-                            <h4>{t.ferramentas.descricao}</h4>
+                        <div className="descricao-Habilidades">
+                            <p>{t.ferramentas.descricao}</p>
                         </div>
                         <div>
                             <Barras texto={t.ferramentas.itens} />
                         </div>
                     </div>
-                    <div className="item-card">
+
+
+                    <div className="habilidade-card">
                         <div className="item-header">
                             <div className="item-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-lightbulb" viewBox="0 0 16 16">
@@ -95,13 +103,15 @@ export function Habilidades() {
                             </div>
                             <h3 className="item-nome">{t.outros.titulo}</h3>
                         </div>
-                        <div>
-                            <h4>{t.outros.descricao}</h4>
+                        <div className="descricao-Habilidades">
+                            <p>{t.outros.descricao}</p>
                         </div>
                         <div>
                             <Barras texto={t.outros.itens} />
                         </div>
                     </div>
+
+
                 </div>
             </div>
         </section>

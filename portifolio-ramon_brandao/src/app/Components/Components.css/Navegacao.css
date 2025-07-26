@@ -1,23 +1,31 @@
 .nav {
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 2rem;
   background: var(--fundo-card);
   box-shadow: var(--efeito-glow);
+  width: 100vw;
+  z-index: 1;
 }
 
 .nav-esquerda {
+  padding-left: 75px;
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--primary-dark);
   display: flex;
-  flex-direction: row;
-  padding-left: 50px;
-  gap: 8px;
-  font-size: 20px;
-  font-weight: bolder;
-  font-weight: 900;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  gap: 5px;
+
 }
 
+.nav-esquerda:hover {
+  transform: scale(1.05);
+}
 .logo1 {
   color: var(--cor-secundaria);
 }
@@ -26,6 +34,11 @@
   color: var(--cor-destaque);
 }
 
+
+
+
+
+
 .nav-direita {
   display: flex;
   align-items: center;
@@ -33,12 +46,12 @@
 }
 
 .links {
-  font-weight: 700;
-  color: var(--texto-primario);
   font-size: 16px;
-  padding-left: 10px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  position: relative;
+  color: var(--text-color);
   text-decoration: none;
-  transition: 0.2s;
 }
 
 .links:hover {
@@ -46,3 +59,17 @@
   transform: translateY(-2px);
 }
 
+.links::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--cor-primaria-2);
+  transition: all 0.5s ease;
+}
+
+.links:hover::after {
+  width: 100%;
+}

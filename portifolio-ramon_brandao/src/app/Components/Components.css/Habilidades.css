@@ -29,30 +29,40 @@
     --efeito-glow: 0 10px 20px rgba(68, 161, 242, 0.3);
 }
 
-.titulo-secao {
-  padding-top: 100px;
-  text-align: center;
-  margin-bottom: 2rem;
+
+.habilidades-scroll-cards {
+    position: relative;
+    overflow: hidden;
+    padding: 0px 65px 0px 50px;
+    background-color: var(--cor-fundo);
 }
 
-.titulo-secao h2 {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
+.habilidades-scroll {
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
 }
 
-.texto-normal {
-  color: var(--texto-primario);
+.habilidade-card {
+    background-color: var(--fundo-card);
+    box-shadow: var(--efeito-lg);
+    border-radius: 16px;
+    padding: 20px;
 }
 
-.texto-destaque {
-  color: var(--cor-secundaria, #00aaff);
+.habilidade-card:hover {
+    background: var(--fundo-destaque);
+    box-shadow: var(--cor-primaria-4);
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+    transform: translateY(-5px);
 }
 
-.linha-embaixo {
-  width: 60px;
-  height: 4px;
-  margin: 0 auto;
-  background-color: var(--cor-secundaria, #00aaff);
-  border-radius: 2px;
+.descricao-Habilidades {
+    font-size: 14px;
+    padding: 6px 16px 30px 6px;
+    text-align: justify;
+    color: var(--texto-secundario, #555);
 }

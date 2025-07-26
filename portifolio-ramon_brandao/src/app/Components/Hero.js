@@ -4,6 +4,7 @@ import { Textos } from "./Components_Segundarios/Textos";
 import { useEffect, useState } from "react";
 import { Icons } from "./Components_Segundarios/Icons";
 import Image from 'next/image';
+import "./Components.css/Hero.css"
 
 export function Hero() {
     const { config } = useConfig();
@@ -35,7 +36,8 @@ export function Hero() {
             style={{
                 display: "flex",
                 flexDirection: "row",
-                justifyContent: "space-between"
+                justifyContent: "space-around",
+                paddingTop: "140px"
             }}>
 
             <div className="container">

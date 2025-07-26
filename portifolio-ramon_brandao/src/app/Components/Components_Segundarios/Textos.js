@@ -296,7 +296,6 @@ export const Textos = {
                     "Bootstrap",
                     "Responsive Design",
                     "Tailwind CSS",
-                    "SASS/SCSS"
                 ]
             },
             backend: {
@@ -307,10 +306,7 @@ export const Textos = {
                     "Express",
                     "Python",
                     "MySQL",
-                    "RESTful APIs",
-                    "MongoDB",
-                    "PostgreSQL",
-                    "Firebase"
+                    "Supabase"
                 ]
             },
             ferramentas: {
@@ -322,22 +318,18 @@ export const Textos = {
                     "Figma",
                     "NPM/Yarn",
                     "Thunder Client",
-                    "Postman",
-                    "Docker",
-                    "Jest"
                 ]
             },
             outros: {
                 titulo: "Outros",
                 descricao: "Tenho conhecimentos adicionais que reforçam meu perfil versátil como desenvolvedor full stack. Compreendo design, análise de dados, automações, manutenção de hardware e mais.",
                 itens: [
-                    "UI/UX Design",
                     "Automação",
+                    "Markdown",
+                    "Hospedagem (Vercel)",
                     "Excel",
                     "Análise de Dados",
-                    "Markdown",
-                    "Hospedagem (Vercel / Netlify)",
-                    "Manutenção de PCs"
+                    "Manutenção de PC"
                 ]
             }
         },
