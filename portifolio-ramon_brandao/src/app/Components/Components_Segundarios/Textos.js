@@ -340,37 +340,73 @@ export const Textos = {
                 {
                     nome: "DevConnect",
                     descricao: "Rede social para devs interagirem com código e conteúdo.",
-                    status: "Individual",
+                    status: "Equipe",
                     categoria: "Web",
+                    imagem: "Eu.jpg", // Caminho da imagem
                     tecnologias: ["Next.js", "MongoDB", "Tailwind CSS"],
+                    links: [
+                        {
+                            nome: "Repositório",
+                            url: "https://github.com/seu-usuario/devconnect",
+                            svg: <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                </svg>
+                        },
+                        {
+                            nome: "Demo",
+                            url: "https://devconnect.vercel.app",
+                            svg: <i className="devicon-figma-plain" />
+                        }
+                    ]
                 },
                 {
                     nome: "FitTrack",
-                    descricao: "Aplicativo mobile para acompanhar treinos, calorias e metas de condicionamento físico.",
-                    tecnologias: ["Flutter", "Firebase", "Dart"],
+                    descricao: "App mobile para treinos, calorias e metas de condicionamento físico.",
+                    status: "Equipe",
                     categoria: "Mobile",
+                    imagem: "Eu.jpg",
+                    tecnologias: ["Flutter", "Firebase", "Dart"],
+                    links: [
+                        {
+                            nome: "Repositório",
+                            url: "https://github.com/seu-usuario/fittrack",
+                            svg: <i className="devicon-figma-plain" />
+                        }
+                    ]
                 },
                 {
                     nome: "AutoZap Bot",
-                    descricao: "Bot automatizado para envio de mensagens em massa via WhatsApp com painel de controle.",
-                    tecnologias: ["Node.js", "Puppeteer", "Express"],
+                    descricao: "Bot para envio de mensagens em massa via WhatsApp.",
+                    status: "Individual",
                     categoria: "Outros",
+                    imagem: "Eu.jpg",
+                    tecnologias: ["Node.js", "Puppeteer", "Express"],
+                    links: [
+                        {
+                            nome: "Repositório",
+                            url: "https://github.com/seu-usuario/autozap-bot",
+                            svg: <i className="devicon-figma-plain" />
+                        }
+                    ]
                 },
                 {
                     nome: "SchoolManager",
                     descricao: "Sistema de gerenciamento de alunos, notas e turmas para escolas de ensino médio técnico.",
+                    status: "Equipe",
                     tecnologias: ["React", "MySQL", "Node.js", "Express"],
                     categoria: "Web",
                 },
                 {
                     nome: "CineSort",
                     descricao: "Sorteador de filmes com base em categorias para assistir com amigos.",
+                    status: "Individual",
                     tecnologias: ["React Native", "Expo", "Firebase"],
                     categoria: "Mobile",
                 },
                 {
                     nome: "DashPro",
                     descricao: "Dashboard analítico com gráficos, filtros e tabelas dinâmicas para visualização de dados.",
+                    status: "Equipe",
                     tecnologias: ["Python", "Plotly", "Pandas"],
                     categoria: "Outros",
                 }

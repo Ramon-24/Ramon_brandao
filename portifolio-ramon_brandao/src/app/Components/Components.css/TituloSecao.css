@@ -38,7 +38,7 @@
 .titulo-secao h2 {
   font-size: 2rem;
   font-weight: bold;
-  margin-bottom: 0.5rem;
+  /* margin-bottom: 0.5rem; */
 }
 
 .texto-normal {
@@ -54,5 +54,5 @@
   height: 4px;
   margin: 0 auto;
   background-color: var(--cor-secundaria, #00aaff);
-  border-radius: 2px;
+  /* border-radius: 2px; */
 }

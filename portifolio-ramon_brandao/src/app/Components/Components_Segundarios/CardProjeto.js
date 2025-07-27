@@ -11,27 +11,37 @@ export function CardProjeto({
   links = [],
   classe = ""
 }) {
+  const statusClass =
+    status === "Individual"
+    ? "status-individual"
+    : status === "Equipe"
+      ? "status-equipe"
+      : "status-padrao";
+
   return (
     <div className={`cards ${classe}`}>
       <div className="imagemContainer">
         <Image
-          src={imagem}
+          src= "/Eu.jpg"
           alt={`Imagem do projeto ${nome}`}
           width={500}
           height={300}
           className="cardProjet-imagem"
         />
-        {status && <span className="spanCard">{status}</span>}
+        {status && (
+          <span
+             className={`spanCard ${statusClass}`}
+          >
+            {status}
+          </span>
+        )}
       </div>
 
       <div className="card-conteudo">
         <h3 className="card-nome">{nome}</h3>
         <p className="card-descricao">{descricao}</p>
 
-        {/* Agora usamos o componente de barra diretamente como prop */}
-        <div className="card-tecnologias">
-          {tecnologiasBarra}
-        </div>
+        <div className="card-tecnologias">{tecnologiasBarra}</div>
 
         {links.length > 0 && (
           <div className="Cardlinks">
