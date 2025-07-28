@@ -1,36 +1,105 @@
+:root {
+  /* Cores primárias */
+  --color-primary-1: #4D5673;
+  --color-primary-2: #44A1F2;
+  --color-primary-3: #6BB7FF;
+  --color-primary-4: #B0D6FF;
+
+  /* Cores secundárias */
+  --color-secondary-1: #0D0D0D;
+  --color-secondary-2: #5A5A5A;
+  --color-secondary-3: #D9D9D9;
+  --color-secondary-4: #F2F2F2;
+
+  /* Cores de texto */
+  --color-text-primary: #333333;
+  --color-text-secondary: #5a5a5a;
+  --color-text-tertiary: #777777;
+
+  /* Cores de fundo */
+  --color-background: #F5F7FA;
+  --color-card-background: #FFFFFF;
+
+  /* Cores de destaque */
+  --color-accent: #44A1F2;
+  --color-accent-background: #E1F0FF;
+
+  /* Cores de borda */
+  --color-border: #E0E5EB;
+
+  /* Efeitos e sombras */
+  --effect-sm: 0 1px 3px rgba(68, 161, 242, 0.12);
+  --effect-md: 0 4px 6px rgba(68, 161, 242, 0.16);
+  --effect-lg: 0 10px 15px rgba(68, 161, 242, 0.2);
+  --effect-glow: 0 0 15px rgba(68, 161, 242, 0.3);
+}
+
+
+
+
+
+
 /**
- * BOTÕES DE FILTRO
- * 
- * Estilização para botões de filtro com:
- * - Estados normal, hover e ativo
- * - Transições suaves
- * - Efeitos visuais
- */
+* BOTÕES DE FILTRO
+* 
+* Estilização para botões de filtro com:
+* - Estados normal, hover e ativo
+* - Transições suaves
+* - Efeitos visuais
+*/
 .filtro-btn {
   padding: 0.6rem 1.5rem;
-  background-color: var(--color-border); /* Cor de borda como fundo padrão */
-  color: var(--color-text-secondary); /* Texto secundário */
+  background-color: var(--color-border);
+  /* Cor de borda como fundo padrão */
+  color: var(--color-text-secondary);
+  /* Texto secundário */
   transition: all 0.5s ease;
   border: none;
   border-radius: 20px;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
 }
 
 /* Estado hover */
 .filtro-btn:hover {
-  background-color: var(--color-primary-2); /* Azul médio */
-  box-shadow: 0 2px 8px var(--color-primary-4); /* Sombra azul clara */
+  background-color: var(--color-primary-2);
+  /* Azul médio */
+  box-shadow: 0 2px 8px var(--color-primary-4);
+  /* Sombra azul clara */
   transform: translateY(-3px);
   color: white;
 }
 
+.filtro-btn.in-view {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+}
+
+.filtro-btn:nth-child(1) {
+  transition-delay: 0.1s;
+}
+
+.filtro-btn:nth-child(2) {
+  transition-delay: 0.2s;
+}
+
+.filtro-btn:nth-child(3) {
+  transition-delay: 0.3s;
+}
+
+.filtro-btn:nth-child(4) {
+  transition-delay: 0.4s;
+}
+
 /* Estado ativo/selecionado */
 .filtro-btn.ativo {
-  background-color: var(--color-secondary-2); /* Cor secundária */
+  background-color: var(--color-primary-2);
+  /* Cor secundária */
   color: white;
   font-weight: 600;
-  box-shadow: var(--effect-glow); /* Efeito glow */
+  box-shadow: var(--effect-glow);
+  /* Efeito glow */
   transform: scale(1.05);
 }
 
@@ -53,15 +122,18 @@
  * Cores para diferentes status de projetos
  */
 .status-individual {
-  background-color: var(--color-primary-2); /* Azul médio */
+  background-color: var(--color-primary-2);
+  /* Azul médio */
 }
 
 .status-equipe {
-  background-color: var(--color-primary-3); /* Azul mais claro */
+  background-color: var(--color-primary-3);
+  /* Azul mais claro */
 }
 
 .status-padrao {
-  background-color: var(--color-primary-4); /* Azul muito claro */
+  background-color: var(--color-primary-4);
+  /* Azul muito claro */
 }
 
 
@@ -76,7 +148,7 @@
   position: relative;
   overflow: hidden;
   padding: 0 65px 0 50px;
-  background-color: var(--color-background);
+  background-color: var(--color-card-background);
 }
 
 /**
@@ -90,7 +162,8 @@
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   padding: 25px 12px;
-  scrollbar-width: none; /* Esconde scrollbar no Firefox */
+  scrollbar-width: none;
+  /* Esconde scrollbar no Firefox */
 }
 
 /* Esconde scrollbar no Chrome/Safari */
@@ -127,9 +200,9 @@
   box-shadow: var(--effect-lg);
   border: 2px solid var(--color-primary-2);
   z-index: 2;
-  transition: transform 0.5s cubic-bezier(.4, 0, .2, 1), 
-              box-shadow 0.5s cubic-bezier(.4, 0, .2, 1), 
-              border 0.5s cubic-bezier(.4, 0, .2, 1);
+  transition: transform 0.5s cubic-bezier(.4, 0, .2, 1),
+    box-shadow 0.5s cubic-bezier(.4, 0, .2, 1),
+    border 0.5s cubic-bezier(.4, 0, .2, 1);
 }
 
 /**
@@ -259,7 +332,7 @@
     max-width: 90vw;
     width: 90vw;
   }
-  
+
   .Projetos-scroll {
     padding: 0 20px;
   }

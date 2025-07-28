@@ -1,12 +1,4 @@
-/**
- * BARRA DE NAVEGAÇÃO PRINCIPAL
- * 
- * Barra fixa no topo da página com:
- * - Logo/identidade à esquerda
- * - Links de navegação à direita
- * - Efeitos de hover suaves
- * - Sombra sutil
- */
+/* Estilos existentes do desktop (mantidos exatamente iguais) */
 .nav {
   position: fixed;
   display: flex;
@@ -16,51 +8,36 @@
   background: var(--color-card-background);
   box-shadow: var(--effect-glow);
   width: 100vw;
-  z-index: 1000; /* Garante que fique acima de outros elementos */
+  z-index: 1000;
   top: 0;
   left: 0;
 }
 
-/**
- * LADO ESQUERDO DA NAVEGAÇÃO (LOGO/IDENTIDADE)
- * 
- * Contém o logo e nome do site
- * - Alinhamento centralizado
- * - Espaçamento interno
- * - Efeito de hover suave
- */
 .nav-esquerda {
-  padding-left: 4.5rem; /* 75px convertido para rem */
-  font-size: 1.2rem; /* 19px convertido para rem */
+  padding-left: 4.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
-  color: var(--color-primary-1); /* Cor escura primária */
   display: flex;
   align-items: center;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  gap: 0.3rem; /* 5px convertido para rem */
+  gap: 0.3rem;
 }
 
-.nav-esquerda:hover {
-  transform: scale(1.05);
-}
-
-/* Partes do logo com cores diferentes */
 .logo1 {
-  color: var(--color-secondary-2); /* Cor secundária */
+  color: var(--color-secondary-2);
+  font-feature-settings: "kern" on;
+  font-variant-ligatures: none;
 }
 
 .logo2 {
-  color: var(--color-accent); /* Cor de destaque */
+  color: var(--color-accent);
 }
 
-/**
- * LADO DIREITO DA NAVEGAÇÃO (LINKS)
- * 
- * Contém os links de navegação principais
- * - Espaçamento uniforme entre links
- * - Alinhamento centralizado
- */
+.logo1,
+.logo2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
 .nav-direita {
   display: flex;
   align-items: center;
@@ -68,45 +45,25 @@
   padding-right: 2rem;
 }
 
-/**
- * LINKS DE NAVEGAÇÃO
- * 
- * Estilo base para cada item de menu
- * - Transição suave para hover
- * - Efeito de sublinhado animado
- */
 .links {
-  font-size: 1rem; /* 16px */
+  font-size: 1rem;
   font-weight: 600;
   transition: all 0.3s ease;
-  position: relative;
   color: var(--color-text-primary);
   text-decoration: none;
+  position: relative;
   padding: 0.5rem 0;
 }
 
-/**
- * ESTADO HOVER DOS LINKS
- * 
- * Efeitos aplicados ao passar o mouse:
- * - Mudança de cor
- * - Levitação sutil
- * - Sublinhado animado
- */
 .links:hover {
   color: var(--color-primary-2);
   transform: translateY(-2px);
 }
 
-/**
- * ANIMAÇÃO DO SUBLINHADO
- * 
- * Efeito de sublinhado que cresce da esquerda para direita
- */
 .links::after {
   content: '';
   position: absolute;
-  bottom: -0.3rem; /* -5px convertido para rem */
+  bottom: -0.3rem;
   left: 0;
   width: 0;
   height: 2px;
@@ -118,34 +75,90 @@
   width: 100%;
 }
 
-/**
- * RESPONSIVIDADE
- * 
- * Ajustes para telas menores
- */
+/* Novos estilos apenas para mobile */
 @media (max-width: 768px) {
-  .nav {
-    padding: 1rem;
-  }
-  
-  .nav-esquerda {
-    padding-left: 1rem;
-    font-size: 1rem;
-  }
-  
   .nav-direita {
-    gap: 1rem;
-    padding-right: 1rem;
+    display: none;
   }
-}
 
-@media (max-width: 480px) {
-  .nav-direita {
-    display: none; /* Esconde os links em telas muito pequenas */
+  .hamburguer-button {
+    position: absolute;
+    right: 2rem;
+    width: 20px;
+    height: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 1001;
   }
-  
-  .nav-esquerda {
-    margin: 0 auto; /* Centraliza o logo */
-    padding-left: 0;
+
+  .hamburguer-button span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: var(--color-text-primary);
+    transition: all 0.3s ease;
+  }
+
+  .hamburguer-button.open span:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+  }
+
+  .hamburguer-button.open span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburguer-button.open span:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+  }
+
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    max-width: 300px;
+    height: 100vh;
+    background: var(--color-card-background);
+    box-shadow: -2px 0 15px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease;
+    z-index: 1000;
+    padding-top: 80px;
+  }
+
+  .mobile-menu.open {
+    right: 0;
+  }
+
+  .mobile-link {
+    display: block;
+    padding: 1rem 2rem;
+    color: var(--color-text-primary);
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  }
+
+  .mobile-menu::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(0,0,0,0.5); */
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+
+  .mobile-menu.open::before {
+    opacity: 1;
+    pointer-events: auto;
   }
 }

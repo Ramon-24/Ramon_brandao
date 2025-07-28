@@ -7,7 +7,7 @@
  */
 .habilidades-scroll-cards {
     position: relative;
-    /* overflow: hidden; */
+    overflow-x: auto;
     padding: 0 65px 0 50px;
     background-color: var(--color-background);
 }
@@ -21,11 +21,11 @@
  * - Scroll snap para melhor experiência mobile
  */
 .habilidades-scroll {
-    padding: 20px 0;
     display: flex;
-    gap: 15px;
-    overflow-x: visible;
+    gap: 4px;
+    overflow-x: auto;
     scroll-snap-type: x mandatory;
+    padding: 20px 0;
     scrollbar-width: none;
     /* Esconde a barra de scroll no Firefox */
     -ms-overflow-style: none;
@@ -47,11 +47,13 @@
  * - Transição suave para efeitos hover
  */
 .habilidade-card {
+    max-width: 336px; 
     min-width: 250px;
     background-color: var(--color-card-background);
     box-shadow: var(--effect-lg);
     border-radius: 16px;
     padding: 20px;
+    margin-left: 10px;
     scroll-snap-align: start;
     transition: all 0.3s ease;
     cursor: pointer;
