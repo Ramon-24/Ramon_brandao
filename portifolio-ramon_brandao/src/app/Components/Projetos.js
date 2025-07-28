@@ -30,7 +30,7 @@ export function Projetos() {
                     padding: "0.6rem 1.5rem",
                     border: "none",
                     outline: "none",
-                    gap: "15px",
+                    gap: "12px",
                     borderRadius: "20px"
                 }}>
                 {t.filtros.map((botao) => (

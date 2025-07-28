@@ -342,7 +342,7 @@ export const Textos = {
                     descricao: "Rede social para devs interagirem com código e conteúdo.",
                     status: "Equipe",
                     categoria: "Web",
-                    imagem: "Eu.jpg", // Caminho da imagem
+                    imagem: "/Eu.jpg", // Caminho da imagem
                     tecnologias: ["Next.js", "MongoDB", "Tailwind CSS"],
                     links: [
                         {
@@ -364,7 +364,7 @@ export const Textos = {
                     descricao: "App mobile para treinos, calorias e metas de condicionamento físico.",
                     status: "Equipe",
                     categoria: "Mobile",
-                    imagem: "Eu.jpg",
+                    imagem: "/Eu.jpg",
                     tecnologias: ["Flutter", "Firebase", "Dart"],
                     links: [
                         {
@@ -379,7 +379,7 @@ export const Textos = {
                     descricao: "Bot para envio de mensagens em massa via WhatsApp.",
                     status: "Individual",
                     categoria: "Outros",
-                    imagem: "Eu.jpg",
+                    imagem: "/Eu.jpg",
                     tecnologias: ["Node.js", "Puppeteer", "Express"],
                     links: [
                         {

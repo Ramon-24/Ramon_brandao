@@ -1,188 +1,217 @@
-:root {
-  /* Variáveis genéricas - serão sobrescritas pelas classes de paleta */
-  --cor-primaria-1: #4D5673;
-  --cor-primaria-2: #44A1F2;
-  --cor-primaria-3: #6BB7FF;
-  --cor-primaria-4: #B0D6FF;
-
-  --cor-secundaria-1: #0D0D0D;
-  --cor-secundaria-2: #5A5A5A;
-  --cor-secundaria-3: #D9D9D9;
-  --cor-secundaria-4: #F2F2F2;
-
-  --texto-primario: #333333;
-  --texto-secundario: #5a5a5a;
-  --texto-terciario: #777777;
-
-  --fundo: #F5F7FA;
-  --fundo-card: #FFFFFF;
-
-  --cor-destaque: #44A1F2;
-  --fundo-destaque: #E1F0FF;
-  --fundo-destaques: #32333339;
-
-  --cor-borda: #E0E5EB;
-
-  --efeito-sm: 0 1px 3px rgba(68, 161, 242, 0.12);
-  --efeito-md: 0 4px 6px rgba(68, 161, 242, 0.16);
-  --efeito-lg: 0 10px 15px rgba(68, 161, 242, 0.2);
-  --efeito-glow: 0 10px 20px rgba(68, 161, 242, 0.3);
-}
-
-
+/**
+ * BOTÕES DE FILTRO
+ * 
+ * Estilização para botões de filtro com:
+ * - Estados normal, hover e ativo
+ * - Transições suaves
+ * - Efeitos visuais
+ */
 .filtro-btn {
   padding: 0.6rem 1.5rem;
-  background-color: var(--cor-borda);
-  color: var(--texto-primario);
-  transition: all 0.3s ease;
+  background-color: var(--color-border); /* Cor de borda como fundo padrão */
+  color: var(--color-text-secondary); /* Texto secundário */
+  transition: all 0.5s ease;
   border: none;
   border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
 }
 
+/* Estado hover */
 .filtro-btn:hover {
-  background-color: var(--cor-primaria-2);
-  box-shadow: 0 1px 20px var(--cor-destaque);
+  background-color: var(--color-primary-2); /* Azul médio */
+  box-shadow: 0 2px 8px var(--color-primary-4); /* Sombra azul clara */
   transform: translateY(-3px);
   color: white;
 }
 
+/* Estado ativo/selecionado */
 .filtro-btn.ativo {
-  background-color: var(--cor-secundaria, #00aaff);
+  background-color: var(--color-secondary-2); /* Cor secundária */
   color: white;
-  font-weight: bold;
-  box-shadow: var(--efeito-glow);
+  font-weight: 600;
+  box-shadow: var(--effect-glow); /* Efeito glow */
   transform: scale(1.05);
 }
 
+/* Hover no estado ativo */
 .filtro-btn.ativo:hover {
-  background-color: var(--cor-primaria-2);
-  box-shadow: 0 1px 20px var(--cor-destaque);
+  box-shadow: 0 2px 8px var(--color-primary-4);
+  background-color: var(--color-primary-2);
 }
 
+/* Foco para acessibilidade */
+.filtro-btn:focus,
+.linkItem:focus {
+  outline: 2px solid var(--color-primary-2);
+  outline-offset: 2px;
+}
 
+/**
+ * STATUS INDICATORS
+ * 
+ * Cores para diferentes status de projetos
+ */
 .status-individual {
-  background-color: var(--cor-primaria-2, #6BB7FF);
+  background-color: var(--color-primary-2); /* Azul médio */
 }
+
 .status-equipe {
-  background-color: var(--cor-primaria-3, #6BB7FF);
+  background-color: var(--color-primary-3); /* Azul mais claro */
 }
+
 .status-padrao {
-  background-color: var(--cor-primaria-4, #6BB7FF);
+  background-color: var(--color-primary-4); /* Azul muito claro */
 }
 
 
+
+
+/**
+ * CONTAINER PRINCIPAL DE PROJETOS
+ * 
+ * Área que contém os cards roláveis de projetos
+ */
 .Projetos-scroll {
   position: relative;
   overflow: hidden;
-  padding: 0px 65px 0px 50px;
-  background-color: var(--cor-fundo);
+  padding: 0 65px 0 50px;
+  background-color: var(--color-background);
 }
 
+/**
+ * CONTAINER DE SCROLL
+ * 
+ * Área rolável horizontal com os cards
+ */
 .projeto-scroll {
   display: flex;
-  gap: 20px;
+  gap: 24px;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  padding: 25px 0px 25px 0px;
+  padding: 25px 12px;
+  scrollbar-width: none; /* Esconde scrollbar no Firefox */
 }
 
+/* Esconde scrollbar no Chrome/Safari */
 .projeto-scroll::-webkit-scrollbar {
   display: none;
 }
 
-.projeto-scroll::-webkit-scrollbar-thumb {
-  background: var(--cor-primaria-2);
-  border-radius: 4px;
+/* Centraliza quando há apenas um card */
+.projeto-scroll:only-child,
+.projeto-scroll:has(.cards:only-child) {
+  justify-content: center;
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Container principal do card */
+/**
+ * CARD DE PROJETO
+ * 
+ * Container para cada projeto individual
+ */
 .cards {
   min-width: 360px;
+  max-width: 360px;
+  width: 360px;
   border-radius: 20px;
-  transition: transform 0.3s;
-  background-color: var(--fundo-card);
-  box-shadow: var(--efeito-md);
-  transition: all 0.3s ease;
-  /* border: 1px solid var(--cor-destaque); */
+  transition: all 0.5s ease;
+  position: relative;
 }
 
+/* Efeito hover no card */
 .cards:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--efeito-lg);
-  border-color: var(--cor-primaria-3);
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: var(--effect-lg);
+  border: 2px solid var(--color-primary-2);
+  z-index: 2;
+  transition: transform 0.5s cubic-bezier(.4, 0, .2, 1), 
+              box-shadow 0.5s cubic-bezier(.4, 0, .2, 1), 
+              border 0.5s cubic-bezier(.4, 0, .2, 1);
 }
 
+/**
+ * CONTAINER DE IMAGEM
+ */
 .imagemContainer {
   overflow: hidden;
   position: relative;
   height: 240px;
+  border-radius: 20px 20px 0 0;
 }
 
 .cardProjet-imagem {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
   width: 100%;
   height: 100%;
   transition: transform 0.5s ease;
-  /* object-fit: cover; */
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
 }
 
+/* Efeito zoom na imagem ao hover */
+.cards:hover .cardProjet-imagem {
+  transform: scale(1.07);
+  transition: transform 0.5s cubic-bezier(.4, 0, .2, 1);
+}
+
+/**
+ * BADGE DE STATUS
+ */
 .spanCard {
   position: absolute;
   font-size: 0.85rem;
   top: 12px;
-  color: white;
   right: 1rem;
+  color: white;
   font-weight: 600;
   padding: 0.3rem 1rem;
-  /* background-color: var(--cor-primaria-2, #6BB7FF); */
   border-radius: 50px;
-  transition: all 0.3s ease; 
+  transition: all 0.5s ease;
 }
 
-/* Conteúdo do card */
+/**
+ * CONTEÚDO DO CARD
+ */
 .card-conteudo {
   display: flex;
   flex-direction: column;
-  background: var(--fundo-card, #ffffff);
-  padding: 2rem 1.5rem 2rem 1.5rem;
+  background: var(--color-card-background);
+  padding: 2rem 1.5rem;
   gap: 0.5rem;
-  flex-grow: 1;
-
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-radius: 0 0 20px 20px;
 }
 
 .card-nome {
   font-size: 1.4rem;
-  color: var(--texto-primario, #222); 
-  transition: all 0.3s ease;
+  color: var(--color-text-primary);
+  transition: all 0.5s ease;
 }
 
 .card-descricao {
   font-size: 1rem;
-  color: var(--texto-secundario, #555);
+  color: var(--color-text-secondary);
   margin-bottom: 1.2rem;
 }
 
+/* Efeito hover no texto */
+.cards:hover .card-nome,
+.cards:hover .card-descricao {
+  color: var(--color-primary-2);
+  transition: color 0.5s;
+}
 
-.Cardlinks {  
+/**
+ * LINKS E TECNOLOGIAS
+ */
+.barras-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.Cardlinks {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -193,17 +222,16 @@
 .linkItem {
   gap: 0.15rem;
   display: flex;
-  color: var(--cor-primaria-3, #0070f3);
+  color: var(--color-primary-3);
   align-items: center;
   font-size: 0.9rem;
   font-weight: 500;
-  transition: all 0.3s ease; 
+  transition: all 0.5s ease;
 }
 
 .linkItem:hover {
-  /* color: white;  */
   transform: translateX(5px);
-  color: var(--texto-secundario);
+  color: var(--color-text-secondary);
 }
 
 .Cardsvg {
@@ -212,7 +240,6 @@
   justify-content: center;
   height: 1rem;
   width: 1rem;
-  gap: 10px;
 }
 
 .nomeRede {
@@ -221,4 +248,19 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+/**
+ * RESPONSIVIDADE
+ */
+@media (max-width: 500px) {
+  .cards {
+    min-width: 90vw;
+    max-width: 90vw;
+    width: 90vw;
+  }
+  
+  .Projetos-scroll {
+    padding: 0 20px;
+  }
 }

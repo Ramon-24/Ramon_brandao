@@ -13,16 +13,16 @@ export function CardProjeto({
 }) {
   const statusClass =
     status === "Individual"
-    ? "status-individual"
-    : status === "Equipe"
-      ? "status-equipe"
-      : "status-padrao";
+      ? "status-individual"
+      : status === "Equipe"
+        ? "status-equipe"
+        : "status-padrao";
 
   return (
     <div className={`cards ${classe}`}>
       <div className="imagemContainer">
         <Image
-          src= "/Eu.jpg"
+          src={imagem && typeof imagem === "string" && imagem.startsWith("/") ? imagem : "/default.png"}
           alt={`Imagem do projeto ${nome}`}
           width={500}
           height={300}
@@ -30,7 +30,7 @@ export function CardProjeto({
         />
         {status && (
           <span
-             className={`spanCard ${statusClass}`}
+            className={`spanCard ${statusClass}`}
           >
             {status}
           </span>

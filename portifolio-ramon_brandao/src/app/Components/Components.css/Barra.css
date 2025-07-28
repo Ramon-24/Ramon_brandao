@@ -1,17 +1,46 @@
+/**
+ * COMPONENTE BARRA CONTAINER
+ * 
+ * Um componente de tag/chip estilizado com:
+ * - Formato arredondado
+ * - Efeitos de hover suaves
+ * - Sombras sutis
+ * - Transições animadas
+ * 
+ * Uso típico: Tags de categorias, filtros, ou itens selecionáveis
+ */
+
 .barra-container {
+  /* Layout e Espaçamento */
   display: inline-block;
-  background-color: var(--cor-primaria-2, #6BB7FF);
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 50px;
-  font-size: 0.875rem;
+  padding: 0.6rem 1.1rem;
   margin-right: 0.75rem;
   margin-bottom: 0.75rem;
-  transition: all 0.3s ease;
-  box-shadow: var(--efeito-sm);
+  
+  /* Estilo Visual */
+  background-color: var(--color-primary-3, #6BB7FF); /* Azul médio como fallback */
+  color: white; /* Texto sempre branco para contraste */
+  border-radius: 50px; /* Formato completamente arredondado */
+  font-size: 0.875rem; /* 14px - tamanho padrão para tags */
+  
+  /* Efeitos e Transições */
+  box-shadow: var(--effect-sm); /* Sombra sutil da paleta */
+  transition: all 0.3s ease; /* Transição suave para hover */
+  
+  /* Tipografia */
+  font-weight: 500; /* Semi-bold para melhor legibilidade */
+  line-height: 1; /* Espaçamento compacto */
+  text-align: center;
 }
 
+/**
+ * ESTADO HOVER
+ * - Elevação sutil
+ * - Brilho azul para feedback visual
+ * - Transição suave
+ */
 .barra-container:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 0px 6px var(--cor-destaque);
+  transform: translateY(-3px); /* Efeito de levitação */
+  box-shadow: 0 0px 6px var(--color-accent); /* Brilho com cor de destaque */
+  cursor: pointer; /* Indica interatividade */
 }

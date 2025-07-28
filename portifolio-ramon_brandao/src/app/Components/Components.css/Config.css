@@ -1,84 +1,122 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* =============================================
+   VARIÁVEIS GLOBAIS DE CORES E ESTILOS
+   ============================================= */
+
+:root {
+  /* Cores primárias */
+  --color-primary-1: #4D5673;
+  --color-primary-2: #44A1F2;
+  --color-primary-3: #6BB7FF;
+  --color-primary-4: #B0D6FF;
+
+  /* Cores secundárias */
+  --color-secondary-1: #0D0D0D;
+  --color-secondary-2: #5A5A5A;
+  --color-secondary-3: #D9D9D9;
+  --color-secondary-4: #F2F2F2;
+
+  /* Cores de texto */
+  --color-text-primary: #333333;
+  --color-text-secondary: #5a5a5a;
+  --color-text-tertiary: #777777;
+
+  /* Cores de fundo */
+  --color-background: #F5F7FA;
+  --color-card-background: #FFFFFF;
+
+  /* Cores de destaque */
+  --color-accent: #44A1F2;
+  --color-accent-background: #E1F0FF;
+
+  /* Cores de borda */
+  --color-border: #E0E5EB;
+
+  /* Efeitos e sombras */
+  --effect-sm: 0 1px 3px rgba(68, 161, 242, 0.12);
+  --effect-md: 0 4px 6px rgba(68, 161, 242, 0.16);
+  --effect-lg: 0 10px 15px rgba(68, 161, 242, 0.2);
+  --effect-glow: 0 0 15px rgba(68, 161, 242, 0.3);
+}
+
+/* =============================================
+   RESET E ESTILOS BASE
+   ============================================= */
+
+/**
+ * Reset básico para garantir consistência entre navegadores
+ */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/**
+ * Estilos base para o elemento body
+ * - Define a fonte padrão
+ * - Transições suaves para mudanças de tema
+ * - Configurações básicas de layout
+ */
 body {
   font-family: 'Poppins', system-ui, -apple-system, sans-serif;
   transition: all 0.4s ease;
   line-height: 1.6;
   overflow-x: hidden;
   position: relative;
-  background-color: var(--fundo);
-  color: var(--texto-primario);
 }
 
+/* =============================================
+   COMPONENTES DE INTERFACE
+   ============================================= */
 
-:root {
-  /* Variáveis genéricas - serão sobrescritas pelas classes de paleta */
-  --cor-primaria-1: #4D5673;
-  --cor-primaria-2: #44A1F2;
-  --cor-primaria-3: #6BB7FF;
-  --cor-primaria-4: #B0D6FF;
-
-  --cor-secundaria-1: #0D0D0D;
-  --cor-secundaria-2: #5A5A5A;
-  --cor-secundaria-3: #D9D9D9;
-  --cor-secundaria-4: #F2F2F2;
-
-  --texto-primario: #333333;
-  --texto-secundario: #5a5a5a;
-  --texto-terciario: #777777;
-
-  --fundo: #F5F7FA;
-  --fundo-card: #FFFFFF;
-
-  --cor-destaque: #44A1F2;
-  --fundo-destaque: #E1F0FF;
-  --fundo-destaques: #32333339;
-
-  --cor-borda: #E0E5EB;
-
-  --efeito-sm: 0 1px 3px rgba(68, 161, 242, 0.12);
-  --efeito-md: 0 4px 6px rgba(68, 161, 242, 0.16);
-  --efeito-lg: 0 10px 15px rgba(68, 161, 242, 0.2);
-  --efeito-glow: 0 10px 20px rgba(68, 161, 242, 0.3);
-}
-
-
+/**
+ * Container para botões flutuantes
+ * - Posicionado no canto superior direito
+ * - Com padding para espaçamento adequado
+ */
 .botao-container {
   display: flex;
   align-items: center;
-  justify-content: end;
-  padding: 0px 50px 0px 16px;
+  justify-content: flex-end;
+  padding: 0 50px 0 16px;
   z-index: 10;
 }
 
+/**
+ * Botão flutuante circular
+ * - Estilo minimalista com sombra
+ * - Efeitos de hover suaves
+ */
 .botao-flutuante {
   height: 45px;
   width: 45px;
   border-radius: 50px;
-  background-color: var(--fundo-card);
-  box-shadow: var(--efeito-lg);
+  background-color: var(--color-card-background);
+  box-shadow: var(--effect-lg);
   display: flex;
   align-items: center;
   justify-content: center;
   border: none;
-  color: var(--texto-primario);
+  color: var(--color-text-primary);
+  transition: all 0.3s ease-in-out;
 }
 
 .botao-flutuante:hover {
-  color: var(--cor-secundaria);
-  box-shadow: 0 1px 20px var(--cor-secundaria);
-  border: 1px solid var(--cor-secundaria);
-  transition: all 0.3s ease-in-out;
+  color: var(--color-primary-2);
+  box-shadow: 0 1px 20px var(--color-primary-2);
+  border: 1px solid var(--color-primary-2-2);
   transform: scale(1.1);
   cursor: pointer;
 }
 
+/**
+ * Overlay para modais
+ * - Cobre toda a tela
+ * - Fundo semi-transparente
+ * - Centraliza conteúdo
+ */
 .overlay {
   position: fixed;
   top: 0;
@@ -86,34 +124,37 @@ body {
   width: 100vw;
   height: 100vh;
   opacity: 1;
-  background-color: var(--fundo-destaques);
+  background-color: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(4px);
   z-index: 999;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* :root {
-  --cor-primaria: #44A1F2;
-  --cor-secundaria: #6BB7FF;
-  --cor-destaque: #B0D6FF;
-  --cor-fundo: #ffffff;
-  --cor-texto: #333333;
-  --cor-borda: #e0e0e0;
-  --cor-hover: #f5f5f5;
-} */
+/* =============================================
+   CARD DE CONFIGURAÇÕES
+   ============================================= */
 
-
+/**
+ * Card para configurações
+ * - Layout limpo com sombra sutil
+ * - Espaçamento interno adequado
+ */
 .config-card {
-  background-color: var(--fundo);
+  background-color: var(--color-card-background);
   border-radius: 12px;
   width: 400px;
   max-width: 90%;
   padding: 25px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  color: var(--texto-primario);
+  box-shadow: var(--effect-lg);
+  color: var(--color-text-primary);
 }
 
+/**
+ * Cabeçalho do card de configurações
+ * - Flexbox para alinhamento do título e botão
+ */
 .config-header {
   display: flex;
   justify-content: space-between;
@@ -124,78 +165,116 @@ body {
 .config-header h1 {
   font-size: 24px;
   margin: 0;
-  font-weight: bold;
-
+  font-weight: 700;
 }
 
+/**
+ * Botão de fechar
+ * - Estilo minimalista
+ * - Efeito de hover suave
+ */
 .botao-fechar {
   background: none;
   border: none;
   font-size: 24px;
   cursor: pointer;
-  color: var(--texto-primario);
-  transition: color 0.2s;
-}
-
-.botao-fechar:hover {
-  color: var(--cor-primaria);
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  background-color: var(--cor-hover);
-  cursor: pointer;
+  color: var(--color-text-primary);
   transition: all 0.3s ease-in-out;
 }
 
-/* Seções */
+.botao-fechar:hover {
+  color: var(--color-primary-2);
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  background-color: var(--color-primary-1);
+  cursor: pointer;
+}
+
+/* =============================================
+   SEÇÕES DE CONFIGURAÇÃO
+   ============================================= */
+
+/**
+ * Seções individuais dentro do card
+ * - Margem inferior para separação
+ */
 .config-section {
   margin-bottom: 45px;
 }
 
 .config-section h2 {
-  font-size: 18px;
-  margin-bottom: 16px;
-  font-weight: bold;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-bottom: 12px;
+  letter-spacing: 0.3px;
 }
 
+/**
+ * Grid de opções
+ * - Layout responsivo
+ * - Espaçamento uniforme
+ */
 .opcoes-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 10px;
 }
 
+/**
+ * Botões de opção
+ * - Estilo limpo com bordas
+ * - Estados hover e ativo
+ */
 .opcao-botao {
   padding: 10px 15px;
-  border: 2px solid var(--cor-borda);
+  border: 2px solid var(--color-border);
   border-radius: 6px;
   background: none;
-  color: var(--cor-texto);
+  color: var(--color-border);
   cursor: pointer;
   transition: all 0.2s ease;
   text-align: center;
   font-weight: 500;
+  box-shadow: none;
 }
 
 .opcao-botao:hover {
-  border-color: var(--cor-primaria);
-  color: var(--cor-primaria);
-  background-color: var(--cor-hover);
+  border-color: var(--color-primary-2);
+  color: var(--color-primary-2);
+  box-shadow: var(--effect-lg);
+  transform: translateY(-2px);
 }
 
 .opcao-botao.ativo {
-  border-color: var(--cor-primaria);
-  background-color: var(--cor-primaria);
+  border-color: var(--color-primary-2);
+  background-color: var(--color-primary-2);
   color: white;
-  font-weight: bold;
+  font-weight: 600;
+  box-shadow: 0 0 0 1px var(--color-background), 0 0 4px 1px var(--color-primary-2);
 }
 
-/* Paletas */
+/* =============================================
+   PALETAS DE CORES
+   ============================================= */
+
+/**
+ * Grid de paletas de cores
+ * - Layout compacto
+ * - Visualização das cores
+ */
 .paletas-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
   gap: 10px;
 }
 
+/**
+ * Item de paleta individual
+ * - Mostra múltiplas cores
+ * - Efeitos de interação
+ */
 .paleta {
   display: flex;
   height: 40px;
@@ -207,21 +286,27 @@ body {
 }
 
 .paleta:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px);
+  box-shadow: var(--effect-md);
 }
 
 .paleta.ativo {
-  border-color: var(--cor-primaria);
-  box-shadow: 0 0 0 2px var(--cor-fundo), 0 0 0 4px var(--cor-primaria);
+  border-color: var(--color-primary-2);
+  box-shadow: 0 0 0 1px var(--color-background), 0 0 4px 2px var(--color-primary-2);
 }
 
+/**
+ * Cores individuais dentro da paleta
+ */
 .cor {
   flex: 1;
   height: 100%;
 }
 
-/* Responsivo */
+/* =============================================
+   RESPONSIVIDADE
+   ============================================= */
+
 @media (max-width: 480px) {
   .config-card {
     padding: 20px;

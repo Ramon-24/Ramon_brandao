@@ -1,39 +1,74 @@
+/**
+ * CONTAINER PRINCIPAL DE LINGUAGENS
+ * 
+ * Define a área que contém os grupos de linguagens roláveis
+ * - Padding lateral para evitar que os cards toquem as bordas
+ * - Fundo usando a cor de background padrão do tema
+ */
 .linguagens-scroll0 {
   position: relative;
   overflow: hidden;
-  /* padding: 0 80px; */
-  padding: 0px 65px 0px 50px;
-  background-color: var(--cor-fundo);
+  padding: 0 65px 0 50px;
+  background-color: var(--color-background);
 }
 
+/**
+ * CONTAINER DE SCROLL DE LINGUAGENS
+ * 
+ * Área rolável horizontal que contém os grupos de linguagens
+ * - Layout flex para alinhamento horizontal
+ * - Espaçamento entre grupos
+ * - Scroll snap para melhor experiência mobile
+ * - Barra de scroll escondida
+ */
 .linguagens-scroll {
   display: flex;
-  gap: 20px;
+  gap: 24px;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   /* padding-bottom: 10px; */
-  /* padding: 20px 0px 20px 0px; */
+  padding: 20px 0px 20px 0px;
+  /* margin-left: 70px; */
 }
 
+/* Esconde a barra de scroll */
 .linguagens-scroll::-webkit-scrollbar {
   display: none;
 }
 
 .linguagens-scroll::-webkit-scrollbar-thumb {
-  background: var(--cor-primaria);
+  background: var(--color-primary-2);
   border-radius: 4px;
 }
 
+/**
+ * CARD DE GRUPO DE LINGUAGENS
+ * 
+ * Container para um conjunto de linguagens relacionadas
+ * - Largura mínima de 60% da viewport
+ * - Fundo de destaque
+ * - Sombra sutil
+ * - Bordas arredondadas
+ */
 .grupo-card {
-  background: var(--fundo-destaque);
-  box-shadow: var(--cor-primaria-4);
+  background: var(--color-accent-background);
+  box-shadow: 0 4px 16px rgba(68,161,242,0.10); 
   border-radius: 20px;
   min-width: 60vw;
   padding: 30px;
   scroll-snap-align: start;
   flex-shrink: 0;
 }
+.grupo-card:first-child { margin-left: 32px; }
+.grupo-card:last-child { margin-right: 32px; }
 
+/**
+ * CABEÇALHO DO GRUPO
+ * 
+ * Área superior do card com título e possíveis ícones
+ * - Alinhamento flex dos itens
+ * - Espaçamento interno
+ */
 .grupo-header {
   display: flex;
   align-items: center;
@@ -42,15 +77,38 @@
 }
 
 .grupo-titulo {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem;
+  color: var(--color-text-primary);
+  font-weight: 600; */
+
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--color-primary-2);
+  letter-spacing: 0.5px;
+  margin-bottom: 1rem;
 }
 
+/**
+ * GRID DE ITENS DE LINGUAGEM
+ * 
+ * Layout responsivo para os cards individuais de linguagem
+ * - Grid automático com mínimo de 250px
+ * - Espaçamento uniforme
+ */
 .grupo-itens {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1.5rem;
 }
 
+/**
+ * CARD DE LINGUAGEM INDIVIDUAL
+ * 
+ * Estilo para cada item de linguagem específica
+ * - Bordas arredondadas
+ * - Padding interno
+ * - Transição suave para hover
+ */
 .item-card {
   border-radius: 16px;
   padding: 1.2rem;
@@ -58,12 +116,35 @@
   height: 100%;
 }
 
+/**
+* ESTADO HOVER DO CARD DE LINGUAGEM
+* 
+* Efeitos aplicados ao passar o mouse
+* - Cor de fundo de destaque
+* - Escala sutil
+*/
 .item-card:hover {
-  background-color: var(--cor-destaque);
-  transform: scale(1.03);
+/* Efeito de fundo */
+  background: linear-gradient(135deg, var(--color-primary-2), var(--color-primary-3));
+  box-shadow: 0 8px 24px rgba(68,161,242,0.12);
+  transform: scale(1.03) translateY(-4px);
+  color: white;
+  border-color: transparent;
+}
+
+.item-card:hover,
+.item-card:hover .item-nome,
+.item-card:hover .item-descricao {
   color: white;
 }
 
+/**
+ * CABEÇALHO DO ITEM
+ * 
+ * Área com ícone e nome da linguagem
+ * - Alinhamento flex
+ * - Espaçamento entre elementos
+ */
 .item-header {
   display: flex;
   align-items: center;
@@ -71,10 +152,17 @@
   margin-bottom: 0.8rem;
 }
 
+/**
+ * ÍCONE DA LINGUAGEM
+ * 
+ * Elemento circular com gradiente
+ * - Dimensões fixas
+ * - Alinhamento centralizado
+ */
 .item-icon {
   width: 40px;
   height: 40px;
-  background: linear-gradient(135deg, var(--cor-destaque), var(--cor-primaria));
+  background: linear-gradient(135deg, var(--color-primary-2) 16px, var(--color-secondary-2));
   color: white;
   font-size: 1.2rem;
   display: flex;
@@ -83,14 +171,70 @@
   border-radius: 50%;
 }
 
+/**
+ * NOME DA LINGUAGEM
+ * 
+ * Estilo para o título de cada linguagem
+ * - Tamanho de fonte aumentado
+ * - Peso semi-negrito
+ */
 .item-nome {
-  font-size: 1.1rem;
+  /* font-size: 1.1rem;
   font-weight: 600;
-  color: var(--cor-texto);
+  color: var(--color-text-primary); */
+   font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  letter-spacing: 0.2px;
 }
 
+/**
+ * DESCRIÇÃO DA LINGUAGEM
+ * 
+ * Texto explicativo sobre a linguagem
+ * - Tamanho de fonte ligeiramente menor
+ * - Altura de linha confortável
+ */
 .item-descricao {
-  font-size: 0.95rem;
-  color: var(--cor-texto);
-  line-height: 1.4;
+  /* font-size: 0.95rem;
+  color: var(--color-text-secondary);
+  line-height: 1.4; */
+
+  font-size: 1rem;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+}
+
+/* =============================================
+   RESPONSIVIDADE
+   ============================================= */
+
+@media (max-width: 768px) {
+  .linguagens-scroll0 {
+    padding: 0 30px;
+  }
+
+  .grupo-card {
+    min-width: 80vw;
+    padding: 20px;
+  }
+
+  .grupo-itens {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .linguagens-scroll0 {
+    padding: 0 20px;
+  }
+
+  .grupo-card {
+    min-width: 90vw;
+    padding: 15px;
+  }
+
+  .item-card {
+    padding: 1rem;
+  }
 }

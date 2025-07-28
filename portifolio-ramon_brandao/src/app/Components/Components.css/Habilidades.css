@@ -1,68 +1,118 @@
-:root {
-    /* Variáveis genéricas - serão sobrescritas pelas classes de paleta */
-    --cor-primaria-1: #4D5673;
-    --cor-primaria-2: #44A1F2;
-    --cor-primaria-3: #6BB7FF;
-    --cor-primaria-4: #B0D6FF;
-
-    --cor-secundaria-1: #0D0D0D;
-    --cor-secundaria-2: #5A5A5A;
-    --cor-secundaria-3: #D9D9D9;
-    --cor-secundaria-4: #F2F2F2;
-
-    --texto-primario: #333333;
-    --texto-secundario: #5a5a5a;
-    --texto-terciario: #777777;
-
-    --fundo: #F5F7FA;
-    --fundo-card: #FFFFFF;
-
-    --cor-destaque: #44A1F2;
-    --fundo-destaque: #E1F0FF;
-    --fundo-destaques: #32333339;
-
-    --cor-borda: #E0E5EB;
-
-    --efeito-sm: 0 1px 3px rgba(68, 161, 242, 0.12);
-    --efeito-md: 0 4px 6px rgba(68, 161, 242, 0.16);
-    --efeito-lg: 0 10px 15px rgba(68, 161, 242, 0.2);
-    --efeito-glow: 0 10px 20px rgba(68, 161, 242, 0.3);
-}
-
-
+/**
+ * CONTAINER PRINCIPAL DAS HABILIDADES
+ * 
+ * Define a área que contém os cards roláveis de habilidades
+ * - Padding lateral para evitar que os cards toquem as bordas
+ * - Fundo usando a cor de background padrão do tema
+ */
 .habilidades-scroll-cards {
     position: relative;
-    overflow: hidden;
-    padding: 0px 65px 0px 50px;
-    background-color: var(--cor-fundo);
+    /* overflow: hidden; */
+    padding: 0 65px 0 50px;
+    background-color: var(--color-background);
 }
 
+/**
+ * CONTAINER DE SCROLL
+ * 
+ * Área rolável horizontal que contém os cards de habilidades
+ * - Layout flex para alinhamento horizontal
+ * - Gap entre os cards
+ * - Scroll snap para melhor experiência mobile
+ */
 .habilidades-scroll {
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0;
     display: flex;
     gap: 15px;
-    overflow-x: auto;
+    overflow-x: visible;
     scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    /* Esconde a barra de scroll no Firefox */
+    -ms-overflow-style: none;
+    /* Esconde a barra de scroll no IE/Edge */
 }
 
+/* Esconde a barra de scroll no Chrome/Safari */
+.habilidades-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+/**
+ * CARD DE HABILIDADE
+ * 
+ * Estilo base para cada card de habilidade
+ * - Fundo usando a cor de card do tema
+ * - Sombra baseada no sistema de design
+ * - Bordas arredondadas
+ * - Transição suave para efeitos hover
+ */
 .habilidade-card {
-    background-color: var(--fundo-card);
-    box-shadow: var(--efeito-lg);
+    min-width: 250px;
+    background-color: var(--color-card-background);
+    box-shadow: var(--effect-lg);
     border-radius: 16px;
     padding: 20px;
-}
-
-.habilidade-card:hover {
-    background: var(--fundo-destaque);
-    box-shadow: var(--cor-primaria-4);
-    transform: scale(1.03);
+    scroll-snap-align: start;
     transition: all 0.3s ease;
-    transform: translateY(-5px);
+    cursor: pointer;
 }
 
+/**
+ * ESTADO HOVER DO CARD
+ * 
+ * Efeitos aplicados quando o usuário passa o mouse sobre o card
+ * - Cor de fundo de destaque
+ * - Efeito de elevação
+ * - Transformação sutil
+ */
+.habilidade-card:hover {
+    background: var(--color-accent-background);
+    box-shadow: 0 8px 20px var(--color-primary-4);
+    transform: translateY(-5px) scale(1.03);
+    z-index: 2;
+}
+
+/**
+ * DESCRIÇÃO DA HABILIDADE
+ * 
+ * Estilo para o texto descritivo dentro dos cards
+ * - Tamanho de fonte menor
+ * - Alinhamento justificado
+ * - Cor de texto secundária
+ * - Espaçamento interno
+ */
 .descricao-Habilidades {
-    font-size: 14px;
+    font-size: 0.875rem;
+    /* 14px */
     padding: 6px 16px 30px 6px;
     text-align: justify;
-    color: var(--texto-secundario, #555);
+    color: var(--color-text-secondary);
+    line-height: 1.5;
+}
+
+/**
+ * MODIFICADORES RESPONSIVOS (OPCIONAIS)
+ */
+
+/* Versão compacta para mobile */
+@media (max-width: 768px) {
+    .habilidades-scroll-cards {
+        padding: 0 30px;
+    }
+
+    .habilidade-card {
+        min-width: 200px;
+    }
+}
+
+/* Versão para telas muito pequenas */
+@media (max-width: 480px) {
+    .habilidades-scroll-cards {
+        padding: 0 20px;
+    }
+
+    .habilidade-card {
+        min-width: 180px;
+        padding: 15px;
+    }
 }

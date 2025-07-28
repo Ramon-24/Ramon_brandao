@@ -1,75 +1,151 @@
+/**
+ * BARRA DE NAVEGAÇÃO PRINCIPAL
+ * 
+ * Barra fixa no topo da página com:
+ * - Logo/identidade à esquerda
+ * - Links de navegação à direita
+ * - Efeitos de hover suaves
+ * - Sombra sutil
+ */
 .nav {
   position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 2rem;
-  background: var(--fundo-card);
-  box-shadow: var(--efeito-glow);
+  background: var(--color-card-background);
+  box-shadow: var(--effect-glow);
   width: 100vw;
-  z-index: 1;
+  z-index: 1000; /* Garante que fique acima de outros elementos */
+  top: 0;
+  left: 0;
 }
 
+/**
+ * LADO ESQUERDO DA NAVEGAÇÃO (LOGO/IDENTIDADE)
+ * 
+ * Contém o logo e nome do site
+ * - Alinhamento centralizado
+ * - Espaçamento interno
+ * - Efeito de hover suave
+ */
 .nav-esquerda {
-  padding-left: 75px;
-  font-size: 19px;
+  padding-left: 4.5rem; /* 75px convertido para rem */
+  font-size: 1.2rem; /* 19px convertido para rem */
   font-weight: 700;
-  color: var(--primary-dark);
+  color: var(--color-primary-1); /* Cor escura primária */
   display: flex;
   align-items: center;
   text-decoration: none;
   transition: all 0.3s ease;
-  gap: 5px;
-
+  gap: 0.3rem; /* 5px convertido para rem */
 }
 
 .nav-esquerda:hover {
   transform: scale(1.05);
 }
+
+/* Partes do logo com cores diferentes */
 .logo1 {
-  color: var(--cor-secundaria);
+  color: var(--color-secondary-2); /* Cor secundária */
 }
 
 .logo2 {
-  color: var(--cor-destaque);
+  color: var(--color-accent); /* Cor de destaque */
 }
 
-
-
-
-
-
+/**
+ * LADO DIREITO DA NAVEGAÇÃO (LINKS)
+ * 
+ * Contém os links de navegação principais
+ * - Espaçamento uniforme entre links
+ * - Alinhamento centralizado
+ */
 .nav-direita {
   display: flex;
   align-items: center;
   gap: 2rem;
+  padding-right: 2rem;
 }
 
+/**
+ * LINKS DE NAVEGAÇÃO
+ * 
+ * Estilo base para cada item de menu
+ * - Transição suave para hover
+ * - Efeito de sublinhado animado
+ */
 .links {
-  font-size: 16px;
+  font-size: 1rem; /* 16px */
   font-weight: 600;
   transition: all 0.3s ease;
   position: relative;
-  color: var(--text-color);
+  color: var(--color-text-primary);
   text-decoration: none;
+  padding: 0.5rem 0;
 }
 
+/**
+ * ESTADO HOVER DOS LINKS
+ * 
+ * Efeitos aplicados ao passar o mouse:
+ * - Mudança de cor
+ * - Levitação sutil
+ * - Sublinhado animado
+ */
 .links:hover {
-  color: var(--cor-primaria-2);
+  color: var(--color-primary-2);
   transform: translateY(-2px);
 }
 
+/**
+ * ANIMAÇÃO DO SUBLINHADO
+ * 
+ * Efeito de sublinhado que cresce da esquerda para direita
+ */
 .links::after {
   content: '';
   position: absolute;
-  bottom: -5px;
+  bottom: -0.3rem; /* -5px convertido para rem */
   left: 0;
   width: 0;
   height: 2px;
-  background: var(--cor-primaria-2);
+  background: var(--color-primary-2);
   transition: all 0.5s ease;
 }
 
 .links:hover::after {
   width: 100%;
+}
+
+/**
+ * RESPONSIVIDADE
+ * 
+ * Ajustes para telas menores
+ */
+@media (max-width: 768px) {
+  .nav {
+    padding: 1rem;
+  }
+  
+  .nav-esquerda {
+    padding-left: 1rem;
+    font-size: 1rem;
+  }
+  
+  .nav-direita {
+    gap: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-direita {
+    display: none; /* Esconde os links em telas muito pequenas */
+  }
+  
+  .nav-esquerda {
+    margin: 0 auto; /* Centraliza o logo */
+    padding-left: 0;
+  }
 }
