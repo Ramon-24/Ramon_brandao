@@ -23,5 +23,5 @@
   height: 4px;
   margin: 0 auto;
   background-color: var(--cor-secundaria, #00aaff);
-  /* border-radius: 2px; */
+  border-radius: 2px;
 }

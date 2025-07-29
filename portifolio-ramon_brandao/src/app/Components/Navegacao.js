@@ -37,7 +37,7 @@ export function Navegacao() {
     return (
         <section className="nav">
             <div className="nav-esquerda">
-                <h1 className="logo1">{t.logo1}</h1>
+                <h1 className="logo1">{t.logo1.normalize("NFD").replace(/[\u0300-\u036f]/g, "")}</h1>
                 <h1 className="logo2">{t.logo2}</h1>
             </div>
             

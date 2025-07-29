@@ -7,6 +7,8 @@ import { Linguagens } from "../app/Components/Linguagens.js";
 import { Navegacao } from "./Components/Navegacao.js";
 import { Habilidades } from "./Components/Habilidades.js";
 import { Projetos } from "./Components/Projetos.js"
+import { Contato } from "./Components/Contato"
+import { Footer } from "./Components/Footer"
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
       <Linguagens />
       <Habilidades/>
       <Projetos/>
+      <Contato/>
+      <Footer/>
     </>
   );
 }

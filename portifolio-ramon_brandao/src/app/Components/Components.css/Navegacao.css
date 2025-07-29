@@ -24,8 +24,6 @@
 
 .logo1 {
   color: var(--color-secondary-2);
-  font-feature-settings: "kern" on;
-  font-variant-ligatures: none;
 }
 
 .logo2 {
