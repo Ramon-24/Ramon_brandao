@@ -81,7 +81,7 @@ body {
   align-items: center;
   justify-content: flex-end;
   padding: 0 50px 0 16px;
-  z-index: 10;
+  z-index: 20;
 }
 
 /**

@@ -15,13 +15,13 @@
 }
 
 .texto-destaque {
-  color: var(--cor-secundaria, #00aaff);
+  color: var(--color-primary-1, #00aaff);
 }
 
 .linha-embaixo {
   width: 60px;
   height: 4px;
   margin: 0 auto;
-  background-color: var(--cor-secundaria, #00aaff);
+  background-color: var(--color-primary-1, #00aaff);
   border-radius: 2px;
 }

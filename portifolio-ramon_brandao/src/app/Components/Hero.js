@@ -37,7 +37,8 @@ export function Hero() {
                 display: "flex",
                 flexDirection: "row",
                 justifyContent: "space-around",
-                paddingTop: "140px"
+                paddingTop: "140px",
+                zIndex: "10"
             }}>
 
             <div className="container">

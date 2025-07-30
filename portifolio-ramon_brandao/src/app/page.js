@@ -9,18 +9,20 @@ import { Habilidades } from "./Components/Habilidades.js";
 import { Projetos } from "./Components/Projetos.js"
 import { Contato } from "./Components/Contato"
 import { Footer } from "./Components/Footer"
+import { Background } from "./Components/BackgroundColor"
 
 export default function Home() {
   return (
     < >
-      <Navegacao />
+      <Background />
+      {/* <Navegacao />
       <Hero />
       <Sobre />
       <Linguagens />
       <Habilidades/>
       <Projetos/>
       <Contato/>
-      <Footer/>
+      <Footer/> */}
     </>
   );
 }

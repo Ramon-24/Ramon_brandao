@@ -14,13 +14,13 @@ export function Config() {
             'vermelho': ["#802742", "#A6263E", "#D1345B", "#FF6B8B"],
             'marrom': ["#5C4A3D", "#8C7E6C", "#BFB2A3", "#E0D9CF"],
             'azul-neutro': ["#4D5673", "#44A1F2", "#6BB7FF", "#B0D6FF"],
-            'azul-turquesa': ["#002147", "#0A3161", "#182958", "#003366"]
+            'azul-turquesa': ["#002147", "#182958","#0A3161", "#037F8C"]
         },
         dark: {
             'vermelho': ["#5A1A2E", "#7A1D37", "#A8254A", "#D1345B"],
             'marrom': ["#3D3329", "#5C5041", "#8A7B68", "#B0A18E"],
             'azul-neutro': ["#2A3145", "#1E5B9E", "#2B75C2", "#4D9AE8"],
-            'azul-turquesa': ["#001A33", "#00264D", "#003366", "#004080"]
+            'azul-turquesa': ["#001A33", "#00264D", "#003366", "#037F8C"]
         }
     };
 

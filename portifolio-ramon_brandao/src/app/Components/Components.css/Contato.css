@@ -96,7 +96,7 @@
 .title-underline {
     width: 60px;
     height: 4px;
-    background-color: var(--color-primary-2);
+    background-color: var(--color-primary-1);
     border-radius: 2px;
     margin-bottom: var(--space-lg);
     transform-origin: left;

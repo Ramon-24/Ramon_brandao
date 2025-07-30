@@ -67,14 +67,14 @@
 
 body.paleta-azul-neutro-dark {
   /* Cores primárias - tons mais escuros */
-  --color-primary-1: #2E364D;
+  --color-primary-1: #3774ba;
   --color-primary-2: #2E7CC7;
   --color-primary-3: #44A1F2;
   --color-primary-4: #6BB7FF;
 
   /* Cores secundárias - adaptadas para dark */
-  --color-secondary-1: #1A1A1A;
-  --color-secondary-2: #3D3D3D;
+  --color-secondary-1: #265373;
+  --color-secondary-2: #4d4e52;
   --color-secondary-3: #808080;
   --color-secondary-4: #D9D9D9;
 
@@ -225,7 +225,7 @@ body.paleta-marrom-dark {
 
 /* Versão Light */
 body.paleta-azul-turquesa-light {
-  --color-primary-1: #002147;
+  --color-primary-1: #037F8C;
   --color-primary-2: #0A3161;
   --color-primary-3: #182958;
   --color-primary-4: #003366;
@@ -255,7 +255,7 @@ body.paleta-azul-turquesa-light {
 
 /* Versão Dark */
 body.paleta-azul-turquesa-dark {
-  --color-primary-1: #00132D;
+  --color-primary-1: #037F8C;
   --color-primary-2: #002147;
   --color-primary-3: #0A3161;
   --color-primary-4: #182958;
