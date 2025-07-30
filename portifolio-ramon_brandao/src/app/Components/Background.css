@@ -47,7 +47,8 @@
 .circle {
   position: absolute;
   border-radius: 50%;
-  background-color: rgba(221, 66, 93, 0.1); /* tom avermelhado claro translúcido */
+  opacity: 0.1;
+  background-color: var(--color-primary-1); /* tom avermelhado claro translúcido */
   animation: pulse 8s ease-in-out infinite;
   pointer-events: none;
 }
