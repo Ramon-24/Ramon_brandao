@@ -11,7 +11,7 @@
  */
 :root {
   /* Cores primárias */
-  --color-primary-1: #4D5673;
+  --color-primary-1: #3b95e4;
   --color-primary-2: #44A1F2;
   --color-primary-3: #6BB7FF;
   --color-primary-4: #B0D6FF;
@@ -67,7 +67,7 @@
 
 body.paleta-azul-neutro-dark {
   /* Cores primárias - tons mais escuros */
-  --color-primary-1: #3774ba;
+  --color-primary-1: #1560a1;
   --color-primary-2: #2E7CC7;
   --color-primary-3: #44A1F2;
   --color-primary-4: #6BB7FF;

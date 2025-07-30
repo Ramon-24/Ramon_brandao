@@ -1,14 +1,14 @@
 "use client"
 import "./Background.css";
 import { useEffect, useRef } from 'react';
-import { Navegacao } from "./Navegacao.js";
-import { Hero } from "./Hero.js";
-import { Sobre } from "./Sobre.js";
-import { Linguagens } from "./Linguagens.js";
-import { Habilidades } from "./Habilidades.js";
-import { Projetos } from "./Projetos.js"
-import { Contato } from "./Contato"
-import { Footer } from "./Footer"
+import { Navegacao } from "./Components_Principais/Navegacao";
+import { Hero } from "./Components_Principais/Hero.js";
+import { Sobre } from "./Components_Principais/Sobre.js";
+import { Linguagens } from "./Components_Principais/Linguagens.js";
+import { Habilidades } from "./Components_Principais/Habilidades.js";
+import { Projetos } from "./Components_Principais/Projetos.js"
+import { Contato } from "./Components_Principais/Contato"
+import { Footer } from "./Components_Principais/Footer"
 
 export function Background() {
     const circlesRef = useRef([]);
@@ -51,9 +51,10 @@ export function Background() {
             </section>
 
             <section className="gradient-section diagonal-gradient">
-                <div className="gradient-overlay"></div>
-                <Sobre />
             </section>
+                <div className="gradient-overlay">
+                    <Sobre />
+                </div>
 
             <section className="solid-section">
                 <Linguagens />
@@ -64,9 +65,7 @@ export function Background() {
                 <Habilidades />
             </section>
 
-            <section className="solid-section">
-                <Projetos />
-            </section>
+            <Projetos />
 
             <section className="gradient-section diagonal-gradient">
                 <div className="gradient-overlay"></div>

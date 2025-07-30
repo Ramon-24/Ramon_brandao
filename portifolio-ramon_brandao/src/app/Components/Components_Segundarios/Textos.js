@@ -21,11 +21,27 @@ export const Textos = {
         },
         about: {
             titulo: "Sobre Mim",
-            paragrafo1: "Olá! Eu sou Ramon Brandão, um Desenvolvedor Full Stack de 17 anos apaixonado por tecnologia, interfaces e soluções criativas.",
-            paragrafo2: "Curso o último ano do Ensino Médio Profissional em Desenvolvimento de Sistemas, onde desenvolvo aplicações completas do banco de dados ao front-end.",
-            paragrafo3: "Minha jornada começou com a vontade de transformar ideias em experiências reais. Desde então, venho aprimorando minhas habilidades em projetos funcionais, acessíveis e bem organizados.",
-            paragrafo4: "Recentemente, fundei a WebCode, uma equipe jovem focada em soluções digitais para pequenos negócios. Aqui, desenvolvo, lidero e aprendo todos os dias.",
-            paragrafo5: "Meu sonho é cursar Engenharia ou Ciência da Computação, atuar em grandes projetos, e no futuro, ensinar tecnologia com propósito e criatividade.",
+
+            paragrafo0: "Olá! Eu sou ",
+            destaque1: " Ramon Brandão",
+            paragrafo1: ", um ",
+            destaque2: "Desenvolvedor Full Stack",
+            paragrafo2: " de 17 anos apaixonado por tecnologia, interfaces e soluções criativas.",
+
+            paragrafo3: "Curso o último ano do ",
+            destaque3: "Ensino Médio Profissional em Desenvolvimento de Sistemas",
+            paragrafo4: ", onde desenvolvo aplicações completas do banco de dados ao front-end.",
+
+            paragrafo5: "Minha jornada começou com a vontade de transformar ideias em experiências reais. Desde então, venho aprimorando minhas habilidades em projetos funcionais, acessíveis e bem organizados.",
+
+            paragrafo6: "Recentemente, fundei a ",
+            destaque4: "WebCode",
+            paragrafo7: ", uma equipe jovem focada em soluções digitais para pequenos negócios. Aqui, desenvolvo, lidero e aprendo todos os dias.",
+
+            paragrafo8: "Meu sonho é ",
+            destaque5: "cursar Engenharia ou Ciência da Computação",
+            paragrafo9: ", atuar em grandes projetos, e no futuro, ensinar tecnologia com propósito e criatividade.",
+
             habilidadesTitulo: "Habilidades Pessoais",
             habilidades: [
                 "Comunicação",
@@ -458,7 +474,7 @@ export const Textos = {
             habilidades: "Habilidades",
             projetos: "Projetos",
             contato: "Contato",
-            
+
             contato: "Contato",
             telefone: "+55 (88) 99435-9926",
             localidade: "Ceará, Brasil",

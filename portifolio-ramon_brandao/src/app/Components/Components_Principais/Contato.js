@@ -1,10 +1,10 @@
 "use client";
-import { useConfig } from "./Components_Segundarios/ConfigText";
-import { Textos } from "./Components_Segundarios/Textos";
+import { useConfig } from "../Components_Segundarios/ConfigText";
+import { Textos } from "../Components_Segundarios/Textos";
 import { useEffect, useState } from "react";
-import { Barras } from "./Components_Segundarios/Barras"
-import { TituloSecao } from "./Components_Segundarios/TituloSecao";
-import { Formulario } from "../Components/Components_Segundarios/Formulario"
+import { Barras } from "../Components_Segundarios/Barras"
+import { TituloSecao } from "../Components_Segundarios/TituloSecao";
+import { Formulario } from "../Components_Segundarios/Formulario"
 import Image from 'next/image';
 
 export function Contato() {
@@ -32,7 +32,7 @@ export function Contato() {
     if (!t) return null;
 
     return (
-        <section className="contato">
+        <section className="contato" style={{paddingTop: "100px"}}>
             <TituloSecao texto={t.titulo} />
             <div
                 className="Area-contato"

@@ -1,10 +1,11 @@
 "use client";
-import { useConfig } from "./Components_Segundarios/ConfigText";
-import { Textos } from "./Components_Segundarios/Textos";
+import { useConfig } from "../Components_Segundarios/ConfigText";
+import { Textos } from "../Components_Segundarios/Textos";
 import { useEffect, useState } from "react";
-import { Barras } from "./Components_Segundarios/Barras"
-import { TituloSecao } from "./Components_Segundarios/TituloSecao";
+import { Barras } from "../Components_Segundarios/Barras"
+import { TituloSecao } from "../Components_Segundarios/TituloSecao";
 import Image from 'next/image';
+import "../Components.css/Sobre.css"
 
 export function Sobre() {
     const { config } = useConfig();
@@ -36,12 +37,43 @@ export function Sobre() {
             <div className="areaSobre">
                 <div className="textSobre">
                     <div className="text">
-                        <p>{t.paragrafo1}</p>
-                        <p>{t.paragrafo2}</p>
-                        <p>{t.paragrafo3}</p>
-                        <p>{t.paragrafo4}</p>
-                        <p>{t.paragrafo5}</p>
+                        <p>
+                            {t.paragrafo0}
+                            <strong>{t.destaque1}</strong>
+                            {t.paragrafo1}
+                            <strong>{t.destaque2}</strong>
+                            {t.paragrafo2}
+                        </p>
+
+                        <p>
+                            {t.paragrafo3}
+                            <strong>{t.destaque3}</strong>
+                            {t.paragrafo4}
+                        </p>
+
+                        <p>
+                            {t.paragrafo5}
+                        </p>
+
+                        <p>
+                            {t.paragrafo6}
+                            <strong>{t.destaque4}</strong>
+                            {t.paragrafo7}
+                        </p>
+
+                        <p>
+                            {t.paragrafo8}
+                            <strong>{t.destaque5}</strong>
+                            {t.paragrafo9}
+                        </p>
+
+                        <p>
+                            {t.paragrafo9}
+                            <strong>{t.destaque6}</strong>
+                            {t.paragrafo10}
+                        </p>
                     </div>
+
                     <div>
                         <h3>{t.habilidadesTitulo}</h3>
                         <Barras texto={t.habilidades} />

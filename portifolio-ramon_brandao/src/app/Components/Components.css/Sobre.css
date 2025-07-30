@@ -1,4 +1,116 @@
+:root {
+  /* Cores primárias */
+  --color-primary-1: #3b95e4;
+  --color-primary-2: #44A1F2;
+  --color-primary-3: #6BB7FF;
+  --color-primary-4: #B0D6FF;
+
+  /* Cores secundárias */
+  --color-secondary-1: #0D0D0D;
+  --color-secondary-2: #5A5A5A;
+  --color-secondary-3: #D9D9D9;
+  --color-secondary-4: #F2F2F2;
+
+  /* Cores de texto */
+  --color-text-primary: #333333;
+  --color-text-secondary: #5a5a5a;
+  --color-text-tertiary: #777777;
+
+  /* Cores de fundo */
+  --color-background: #F5F7FA;
+  --color-card-background: #FFFFFF;
+
+  /* Cores de destaque */
+  --color-accent: #44A1F2;
+  --color-accent-background: #E1F0FF;
+
+  /* Cores de borda */
+  --color-border: #E0E5EB;
+
+  /* Efeitos e sombras */
+  --effect-sm: 0 1px 3px rgba(68, 161, 242, 0.12);
+  --effect-md: 0 4px 6px rgba(68, 161, 242, 0.16);
+  --effect-lg: 0 10px 15px rgba(68, 161, 242, 0.2);
+  --effect-glow: 0 0 15px rgba(68, 161, 242, 0.3);
+}
+
+
+/* Estilo principal do card */
+.sobre {
+  background-color: var(--color-card-background);
+  border-radius: 16px;
+  margin: 0 40px 0 40px;
+  padding: 40px;
+  position: relative;
+  box-shadow: var(--effect-md);
+  color: var(--color-text-primary); 
+  line-height: 1.6;
+}
+
+/* Layout do conteúdo */
 .areaSobre {
-  display: flex;
-  flex-direction: row;
+  display: flex;  
+  align-items: center;
+  gap: 100px;
+}
+
+.areaFoto {
+  flex-shrink: 0;
+}
+
+.sobre p {
+  max-width: 920px;
+  margin-bottom: 19px;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: justify;
+}
+
+strong{
+  /* text-decoration: underline; */
+  /* text-decoration-color: var(--effect-glow); */
+  color: var(--color-primary-1);
+}
+
+/* Estilo da imagem */
+.Foto {
+  border-radius: 8px;
+  box-shadow: var(--effect-sm);
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  margin: -10px 0 5px 0;
+}
+
+/* Seção de habilidades */
+.sobre h3 {
+  color: var(--color-text-primary);
+  margin: 50px 0 5px 0;
+  font-size: 1.3rem;
+}
+
+/* Remover o aviso do Windows */
+.sobre p:last-child {
+  display: none;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .areaSobre {
+    flex-direction: column;
+  }
+  
+  .sobre {
+    padding: 25px;
+    margin: 40px 20px;
+  }
+  
+  .areaFoto {
+    order: -1;
+    margin-bottom: 20px;
+  }
+  
+  .Foto {
+    max-width: 200px;
+  }
 }

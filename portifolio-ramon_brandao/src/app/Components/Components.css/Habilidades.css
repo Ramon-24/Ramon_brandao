@@ -10,6 +10,10 @@
     overflow-x: auto;
     padding: 0 65px 0 50px;
     background-color: var(--color-background);
+    background: transparent !important;
+    /* Remove o fundo do container */
+    backdrop-filter: none !important;
+    /* opacity: 0; */
 }
 
 /**
@@ -25,11 +29,9 @@
     gap: 4px;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    padding: 20px 0;
+    padding: 30px 0 80px 0;
     scrollbar-width: none;
-    /* Esconde a barra de scroll no Firefox */
     -ms-overflow-style: none;
-    /* Esconde a barra de scroll no IE/Edge */
 }
 
 /* Esconde a barra de scroll no Chrome/Safari */
@@ -47,7 +49,7 @@
  * - Transição suave para efeitos hover
  */
 .habilidade-card {
-    max-width: 336px; 
+    max-width: 336px;
     min-width: 250px;
     background-color: var(--color-card-background);
     box-shadow: var(--effect-lg);

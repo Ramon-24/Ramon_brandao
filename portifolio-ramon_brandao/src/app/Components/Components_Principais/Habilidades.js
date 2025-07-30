@@ -1,12 +1,12 @@
 "use client";
-import { useConfig } from "./Components_Segundarios/ConfigText";
-import { Textos } from "./Components_Segundarios/Textos";
+import { useConfig } from "../Components_Segundarios/ConfigText";
+import { Textos } from "../Components_Segundarios/Textos";
 import { useEffect, useState } from "react";
-import { Barras } from "./Components_Segundarios/Barras"
-import { TituloSecao } from "./Components_Segundarios/TituloSecao";
-import { GruposDestaque } from "../Components/Components_Segundarios/GruposDestaque";
+import { Barras } from "../Components_Segundarios/Barras"
+import { TituloSecao } from "../Components_Segundarios/TituloSecao";
+import { GruposDestaque } from "../Components_Segundarios/GruposDestaque";
 import Image from 'next/image';
-import "./Components.css/Habilidades.css"
+import "../Components.css/Habilidades.css"
 
 
 export function Habilidades() {
@@ -32,7 +32,7 @@ export function Habilidades() {
 
     if (!t) return null;
     return (
-        <section className="habilidades">
+        <section className="habilidades" style={{paddingTop: "100px"}}>
             <TituloSecao texto={t.titulo} />
             <div className="habilidades-scroll-cards">
                 <div className="habilidades-scroll">

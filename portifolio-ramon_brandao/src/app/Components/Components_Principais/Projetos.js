@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { useConfig } from "./Components_Segundarios/ConfigText";
-import { Textos } from "./Components_Segundarios/Textos";
-import { TituloSecao } from "./Components_Segundarios/TituloSecao";
-import { Barras } from "./Components_Segundarios/Barras"
-import { CardProjeto } from "./Components_Segundarios/CardProjeto";
-import "../Components/Components.css/Projetos.css";
+import { useConfig } from "../Components_Segundarios/ConfigText";
+import { Textos } from "../Components_Segundarios/Textos";
+import { TituloSecao } from "../Components_Segundarios/TituloSecao";
+import { Barras } from "../Components_Segundarios/Barras"
+import { CardProjeto } from "../Components_Segundarios/CardProjeto";
+import "../Components.css/Projetos.css";
 
 export function Projetos() {
     const { config } = useConfig();
@@ -18,7 +18,7 @@ export function Projetos() {
     );
 
     return (
-        <section className="Projetos-scroll" id="projetos">
+        <section className="Projetos-scroll" id="projetos" style={{paddingTop: "100px"}}>
             <TituloSecao texto={t.titulo} />
 
             <div

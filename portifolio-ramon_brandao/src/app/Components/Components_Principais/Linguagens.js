@@ -1,10 +1,10 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { useConfig } from "./Components_Segundarios/ConfigText";
-import { Textos } from "./Components_Segundarios/Textos";
-import { TituloSecao } from "./Components_Segundarios/TituloSecao";
-import { GruposDestaque } from "./Components_Segundarios/GruposDestaque";
-import "./Components.css/Config.css";
+import { useConfig } from "../Components_Segundarios/ConfigText";
+import { Textos } from "../Components_Segundarios/Textos";
+import { TituloSecao } from "../Components_Segundarios/TituloSecao";
+import { GruposDestaque } from "../Components_Segundarios/GruposDestaque";
+import "../Components.css/Config.css";
 
 export function Linguagens() {
   const { config } = useConfig();
@@ -30,7 +30,7 @@ export function Linguagens() {
   if (!t) return null;
 
   return (
-    <section className="linguagens" id="linguagens">
+    <section className="linguagens" id="linguagens" style={{paddingTop: "100px"}}>
       <TituloSecao texto={t.titulo} />
       <div className="linguagens-scroll0">
         <div className="linguagens-scroll">

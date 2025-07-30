@@ -1,6 +1,6 @@
 :root {
   /* Cores primárias */
-  --color-primary-1: #4D5673;
+  --color-primary-1: #3b95e4;
   --color-primary-2: #44A1F2;
   --color-primary-3: #6BB7FF;
   --color-primary-4: #B0D6FF;
@@ -147,7 +147,10 @@
 .Projetos-scroll {
   position: relative;
   overflow: hidden;
-  padding: 0 65px 0 50px;
+  padding: 0 65px 90px 50px;
+  background-color: var(--color-background);
+}
+.Projetos {
   background-color: var(--color-card-background);
 }
 

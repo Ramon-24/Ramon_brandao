@@ -1,10 +1,10 @@
 "use client";
-import { useConfig } from "./Components_Segundarios/ConfigText";
-import { Textos } from "./Components_Segundarios/Textos";
+import { useConfig } from "../Components_Segundarios/ConfigText";
+import { Textos } from "../Components_Segundarios/Textos";
 import { useEffect, useState } from "react";
-import { Icons } from "./Components_Segundarios/Icons";
+import { Icons } from "../Components_Segundarios/Icons";
 import Image from 'next/image';
-import "./Components.css/Hero.css"
+import "../Components.css/Hero.css"
 
 export function Hero() {
     const { config } = useConfig();
