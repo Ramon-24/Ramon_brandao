@@ -71,12 +71,12 @@ export function Navegacao() {
                     </button>
 
                     <div className={`mobile-menu ${isMenuOpen ? 'open' : ''}`}>
-                        <Link href="/" className="mobile-link">{t.links.inicio}</Link>
-                        <Link href="/" className="mobile-link">{t.links.sobre}</Link>
-                        <Link href="/" className="mobile-link">{t.links.tecnologias}</Link>
-                        <Link href="/" className="mobile-link">{t.links.habilidades}</Link>
-                        <Link href="/" className="mobile-link">{t.links.projetos}</Link>
-                        <Link href="/" className="mobile-link">{t.links.contato}</Link>
+                        <Link href="#inicio" className="mobile-link">{t.links.inicio}</Link>
+                        <Link href="#sobre" className="mobile-link">{t.links.sobre}</Link>
+                        <Link href="#linguagens" className="mobile-link">{t.links.tecnologias}</Link>
+                        <Link href="#habilidades" className="mobile-link">{t.links.habilidades}</Link>
+                        <Link href="#projetos" className="mobile-link">{t.links.projetos}</Link>
+                        <Link href="#contato" className="mobile-link">{t.links.contato}</Link>
                     </div>
                 </>
             )}

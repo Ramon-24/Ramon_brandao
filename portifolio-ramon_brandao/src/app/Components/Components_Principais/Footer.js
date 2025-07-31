@@ -58,14 +58,13 @@ export function Footer() {
                             marginTop: "20px"
                         }}></div>
                     <div className="LinksRapidos-contato">
-                        <Link href="/" className="mobile-link">{t.inicio}</Link>
-                        <Link href="/" className="mobile-link">{t.sobre}</Link>
-                        <Link href="/" className="mobile-link">{t.tecnologias}</Link>
-                        <Link href="/" className="mobile-link">{t.habilidades}</Link>
-                        <Link href="/" className="mobile-link">{t.projetos}</Link>
-                        <Link href="/" className="mobile-link">{t.contato}</Link>
+                        <Link href="#inicio" className="mobile-links">{t.inicio}</Link>
+                        <Link href="#sobre" className="mobile-links">{t.sobre}</Link>
+                        <Link href="#linguagens" className="mobile-links">{t.tecnologias}</Link>
+                        <Link href="#habilidades" className="mobile-links">{t.habilidades}</Link>
+                        <Link href="#projetos" className="mobile-links">{t.projetos}</Link>
+                        <Link href="#contato" className="mobile-links">{t.contato}</Link>
                     </div>
-
                 </div>
                 <div style={{marginRight: "130px"}}>
                     <h1>{t.contato}</h1>

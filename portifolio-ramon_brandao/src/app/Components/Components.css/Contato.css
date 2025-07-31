@@ -1,6 +1,6 @@
 :root {
     /* Cores primárias */
-    --color-primary-1: #3b95e4;
+    --color-primary-1: #265373;
     --color-primary-2: #44A1F2;
     --color-primary-3: #6BB7FF;
     --color-primary-4: #B0D6FF;
@@ -50,18 +50,27 @@
     padding: var(--space-xl);
     width: 100%;
     transform: translateY(-10px);
+    flex-shrink: 0;
 }
 
 /* Formulário */
 .contact-form {
+    flex-shrink: 0; /* ← ESSENCIAL para impedir que ele seja espremido */
+    flex-grow: 0;   /* ← Impede que ele tente crescer para ocupar espaço demais */
+    flex-basis: 600px; /* ← Define o tamanho base ideal */
+
+    width: 600px;      /* ← Fixa o tamanho */
+    min-width: 600px;  /* ← Garante que ele nunca fique menor que isso */
+
+    max-width: 600px;  /* ← Opcional: impede de crescer além disso */
+
+    /* o resto do seu estilo */
     background-color: var(--color-card-background);
     padding: var(--space-xl);
     border-radius: var(--radius-md);
     box-shadow: var(--effect-md);
     transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
     border: 1px solid var(--color-border);
-    max-width: 600px;
-    width: 100%;
     opacity: 0;
     transform: translateY(20px);
 }
@@ -417,5 +426,150 @@
     .form-input,
     .form-textarea {
         padding: var(--space-sm) var(--space-md);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Area-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.Inf-contato {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    margin-bottom: 70px;
+}
+
+.Inf-contato h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.Inf-contato p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--color-text-primary);
+    margin-bottom: 30px;
+}
+
+.Inf-cards-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Inf-card-contato {
+    background: var(--color-card-background);
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.Inf-text-contato h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.Inf-text-contato p {
+    font-size: 0.95rem;
+    color: var(--color-text-primary);
+    margin: 2px 0 0;
+    word-break: break-word;
+}
+
+@media (max-width: 1024px) {
+    .Area-contato {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Inf-contato, .formulario {
+        max-width: 100%;
     }
 }

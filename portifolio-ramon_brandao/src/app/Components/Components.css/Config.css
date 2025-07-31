@@ -6,7 +6,7 @@
 
 :root {
   /* Cores primárias */
-  --color-primary-1: #3b95e4;
+  --color-primary-1: #265373;
   --color-primary-2: #44A1F2;
   --color-primary-3: #6BB7FF;
   --color-primary-4: #B0D6FF;
@@ -104,9 +104,9 @@ body {
 }
 
 .botao-flutuante:hover {
-  color: var(--color-primary-2);
-  box-shadow: 0 1px 20px var(--color-primary-2);
-  border: 1px solid var(--color-primary-2-2);
+  color: var(--color-primary-3);
+  box-shadow: 0 1px 20px var(--color-primary-3);
+  border: 1px solid var(--color-primary-3);
   transform: scale(1.1);
   cursor: pointer;
 }

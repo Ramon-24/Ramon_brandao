@@ -1,6 +1,6 @@
 :root {
   /* Cores primárias */
-  --color-primary-1: #3b95e4;
+  --color-primary-1: #265373;
   --color-primary-2: #44A1F2;
   --color-primary-3: #6BB7FF;
   --color-primary-4: #B0D6FF;
@@ -52,7 +52,7 @@
     display: flex;
     flex-direction: column;
 }
-.mobile-link {
+.mobile-links {
     text-decoration: none; /* remove o sublinhado */
     font-weight: 300;
     font-size: 15px;
@@ -63,7 +63,7 @@
     transform: translateY(-15px);
 }
 
-.mobile-link:hover {
+.mobile-links:hover {
     color: var(--color-primary-1); /* cor de destaque no hover */
     transform: translateX(8px);
     transform: translateY(-15px);

@@ -1,6 +1,6 @@
 :root {
   /* Paleta base */
-  --color-primary-1: #3b95e4;
+  --color-primary-1: #265373;
   --color-primary-2: #44A1F2;
   --color-primary-3: #6BB7FF;
   --color-primary-4: #B0D6FF;
@@ -109,9 +109,10 @@
 }
 
 .baixarCurriculo:hover {
-  background-color: var(--color-accent-background);
+  border: 2px solid var(--color-primary-2);
+  background-color: var(--color-primary-4);
   transform: translateZ(0px);
-  box-shadow: 0 0 10px 1px var(--color-accent);
+  box-shadow: 0 0 6px 1px var(--color-primary-2);
 }
 
 .m{
@@ -123,7 +124,7 @@
   border-radius: 50px;
   font-weight: 600;
   color: white;
-  background: linear-gradient(135deg, var(--color-primary-4), var(--color-primary-1));
+  background: linear-gradient(135deg, var(--color-primary-3), var(--color-primary-1));
   padding: 10px 30px;
   font-size: 16px;
   text-align: center;
