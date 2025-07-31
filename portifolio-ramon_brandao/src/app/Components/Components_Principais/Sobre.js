@@ -32,7 +32,10 @@ export function Sobre() {
     if (!t) return null;
 
     return (
-        <section className="sobre">
+        <section
+            className="sobre"
+            id="sobre"
+        >
             <TituloSecao texto={t.titulo} />
             <div className="areaSobre">
                 <div className="textSobre">

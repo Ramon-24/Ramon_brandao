@@ -47,7 +47,7 @@ export function Footer() {
                                 marginBottom: "3.5rem"
                             }}>
                             {t.descricao}</p>
-                        <Icons />
+                        <Icons/>
                     </div>
                 </div>
                 <div style={{marginRight: "-10px"}}>

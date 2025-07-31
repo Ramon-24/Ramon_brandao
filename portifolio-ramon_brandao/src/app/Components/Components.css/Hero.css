@@ -46,7 +46,7 @@
   font-size: 54px;
   text-align: left;
   width: 55vw;
-  color: var(--color-secondary-1);
+  color: var(--color-text-primary);
   line-height: 1.3;
 }
 
@@ -68,8 +68,9 @@
   display: flex;
   flex-direction: row;
   gap: 20px;
-  margin: 30px 0;
+  margin: 30px 10px;
   flex-wrap: wrap;
+  perspective: 1000px;
 }
 
 .entrarContato,
@@ -84,6 +85,7 @@
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   text-decoration: none;
+  transform: translateZ(28px);
 }
 
 .entrarContato {
@@ -95,8 +97,9 @@
 
 .entrarContato:hover {
   background-color: var(--color-primary-2);
-  transform: translateY(-2px);
-  box-shadow: var(--effect-md);
+  transform: translateY(2px);
+  box-shadow: 0 0 10px 1px var(--color-accent);
+  transform: translateZ(0px);
 }
 
 .baixarCurriculo {
@@ -107,8 +110,13 @@
 
 .baixarCurriculo:hover {
   background-color: var(--color-accent-background);
-  transform: translateY(-2px);
-  box-shadow: var(--effect-sm);
+  transform: translateZ(0px);
+  box-shadow: 0 0 10px 1px var(--color-accent);
+}
+
+.m{
+  animation: float 6s ease-in-out infinite !important;
+  perspective: 800px;
 }
 
 .badge {
@@ -118,20 +126,27 @@
   background: linear-gradient(135deg, var(--color-primary-4), var(--color-primary-1));
   padding: 10px 30px;
   font-size: 16px;
-  margin-top: 20px;
   text-align: center;
   box-shadow: var(--effect-sm);
+  position: absolute;
+  transform: translateY(-100px) !important;
+}
+
+.badge:hover {
+  transform: scale(1.05);
+  box-shadow: var(--effect-glow);
+  cursor: grab;
+  box-shadow: 0 4px 20px 4px var(--color-accent);
 }
 
 /* Foto de perfil */
 .minhaFoto {
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: float 6s ease-in-out infinite;
-  margin-right: 800px;
+  transform: translateX(-110px) !important;
 }
 
 .Fotos {
@@ -155,9 +170,10 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-8px);
+    transform: translateY(-20px);
   }
 }
+
 
 /* Responsivo */
 @media (max-width: 1024px) {

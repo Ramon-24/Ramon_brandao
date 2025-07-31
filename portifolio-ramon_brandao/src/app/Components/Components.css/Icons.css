@@ -1,12 +1,29 @@
-.icone-circulo {
-  text-decoration: none;
+.icons {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.icone-circulo {
   width: 45px;
   height: 45px;
   border-radius: 50%;
   background-color: var(--color-primary-1);
   color: white;
-  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.icone-circulo:hover {
+  transform: translateY(-4px) scale(1);
+  /* box-shadow: 0 6px 12px rgba(68, 161, 242, 0.4); */
+  box-shadow: 0 4px 10px 2px var(--color-accent);
+}
+
+.icone-circulo svg {
+  width: 22px;
+  height: 22px;
 }

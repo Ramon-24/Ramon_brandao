@@ -32,7 +32,7 @@ export function Habilidades() {
 
     if (!t) return null;
     return (
-        <section className="habilidades" style={{paddingTop: "100px"}}>
+        <section className="habilidades" id="habilidades" style={{paddingTop: "100px"}}>
             <TituloSecao texto={t.titulo} />
             <div className="habilidades-scroll-cards">
                 <div className="habilidades-scroll">

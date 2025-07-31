@@ -32,7 +32,7 @@ export function Contato() {
     if (!t) return null;
 
     return (
-        <section className="contato" style={{paddingTop: "100px"}}>
+        <section className="contato" id="contato" style={{paddingTop: "100px"}}>
             <TituloSecao texto={t.titulo} />
             <div
                 className="Area-contato"

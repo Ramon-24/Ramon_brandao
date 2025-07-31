@@ -40,26 +40,27 @@ export function Navegacao() {
                 <h1 className="logo1">{t.logo1.normalize("NFD").replace(/[\u0300-\u036f]/g, "")}</h1>
                 <h1 className="logo2">{t.logo2}</h1>
             </div>
-            
+
             {/* Versão Desktop (exatamente como estava antes) */}
             {!isMobile && (
                 <div className="nav-direita">
-                    <Link href="/" className="links">{t.links.inicio}</Link>
-                    <Link href="/" className="links">{t.links.sobre}</Link>
-                    <Link href="/" className="links">{t.links.tecnologias}</Link>
-                    <Link href="/" className="links">{t.links.habilidades}</Link>
-                    <Link href="/" className="links">{t.links.projetos}</Link>
-                    <Link href="/" className="links">{t.links.contato}</Link>
+                    <a href="#inicio" className="links">{t.links.inicio}</a>
+                    <a href="#sobre" className="links">{t.links.sobre}</a>
+                    <a href="#linguagens" className="links">{t.links.tecnologias}</a>
+                    <a href="#habilidades" className="links">{t.links.habilidades}</a>
+                    <a href="#projetos" className="links">{t.links.projetos}</a>
+                    <a href="#contato" className="links">{t.links.contato}</a>
                     <Config />
                 </div>
+
             )}
 
             {/* Versão Mobile */}
             {isMobile && (
                 <>
                     <Config /> {/* Configurações sempre visíveis */}
-                    
-                    <button 
+
+                    <button
                         className={`hamburguer-button ${isMenuOpen ? 'open' : ''}`}
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
                         aria-label="Menu"
