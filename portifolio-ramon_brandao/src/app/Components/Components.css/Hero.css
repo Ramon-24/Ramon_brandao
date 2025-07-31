@@ -125,16 +125,16 @@
 
 /* Foto de perfil */
 .minhaFoto {
-  width: 340px;
-  height: 340px;
+  width: 400px;
+  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
   animation: float 6s ease-in-out infinite;
-  margin-right: 40px;
+  margin-right: 800px;
 }
 
-.Foto {
+.Fotos {
   width: 100%;
   height: 100%;
   border-radius: 50% !important;
@@ -144,7 +144,7 @@
   transition: all 0.4s ease;
 }
 
-.Foto:hover {
+.Fotos:hover {
   transform: scale(1.05);
   box-shadow: var(--effect-glow);
 }

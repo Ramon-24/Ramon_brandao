@@ -66,7 +66,7 @@ export function Hero() {
                 <div className="minhaFoto">
                     <Image
                         src="/Eu.jpg"
-                        className="Foto"
+                        className="Fotos"
                         alt="Foto"
                         width={500}
                         height={500}
