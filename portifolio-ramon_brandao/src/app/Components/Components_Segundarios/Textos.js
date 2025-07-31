@@ -13,11 +13,12 @@ export const Textos = {
             }
         },
         hero: {
-            titulo: "Desenvolvedor Full Stack que transforma propósito em soluções digitais completas.",
+            destaque: "Desenvolvedor Full Stack",
+            titulo: " que transforma propósito em soluções digitais completas.",
             subtitulo: "Atuo da lógica à interface, criando sistemas web, mobile e automações que unem funcionalidade, design e resultado — com aprendizado contínuo e foco em resolver problemas reais.",
             botaoContato: "Entre em contato",
             botaoCurriculo: "Baixar Currículo",
-            badge: "Estudante de Desenvolvimento"
+            badge: "</> Estudante de Desenvolvimento"
         },
         about: {
             titulo: "Sobre Mim",

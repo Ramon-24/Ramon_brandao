@@ -67,8 +67,6 @@
 }
 
 strong{
-  /* text-decoration: underline; */
-  /* text-decoration-color: var(--effect-glow); */
   color: var(--color-primary-1);
 }
 
