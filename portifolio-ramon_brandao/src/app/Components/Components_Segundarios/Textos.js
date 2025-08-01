@@ -359,7 +359,7 @@ export const Textos = {
                 {
                     nome: "Multimídia Conecta+",
                     descricao: "Controla empréstimos, devoluções e histórico de alunos, evitando perdas de livros. Em reformulação com novo design, análise de dados e perfis de usuários.",
-                    status: "Individual",
+                    status: "Equipe, sendo refeito Individualmente",
                     categoria: "Web",
                     imagem: "/projetos/multimidia-conecta.jpg", // Ajuste para o caminho da imagem real
                     tecnologias: ["Node.js", "Express", "React", "Vite", "ThunderClient", "MySQL", "phpMyAdmin", "Bootstrap", "Devicon"],
@@ -424,7 +424,7 @@ export const Textos = {
                 {
                     nome: "Conde-Rand",
                     descricao: "Aplicativo que possui um sorteio, um contador, um jogo de adivinha números, além de cadastro, login e histórico. Está sendo refeito por mim para melhorar o design, garantir responsividade real e aprofundar o uso da plataforma, incluindo lógica customizada com código.",
-                    status: "Equipe",
+                    status: "Equipe, melhorias individualmente",
                     categoria: "Mobile",
                     imagem: "/projetos/flutterflow-refeito.jpg", // Substitua por uma imagem ou mockup atualizado
                     tecnologias: ["FlutterFlow", "SupaBase"],
@@ -529,6 +529,19 @@ export const Textos = {
             }
         }
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     en: {
         nav: {
@@ -982,6 +995,15 @@ export const Textos = {
             }
         }
     },
+
+
+
+
+
+
+
+
+
     es: {
         nav: {
             logo1: "< Ramon",
@@ -991,8 +1013,8 @@ export const Textos = {
                 sobre: "Sobre mí",
                 tecnologias: "Tecnologías",
                 habilidades: "Habilidades",
-                proyectos: "Proyectos",
-                contacto: "Contacto"
+                projetos: "Proyectos",
+                contato: "Contacto"
             }
         },
         hero: {
@@ -1041,42 +1063,42 @@ export const Textos = {
                     titulo: "Desarrollo Web",
                     itens: [
                         {
-                            nombre: "HTML5",
-                            descripcion: "Estructura páginas web con títulos, párrafos, imágenes y enlaces.",
-                            icono: <i className="devicon-html5-plain" />
+                            nome: "HTML5",
+                            descricao: "Estructura páginas web con títulos, párrafos, imágenes y enlaces.",
+                            icone: <i className="devicon-html5-plain" />
                         },
                         {
-                            nombre: "CSS3",
-                            descripcion: "Controla el aspecto visual de las páginas: colores, tamaños, espaciados y animaciones.",
-                            icono: <i className="devicon-css3-plain" />
+                            nome: "CSS3",
+                            descricao: "Controla el aspecto visual de las páginas: colores, tamaños, espaciados y animaciones.",
+                            icone: <i className="devicon-css3-plain" />
                         },
                         {
-                            nombre: "JavaScript",
-                            descripcion: "Hace sitios interactivos con clics, formularios, sliders, animaciones y más.",
-                            icono: <i className="devicon-javascript-plain" />
+                            nome: "JavaScript",
+                            descricao: "Hace sitios interactivos con clics, formularios, sliders, animaciones y más.",
+                            icone: <i className="devicon-javascript-plain" />
                         },
                         {
-                            nombre: "React",
-                            descripcion: "Biblioteca para crear interfaces modernas y reactivas con componentes reutilizables.",
-                            icono: <i className="devicon-react-original" />
+                            nome: "React",
+                            descricao: "Biblioteca para crear interfaces modernas y reactivas con componentes reutilizables.",
+                            icone: <i className="devicon-react-original" />
                         },
                         {
-                            nombre: "Next.js",
-                            descripcion: "Framework React para sitios rápidos con rutas, SSR, SEO y estructura escalable.",
-                            icono: <i className="devicon-nextjs-line" style={{ fontSize: "36px", display: "flex", alignItems: "center", justifyContent: "center" }} />
+                            nome: "Next.js",
+                            descricao: "Framework React para sitios rápidos con rutas, SSR, SEO y estructura escalable.",
+                            icone: <i className="devicon-nextjs-line" style={{ fontSize: "36px", display: "flex", alignItems: "center", justifyContent: "center" }} />
                         },
                         {
-                            nombre: "Bootstrap",
-                            descripcion: "Conjunto de componentes listos para acelerar la creación de interfaces responsivas.",
-                            icono: <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-bootstrap-fill" viewBox="0 0 16 16">
+                            nome: "Bootstrap",
+                            descricao: "Conjunto de componentes listos para acelerar la creación de interfaces responsivas.",
+                            icone: <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-bootstrap-fill" viewBox="0 0 16 16">
                                 <path d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375z" />
                                 <path d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396z" />
                             </svg>
                         },
                         {
-                            nombre: "Vite",
-                            descripcion: "Empaquetador moderno y ultrarrápido para desarrollo frontend con JS y React.",
-                            icono: <i className="devicon-vitejs-plain" />
+                            nome: "Vite",
+                            descricao: "Empaquetador moderno y ultrarrápido para desarrollo frontend con JS y React.",
+                            icone: <i className="devicon-vitejs-plain" />
                         }
                     ]
                 },
@@ -1084,19 +1106,19 @@ export const Textos = {
                     titulo: "Lógica y Back-end",
                     itens: [
                         {
-                            nombre: "Node.js",
-                            descripcion: "Permite usar JavaScript en el back-end para APIs, lógica y servidores.",
-                            icono: <i className="devicon-nodejs-plain" style={{ fontSize: "26px" }} />
+                            nome: "Node.js",
+                            descricao: "Permite usar JavaScript en el back-end para APIs, lógica y servidores.",
+                            icone: <i className="devicon-nodejs-plain" style={{ fontSize: "26px" }} />
                         },
                         {
-                            nombre: "Express.js",
-                            descripcion: "Framework ligero para crear APIs REST y manejar rutas y middlewares.",
-                            icono: <i className="devicon-express-original" />
+                            nome: "Express.js",
+                            descricao: "Framework ligero para crear APIs REST y manejar rutas y middlewares.",
+                            icone: <i className="devicon-express-original" />
                         },
                         {
-                            nombre: "Python",
-                            descripcion: "Lenguaje poderoso usado en automatizaciones, scripts, APIs, bots y análisis de datos.",
-                            icono: <i className="devicon-python-plain" />
+                            nome: "Python",
+                            descricao: "Lenguaje poderoso usado en automatizaciones, scripts, APIs, bots y análisis de datos.",
+                            icone: <i className="devicon-python-plain" />
                         }
                     ]
                 },
@@ -1104,14 +1126,14 @@ export const Textos = {
                     titulo: "Base de Datos",
                     itens: [
                         {
-                            nombre: "MySQL",
-                            descripcion: "Base de datos relacional ideal para sistemas web con datos estructurados.",
-                            icono: <i className="devicon-mysql-plain-wordmark" style={{ fontSize: "30px" }} />
+                            nome: "MySQL",
+                            descricao: "Base de datos relacional ideal para sistemas web con datos estructurados.",
+                            icone: <i className="devicon-mysql-plain-wordmark" style={{ fontSize: "30px" }} />
                         },
                         {
-                            nombre: "Supabase",
-                            descripcion: "Solución completa con base de datos en tiempo real, autenticación y hosting.",
-                            icono: <i className="devicon-supabase-plain colored" />
+                            nome: "Supabase",
+                            descricao: "Solución completa con base de datos en tiempo real, autenticación y hosting.",
+                            icone: <i className="devicon-supabase-plain colored" />
                         }
                     ]
                 },
@@ -1119,16 +1141,16 @@ export const Textos = {
                     titulo: "DevOps & Pruebas",
                     itens: [
                         {
-                            nombre: "Git & GitHub",
-                            descripcion: "Control de versiones de código con colaboración, historial y despliegues integrados.",
-                            icono: <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
+                            nome: "Git & GitHub",
+                            descricao: "Control de versiones de código con colaboración, historial y despliegues integrados.",
+                            icone: <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
                                 <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
                             </svg>
                         },
                         {
-                            nombre: "Thunder Client",
-                            descripcion: "Herramientas para probar APIs REST de forma visual y práctica.",
-                            icono: <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-lightning-charge-fill" viewBox="0 0 16 16">
+                            nome: "Thunder Client",
+                            descricao: "Herramientas para probar APIs REST de forma visual y práctica.",
+                            icone: <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-lightning-charge-fill" viewBox="0 0 16 16">
                                 <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z" />
                             </svg>
                         }
@@ -1138,14 +1160,14 @@ export const Textos = {
                     titulo: "Diseño & UI/UX",
                     itens: [
                         {
-                            nombre: "Figma",
-                            descripcion: "Herramienta colaborativa para crear prototipos y layouts responsivos.",
-                            icono: <i className="devicon-figma-plain" />
+                            nome: "Figma",
+                            descricao: "Herramienta colaborativa para crear prototipos y layouts responsivos.",
+                            icone: <i className="devicon-figma-plain" />
                         },
                         {
-                            nombre: "Animaciones CSS",
-                            descripcion: "Movimiento de elementos para hacer interfaces más dinámicas y atractivas.",
-                            icono: <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-film" viewBox="0 0 16 16">
+                            nome: "Animaciones CSS",
+                            descricao: "Movimiento de elementos para hacer interfaces más dinámicas y atractivas.",
+                            icone: <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-film" viewBox="0 0 16 16">
                                 <path d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm4 0v6h8V1zm8 8H4v6h8zM1 1v2h2V1zm2 3H1v2h2zM1 7v2h2V7zm2 3H1v2h2zm-2 3v2h2v-2zM15 1h-2v2h2zm-2 3v2h2V4zm2 3h-2v2h2zm-2 3v2h2v-2zm2 3h-2v2h2z" />
                             </svg>
                         }
@@ -1155,13 +1177,13 @@ export const Textos = {
                     titulo: "Análisis de Datos",
                     itens: [
                         {
-                            nombre: "Excel",
-                            descripcion: "Hojas de cálculo con fórmulas, filtros, tablas y dashboards."
+                            nome: "Excel",
+                            descricao: "Hojas de cálculo con fórmulas, filtros, tablas y dashboards."
                         },
                         {
-                            nombre: "Python (Pandas/Numpy)",
-                            descripcion: "Procesamiento de datos, gráficos y manipulaciones con código simple y poderoso.",
-                            icono: <i className="devicon-python-plain" />
+                            nome: "Python (Pandas/Numpy)",
+                            descricao: "Procesamiento de datos, gráficos y manipulaciones con código simple y poderoso.",
+                            icone: <i className="devicon-python-plain" />
                         }
                     ]
                 },
@@ -1169,9 +1191,9 @@ export const Textos = {
                     titulo: "Automatizaciones y Scripts",
                     itens: [
                         {
-                            nombre: "Python",
-                            descripcion: "Creación de scripts para automatizar tareas, descargar datos, enviar emails, etc.",
-                            icono: <i className="devicon-python-plain" />
+                            nome: "Python",
+                            descricao: "Creación de scripts para automatizar tareas, descargar datos, enviar emails, etc.",
+                            icone: <i className="devicon-python-plain" />
                         }
                     ]
                 },
@@ -1179,35 +1201,35 @@ export const Textos = {
                     titulo: "Otros Conocimientos",
                     itens: [
                         {
-                            nombre: "VS Code",
-                            descripcion: "Editor ligero, rápido y personalizable con soporte para múltiples lenguajes.",
-                            icono: <i className="devicon-vscode-plain" />
+                            nome: "VS Code",
+                            descricao: "Editor ligero, rápido y personalizable con soporte para múltiples lenguajes.",
+                            icone: <i className="devicon-vscode-plain" />
                         },
                         {
-                            nombre: "Extensiones útiles",
-                            descripcion: "Herramientas como Prettier, ESLint, GitLens y Live Server para productividad."
+                            nome: "Extensiones útiles",
+                            descricao: "Herramientas como Prettier, ESLint, GitLens y Live Server para productividad."
                         },
                         {
-                            nombre: "Markdown",
-                            descripcion: "Sintaxis ligera para formatear textos en READMEs, blogs y documentación.",
-                            icono: <i className="devicon-markdown-original" />
+                            nome: "Markdown",
+                            descricao: "Sintaxis ligera para formatear textos en READMEs, blogs y documentación.",
+                            icone: <i className="devicon-markdown-original" />
                         },
                         {
-                            nombre: "Hosting (Vercel / Netlify)",
-                            descripcion: "Publicación rápida y gratuita de sitios, con integración con Git.",
-                            icono: <i className="devicon-vercel-original-wordmark" />
+                            nome: "Hosting (Vercel / Netlify)",
+                            descricao: "Publicación rápida y gratuita de sitios, con integración con Git.",
+                            icone: <i className="devicon-vercel-original-wordmark" />
                         },
                         {
-                            nombre: "Mantenimiento de PCs",
-                            descripcion: "Reparo hardware y realizo mantenimiento de software",
-                            icono: <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-laptop" viewBox="0 0 16 16">
+                            nome: "Mantenimiento de PCs",
+                            descricao: "Reparo hardware y realizo mantenimiento de software",
+                            icone: <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-laptop" viewBox="0 0 16 16">
                                 <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5" />
                             </svg>
                         },
                         {
-                            nombre: "FlutterFlow",
-                            descripcion: "Plataforma visual para creación de apps móviles y web con integración a Firebase y exportación en código Flutter.",
-                            icono: <i className="devicon-flutter-plain" />
+                            nome: "FlutterFlow",
+                            descricao: "Plataforma visual para creación de apps móviles y web con integración a Firebase y exportación en código Flutter.",
+                            icone: <i className="devicon-flutter-plain" />
                         }
                     ]
                 }
@@ -1217,8 +1239,8 @@ export const Textos = {
             titulo: "Mis Habilidades",
             frontend: {
                 titulo: "Front-end",
-                descripcion: "Creo interfaces modernas, responsivas e intuitivas con atención a la experiencia del usuario. Tengo dominio en lenguajes de marcado, estilos y frameworks que agilizan el desarrollo visual.",
-                items: [
+                descricao: "Creo interfaces modernas, responsivas e intuitivas con atención a la experiencia del usuario. Tengo dominio en lenguajes de marcado, estilos y frameworks que agilizan el desarrollo visual.",
+                itens: [
                     "HTML5",
                     "CSS3",
                     "JavaScript",
@@ -1230,8 +1252,8 @@ export const Textos = {
             },
             backend: {
                 titulo: "Back-end",
-                descripcion: "Desarrollo lógicas e integraciones robustas, conectando front-end a bases de datos y servicios. He trabajado con APIs, autenticaciones y automatizaciones que hacen los proyectos funcionales y escalables.",
-                items: [
+                descricao: "Desarrollo lógicas e integraciones robustas, conectando front-end a bases de datos y servicios. He trabajado con APIs, autenticaciones y automatizaciones que hacen los proyectos funcionales y escalables.",
+                itens: [
                     "Node.js",
                     "Express",
                     "Python",
@@ -1241,8 +1263,8 @@ export const Textos = {
             },
             ferramentas: {
                 titulo: "Herramientas",
-                descripcion: "Utilizo herramientas que aumentan mi productividad, organización de código y comunicación con equipo. Conozco extensiones y plataformas que ayudan en prototipado, despliegue y pruebas.",
-                items: [
+                descricao: "Utilizo herramientas que aumentan mi productividad, organización de código y comunicación con equipo. Conozco extensiones y plataformas que ayudan en prototipado, despliegue y pruebas.",
+                itens: [
                     "Git & GitHub",
                     "VS Code",
                     "Figma",
@@ -1252,8 +1274,8 @@ export const Textos = {
             },
             outros: {
                 titulo: "Otros",
-                descripcion: "Tengo conocimientos adicionales que refuerzan mi perfil versátil como desarrollador full stack. Comprendo diseño, análisis de datos, automatizaciones, mantenimiento de hardware y más.",
-                items: [
+                descricao: "Tengo conocimientos adicionales que refuerzan mi perfil versátil como desarrollador full stack. Comprendo diseño, análisis de datos, automatizaciones, mantenimiento de hardware y más.",
+                itens: [
                     "Automatización",
                     "Markdown",
                     "Hosting (Vercel)",
@@ -1268,59 +1290,59 @@ export const Textos = {
             filtros: ["Todos", "Web", "Móvil", "Otros"],
             lista: [
                 {
-                    nombre: "Multimídia Conecta+",
-                    descripcion: "Controla préstamos, devoluciones e historial de estudiantes, evitando pérdidas de libros. En rediseño con nuevo diseño, análisis de datos y perfiles de usuarios.",
+                    nome: "Multimídia Conecta+",
+                    descricao: "Controla préstamos, devoluciones e historial de estudiantes, evitando pérdidas de libros. En rediseño con nuevo diseño, análisis de datos y perfiles de usuarios.",
                     estado: "Individual",
                     categoria: "Web",
                     imagen: "/projetos/multimidia-conecta.jpg",
                     tecnologias: ["Node.js", "Express", "React", "Vite", "ThunderClient", "MySQL", "phpMyAdmin", "Bootstrap", "Devicon"],
                     links: [
                         {
-                            nombre: "Repositorio",
+                            nome: "Repositorio",
                             url: "https://github.com/Ramon-24/Epgwa.Biblioteca",
                             svg: <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
                                 <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
                             </svg>
                         },
                         {
-                            nombre: "Figma",
+                            nome: "Figma",
                             url: "https://www.figma.com/design/1zVI0wTpIatPfchkodyjRM/Multimeios-Conecta-?node-id=1-2&p=f&t=oQayHBR88UqNfUAw-0",
                             svg: <i className="devicon-figma-plain" />
                         }
                     ]
                 },
                 {
-                    nombre: "Gamefic",
-                    descripcion: "Landing page de una startup educacional que une gamificación, lectura infantil y tecnología, con kits físicos e historias interactivas para acercar niños a los libros y a los padres.",
+                    nome: "Gamefic",
+                    descricao: "Landing page de una startup educacional que une gamificación, lectura infantil y tecnología, con kits físicos e historias interactivas para acercar niños a los libros y a los padres.",
                     estado: "Equipo",
                     categoria: "Web",
                     imagen: "/projetos/gamefic.jpg",
                     tecnologias: ["Next.js", "Vercel", "Bootstrap", "Devicon", "NPM", "i18next"],
                     links: [
                         {
-                            nombre: "Repositorio",
+                            nome: "Repositorio",
                             url: "https://github.com/Ramon-24/Gamefic",
                             svg: <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
                                 <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
                             </svg>
                         },
                         {
-                            nombre: "Demo",
+                            nome: "Demo",
                             url: "https://gamefic.vercel.app",
                             svg: <i className="devicon-nextjs-original" />
                         }
                     ]
                 },
                 {
-                    nombre: "Automatización con Gestos",
-                    descripcion: "Proyecto de automatización con visión computacional que reconoce gestos de las manos vía webcam para controlar la computadora. Presentado en la Semana de TI como forma interactiva de enseñar automatización, sin uso de diapositivas.",
+                    nome: "Automatización con Gestos",
+                    descricao: "Proyecto de automatización con visión computacional que reconoce gestos de las manos vía webcam para controlar la computadora. Presentado en la Semana de TI como forma interactiva de enseñar automatización, sin uso de diapositivas.",
                     estado: "Equipo",
                     categoria: "Otros",
                     imagen: "/projetos/automacao-gestos.jpg",
                     tecnologias: ["Python", "OpenCV", "PyAutoGUI", "Mediapipe"],
                     links: [
                         {
-                            nombre: "Repositorio",
+                            nome: "Repositorio",
                             url: "https://github.com/Ramon-24/robo",
                             svg: <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
                                 <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
@@ -1329,23 +1351,23 @@ export const Textos = {
                     ]
                 },
                 {
-                    nombre: "Conde-Rand",
-                    descripcion: "Aplicación que tiene un sorteo, un contador, un juego de adivinar números, además de registro, login e historial. Está siendo rehecho por mí para mejorar el diseño, garantizar responsividad real y profundizar el uso de la plataforma, incluyendo lógica personalizada con código.",
+                    nome: "Conde-Rand",
+                    descricao: "Aplicación que tiene un sorteo, un contador, un juego de adivinar números, además de registro, login e historial. Está siendo rehecho por mí para mejorar el diseño, garantizar responsividad real y profundizar el uso de la plataforma, incluyendo lógica personalizada con código.",
                     estado: "Equipo",
                     categoria: "Móvil",
                     imagen: "/projetos/flutterflow-refeito.jpg",
                     tecnologias: ["FlutterFlow", "SupaBase"],
                     links: [
                         {
-                            nombre: "Demo",
+                            nome: "Demo",
                             url: "https://gamefic.vercel.app",
                             svg: <i className="devicon-flutter-plain" />
                         }
                     ]
                 },
                 {
-                    nombre: "Portafolio Personal",
-                    descripcion: "Enfocado en performance, accesibilidad y diseño responsivo. Incluye multi-idioma, modo claro/oscuro, animaciones y formulario de contacto. En constante actualización.",
+                    nome: "Portafolio Personal",
+                    descricao: "Enfocado en performance, accesibilidad y diseño responsivo. Incluye multi-idioma, modo claro/oscuro, animaciones y formulario de contacto. En constante actualización.",
                     estado: "En desarrollo continuo",
                     categoria: "Web",
                     imagen: "/img/projetos/portfolio.png",
@@ -1354,19 +1376,19 @@ export const Textos = {
                     ],
                     links: [
                         {
-                            nombre: "Repositorio",
+                            nome: "Repositorio",
                             url: "https://github.com/Ramon-24/Ramon_brandao",
                             svg: <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
                                 <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
                             </svg>
                         },
                         {
-                            nombre: "Figma",
+                            nome: "Figma",
                             url: "https://www.figma.com/design/qI6Kpt6wHTyVFNQOZKOF74/Portifolio?node-id=0-1&p=f&t=fjzYlHexB8Cgn9YT-0",
                             svg: <i className="devicon-figma-plain" />
                         },
                         {
-                            nombre: "Demo",
+                            nome: "Demo",
                             url: "https://ramon-brandao.vercel.app",
                             svg: <i className="devicon-nextjs-original" />
                         }
@@ -1377,24 +1399,24 @@ export const Textos = {
         contato: {
             titulo: "¿Hablemos?",
             titulos: "Contacto",
-            descripcion: "Estoy disponible para oportunidades, proyectos freelance o colaboraciones. Siéntete libre de contactarme a través de los canales abajo o por el formulario.",
+            descricao: "Estoy disponible para oportunidades, proyectos freelance o colaboraciones. Siéntete libre de contactarme a través de los canales abajo o por el formulario.",
             formulario: {
                 tituloForms: "Envía un mensaje",
-                nombre: "Nombre Completo",
+                nome: "Nombre Completo",
                 email: "Correo Electrónico",
-                asunto: "Asunto",
-                mensaje: "Mensaje",
-                boton: "Enviar Mensaje"
+                assunto: "Asunto",
+                mensagem: "Mensaje",
+                botao: "Enviar Mensaje"
             },
             mensaje: {
                 exito: {
                     titulo: "¡Mensaje enviado!",
-                    descripcion: "Gracias por contactarme. Responderé pronto.",
+                    descricao: "Gracias por contactarme. Responderé pronto.",
                     cerrar: "Cerrar"
                 },
                 error: {
                     titulo: "Error al enviar",
-                    descripcion: "Inténtalo de nuevo más tarde o envía directamente por correo electrónico.",
+                    descricao: "Inténtalo de nuevo más tarde o envía directamente por correo electrónico.",
                     cerrar: "Cerrar"
                 },
             },
@@ -1404,7 +1426,7 @@ export const Textos = {
                 email: "Correo",
                 gmail: "ramonbrandao.dev@gmail.com",
                 linkedin: "LinkedIn",
-                cuenta: "linkedin.com/in/ramonbrandao",
+                conta: "linkedin.com/in/ramonbrandao",
                 github: "GitHub",
                 url: "github.com/ramonbrandao"
             }
@@ -1412,21 +1434,21 @@ export const Textos = {
         footer: {
             logo1: "< Ramon",
             logo2: "Brandão />",
-            descripcion: "Desarrollador Full Stack que transforma propósito en soluciones digitales completas.",
+            descricao: "Desarrollador Full Stack que transforma propósito en soluciones digitales completas.",
             linksRapidos: "Enlaces Rápidos",
             inicio: "Inicio",
             sobre: "Sobre mí",
             tecnologias: "Tecnologías",
             habilidades: "Habilidades",
-            proyectos: "Proyectos",
-            contacto: "Contacto",
+            projetos: "Proyectos",
+            contato: "Contacto",
 
-            contacto: "Contacto",
-            telefono: "+55 (88) 99435-9926",
-            localidad: "Ceará, Brasil",
+            contato: "Contacto",
+            telefone: "+55 (88) 99435-9926",
+            localidade: "Ceará, Brasil",
             gmail: "ramonbrandao.dev@gmail.com",
 
-            derechos: "© 2025 Ramon Brandão. Todos los derechos reservados.",
+            direitos: "© 2025 Ramon Brandão. Todos los derechos reservados.",
             termos: {
                 privacidade: "Política de Privacidad",
                 uso: "Términos de Uso",
