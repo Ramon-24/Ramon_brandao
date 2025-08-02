@@ -361,7 +361,7 @@ export const Textos = {
                     descricao: "Controla empréstimos, devoluções e histórico de alunos, evitando perdas de livros. Em reformulação com novo design, análise de dados e perfis de usuários.",
                     status: "Equipe, sendo refeito Individualmente",
                     categoria: "Web",
-                    imagem: "/projetos/multimidia-conecta.jpg", // Ajuste para o caminho da imagem real
+                    imagem: "/Multimeios.png",
                     tecnologias: ["Node.js", "Express", "React", "Vite", "ThunderClient", "MySQL", "phpMyAdmin", "Bootstrap", "Devicon"],
                     links: [
                         {
@@ -385,7 +385,7 @@ export const Textos = {
                     descricao: "Landing page de uma startup educacional que une gamificação, leitura infantil e tecnologia, com kits físicos e histórias interativas para aproximar crianças dos livros e dos pais.",
                     status: "Equipe",
                     categoria: "Web",
-                    imagem: "/projetos/gamefic.jpg", // Atualize para o caminho real da imagem
+                    imagem: "/Gamefic4.png", // Atualize para o caminho real da imagem
                     tecnologias: ["Next.js", "Vercel", "Bootstrap", "Devicon", "NPM", "i18next"],
                     links: [
                         {
@@ -422,11 +422,11 @@ export const Textos = {
                     ]
                 },
                 {
-                    nome: "Conde-Rand",
+                    nome: "Random Questy",
                     descricao: "Aplicativo que possui um sorteio, um contador, um jogo de adivinha números, além de cadastro, login e histórico. Está sendo refeito por mim para melhorar o design, garantir responsividade real e aprofundar o uso da plataforma, incluindo lógica customizada com código.",
                     status: "Equipe, melhorias individualmente",
                     categoria: "Mobile",
-                    imagem: "/projetos/flutterflow-refeito.jpg", // Substitua por uma imagem ou mockup atualizado
+                    imagem: "/Random.png", // Substitua por uma imagem ou mockup atualizado
                     tecnologias: ["FlutterFlow", "SupaBase"],
                     links: [
                         {
@@ -441,7 +441,7 @@ export const Textos = {
                     descricao: "Focado em performance, acessibilidade e design responsivo. Inclui multi-idiomas, modo claro/escuro, animações e formulário de contato. Em constante atualização.",
                     status: "Em desenvolvimento contínuo",
                     categoria: "Web",
-                    imagem: "/img/projetos/portfolio.png",
+                    imagem: "/Portifolio.png",
                     tecnologias: [
                         "Next.js", "Vercel", "i18next", "Framer_Motion", "EmailJS", "Bootstrap", "Devicon",
                     ],
