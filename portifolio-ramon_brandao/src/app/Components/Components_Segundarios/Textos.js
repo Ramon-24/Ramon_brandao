@@ -499,9 +499,9 @@ export const Textos = {
                 email: "Email",
                 gmail: "ramonbrandao.dev@gmail.com",
                 linkedin: "LinkedIn",
-                conta: "linkedin.com/in/ramonbrandao",
+                conta: "linkedin.com/in/ramonbrandao24",
                 github: "GitHub",
-                url: "github.com/ramonbrandao"
+                url: "github.com/Ramon-24",
             }
         },
         footer: {
@@ -877,7 +877,7 @@ export const Textos = {
                     descricao: "Computer vision automation project that recognizes hand gestures via webcam to control the computer. Presented at IT Week as an interactive way to teach automation, without using slides.",
                     status: "Team",
                     categoria: "Others",
-                    imagem: "/projetos/automacao-gestos.jpg",
+                    // imagem: "/",
                     tecnologias: ["Python", "OpenCV", "PyAutoGUI", "Mediapipe"],
                     links: [
                         {
@@ -965,9 +965,9 @@ export const Textos = {
                 email: "Email",
                 gmail: "ramonbrandao.dev@gmail.com",
                 linkedin: "LinkedIn",
-                conta: "linkedin.com/in/ramonbrandao",
+                conta: "linkedin.com/in/ramonbrandao24",
                 github: "GitHub",
-                url: "github.com/ramonbrandao"
+                url: "github.com/Ramon-24"
             }
         },
         footer: {
@@ -1426,9 +1426,9 @@ export const Textos = {
                 email: "Correo",
                 gmail: "ramonbrandao.dev@gmail.com",
                 linkedin: "LinkedIn",
-                conta: "linkedin.com/in/ramonbrandao",
+                conta: "linkedin.com/in/ramonbrandao24",
                 github: "GitHub",
-                url: "github.com/ramonbrandao"
+                url: "github.com/Ramon-24"
             }
         },
         footer: {

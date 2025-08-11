@@ -58,15 +58,14 @@
     font-size: 15px;
     display: block;
     margin-bottom: 0.6rem;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
     color: white;
     transform: translateY(-15px);
 }
 
 .mobile-links:hover {
     color: var(--color-primary-1);
-    transform: translateX(8px);
-    transform: translateY(-5px);
+    transform: translate(8px, -5px);
 }
 
 
